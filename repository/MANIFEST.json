@@ -254,8 +254,8 @@
     },
     {
       "path": "core/MANIFEST.json",
-      "bytes": 21637,
-      "sha256": "5ed3695735246dff4e0e6a3831c422bda16648b50ada7d1ed346f58a9f4ee87e"
+      "bytes": 21925,
+      "sha256": "cfb7262fb8d4b7f4b6622d907a7fd15ab2121bdd40978235f33cd0fcac6c79aa"
     },
     {
       "path": "core/PROTOCOL.md",
@@ -269,8 +269,8 @@
     },
     {
       "path": "core/README.md",
-      "bytes": 17168,
-      "sha256": "d668324e1b0d3e312e5c872836f8441b93c659d105526eb11998603ebe505241"
+      "bytes": 17237,
+      "sha256": "6fafdcb4e85dc5d3d3d2c18305ee32f3ddb7de5416676b1445a717480d318ae7"
     },
     {
       "path": "core/REPORT_v0_1.md",
@@ -634,8 +634,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 10018,
-      "sha256": "7772974d56df8eb3aaae81b7b409f82c2f64d2a5b50d397c7129dc754d86aa08"
+      "bytes": 10090,
+      "sha256": "fa70ac3e22e004f4b960d6e33e25b91ec59503b8f0ad150228263a69437ccacf"
     },
     {
       "path": "requirements-cpu.txt",
@@ -1363,5 +1363,10 @@
       "README.md",
       "core/README.md"
     ]
+  },
+  "guide_distribution": {
+    "asset_url": "https://github.com/ahe619/GateTrace/releases/download/guide-v1/GateTrace-guide.zip",
+    "scientific_code_and_results_unchanged": true,
+    "change": "Generated guide moved to a standalone Release asset; documentation links updated."
   }
 }

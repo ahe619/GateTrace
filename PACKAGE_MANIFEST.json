@@ -2,7 +2,7 @@
   "project": "GateTrace",
   "release_scope": "complete_source_snapshot",
   "scientific_code_and_results_unchanged": true,
-  "repository_files_byte_identical": 237,
+  "repository_files_byte_identical": 233,
   "source_bundle_manifest_sha256": "f7dd6d8d5c1d4df7550058613986245254957b6be15951f28c782ee1adac17bf",
   "license_scope": "LICENSE_SCOPE.md",
   "files": [
@@ -15,36 +15,6 @@
       "path": ".gitignore",
       "bytes": 225,
       "sha256": "f380476541508700d5818fa14f20e0d2dd28d488b02ebbe62b5d8aeb478af099"
-    },
-    {
-      "path": "guide/ALL_FILES.md",
-      "bytes": 198769,
-      "sha256": "7dcecb28d442811ca2c3d58f572dfbc574001299804aacef2137aec1b005d7c7"
-    },
-    {
-      "path": "guide/BUILD_CHECKS.json",
-      "bytes": 53047,
-      "sha256": "641031c3d305ba576e747655f08fe60c713b87b4b9142a115aea7a8e4b2aa5e6"
-    },
-    {
-      "path": "guide/catalog.json",
-      "bytes": 1730909,
-      "sha256": "50254373b69ee34c7a2ba5e3e557804680140a8d651acb2a4d7ab36db2216796"
-    },
-    {
-      "path": "guide/glossary.json",
-      "bytes": 65359,
-      "sha256": "229a973e6936cdc0ef39d02f2d4c97fec94e2a1a63c77825e9ee7b02428d8f44"
-    },
-    {
-      "path": "guide/locales.json",
-      "bytes": 15480,
-      "sha256": "0e0bc58bcb9c2babd1555a46b4349c522c3842c3665a4b18322b6726db227fe8"
-    },
-    {
-      "path": "GUIDE.html",
-      "bytes": 1653164,
-      "sha256": "ee6db9e392e6847f51c50ef0301d8d105b1e7df97867383170116f1059192845"
     },
     {
       "path": "LICENSE",
@@ -83,13 +53,13 @@
     },
     {
       "path": "PUBLICATION_STATUS.md",
-      "bytes": 1527,
-      "sha256": "8a2d4a361fe2bb6045d0639a69df69688c4d4d4453612073b70f81cb9dad279b"
+      "bytes": 1626,
+      "sha256": "a1cfb61c87a29321efe57b25d7c92fae3ad370fd6938ae85391a3b42c39e1195"
     },
     {
       "path": "README.md",
-      "bytes": 2381,
-      "sha256": "85a65672673113a9685a6af62112a938e0c2212b503eb1ff19c24a8d79192b0d"
+      "bytes": 2608,
+      "sha256": "5c091a3312fdb6677c7f4762aae1e48b8cb7ce9569ba33640044dabba78cf14f"
     },
     {
       "path": "repository/.gitattributes",
@@ -343,8 +313,8 @@
     },
     {
       "path": "repository/core/MANIFEST.json",
-      "bytes": 21637,
-      "sha256": "5ed3695735246dff4e0e6a3831c422bda16648b50ada7d1ed346f58a9f4ee87e"
+      "bytes": 21925,
+      "sha256": "cfb7262fb8d4b7f4b6622d907a7fd15ab2121bdd40978235f33cd0fcac6c79aa"
     },
     {
       "path": "repository/core/PROTOCOL.md",
@@ -358,8 +328,8 @@
     },
     {
       "path": "repository/core/README.md",
-      "bytes": 17168,
-      "sha256": "d668324e1b0d3e312e5c872836f8441b93c659d105526eb11998603ebe505241"
+      "bytes": 17237,
+      "sha256": "6fafdcb4e85dc5d3d3d2c18305ee32f3ddb7de5416676b1445a717480d318ae7"
     },
     {
       "path": "repository/core/REPORT_v0_1.md",
@@ -638,8 +608,8 @@
     },
     {
       "path": "repository/MANIFEST.json",
-      "bytes": 50029,
-      "sha256": "f2816cf4b665fd7343084a7a3ba8f988a07639e59d8bce7fb22b2b0ee494c4fb"
+      "bytes": 50317,
+      "sha256": "1769fc88f428b346fe4d42f03f6f2d0b54d9f4afbf8e9a5f7ca2fed8a171137b"
     },
     {
       "path": "repository/metadata/core_frozen_map.json",
@@ -728,8 +698,8 @@
     },
     {
       "path": "repository/README.md",
-      "bytes": 10018,
-      "sha256": "7772974d56df8eb3aaae81b7b409f82c2f64d2a5b50d397c7129dc754d86aa08"
+      "bytes": 10090,
+      "sha256": "fa70ac3e22e004f4b960d6e33e25b91ec59503b8f0ad150228263a69437ccacf"
     },
     {
       "path": "repository/requirements-cpu.txt",
@@ -1283,13 +1253,19 @@
     },
     {
       "path": "START_HERE.md",
-      "bytes": 1111,
-      "sha256": "7a1fcddaeae76c5018cf3a7c2365249eba7ca6e1f5fde5710dee7eb2ef1c1760"
+      "bytes": 976,
+      "sha256": "e9165184e2f412d66e36769ad6710a1ce92529f80dc34443df5aea34e16145ee"
     },
     {
       "path": "THIRD_PARTY_NOTICES_PUBLIC.md",
       "bytes": 5703,
       "sha256": "e65b80693966a9baa0ab5940538e2d5d847560624cbcd268ae292501dfbe6f73"
     }
-  ]
+  ],
+  "guide_distribution": {
+    "asset_url": "https://github.com/ahe619/GateTrace/releases/download/guide-v1/GateTrace-guide.zip",
+    "scientific_code_and_results_unchanged": true,
+    "change": "Generated guide moved to a standalone Release asset; documentation links updated."
+  },
+  "repository_files_compared_to": "f7617d5e7a3724b30b4855da2c43c05c35df6b64"
 }

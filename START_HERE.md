@@ -1,15 +1,13 @@
 # GateTrace package guide
 
-Keep the extracted folder together. Open `GUIDE.html` directly in a browser to browse the code inventory and research explanations. Its source-file links resolve into the adjacent `repository/` directory.
+Start with [repository/README.md](repository/README.md). Its commands run from `repository/` and explain environment setup and data layout.
 
 | Location | Contents |
 |---|---|
-| `GUIDE.html` | Self-contained bilingual repository and research guide |
-| `repository/` | Complete source candidate, configurations, synthetic tests and recorded numerical examples |
-| `guide/ALL_FILES.md` | Searchable English descriptions of the source files |
-| `guide/BUILD_CHECKS.json` | Guide construction and integrity checks |
-| `PACKAGE_MANIFEST.json` | Hashes of the packaged files |
+| `repository/` | Scientific source, configurations, tests and recorded numerical examples |
+| [Standalone guide](https://github.com/ahe619/GateTrace/releases/download/guide-v1/GateTrace-guide.zip) | Offline bilingual navigation, file descriptions, previews and research glossary |
+| `PACKAGE_MANIFEST.json` | Hashes of the source distribution |
 
-Start with `repository/README.md`. Its commands assume the working directory is `repository/`; it lists the required environment and data layout. Dependencies and public source data must be prepared separately. The HTML guide requires only a browser.
+Download and extract the guide ZIP separately, then open its `GUIDE.html`. Complete source-file links open GitHub. The two HTML templates under `repository/review/` support human verification and remain part of the source distribution.
 
-The package includes experimental results. Human-review pages here are empty templates; the live review materials and answers follow their own protocol and are supplied separately.
+The package includes experimental results. Human-review pages here are empty templates; live review materials and answers follow their own protocol and are supplied separately.

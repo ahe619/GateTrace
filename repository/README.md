@@ -2,7 +2,7 @@
 
 Identity-qualified crossing evaluation and event evidence for crowded scenes.
 
-Start with the [coauthor guide](../START_HERE.md) or explore the [offline repository guide](../GUIDE.html).
+Start with the [coauthor guide](../START_HERE.md) or explore the [standalone repository guide](https://github.com/ahe619/GateTrace/releases/download/guide-v1/GateTrace-guide.zip).
 
 **Historical delivery status:** this directory was a local candidate awaiting Claude review. Native v11 had a local development-equivalence receipt with status `LOCAL_EQUIVALENCE_PASS_PENDING_CLAUDE_RECOMPUTE`; independent acceptance remained pending. The integration covered presentation engineering and documentation, retaining the scientific values and execution permissions. The existing real-data regression receipt was carried forward. See [version status](PRACTICAL_V2_STATUS.md) and [receipt details](docs/NATIVE101A_STATUS_ADDENDUM.md).
 
