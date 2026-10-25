@@ -254,8 +254,8 @@
     },
     {
       "path": "core/MANIFEST.json",
-      "bytes": 21925,
-      "sha256": "cfb7262fb8d4b7f4b6622d907a7fd15ab2121bdd40978235f33cd0fcac6c79aa"
+      "bytes": 22070,
+      "sha256": "bbd41b5f95da28c0f817f517a9c0634f331009694e0efb034421284335e04002"
     },
     {
       "path": "core/PROTOCOL.md",
@@ -269,8 +269,8 @@
     },
     {
       "path": "core/README.md",
-      "bytes": 17237,
-      "sha256": "6fafdcb4e85dc5d3d3d2c18305ee32f3ddb7de5416676b1445a717480d318ae7"
+      "bytes": 17166,
+      "sha256": "91e19726d69f87a08778aafd0706af1f6fd9c7511c9dada5fd30dfb94c35d54e"
     },
     {
       "path": "core/REPORT_v0_1.md",
@@ -529,8 +529,8 @@
     },
     {
       "path": "FROZEN_CODE_MAP.json",
-      "bytes": 58322,
-      "sha256": "1fc5db579ca10aa818861c91fae42eb4b663b05a301a08f5c6c8a09ca792d76c"
+      "bytes": 58642,
+      "sha256": "253dc9602926359647bb00162ce0e825ea6ecaed7f52c8a2b295b2583120e964"
     },
     {
       "path": "HISTORY.md",
@@ -559,8 +559,8 @@
     },
     {
       "path": "metadata/human_materials_map.json",
-      "bytes": 4428,
-      "sha256": "91eaeb07e0fa5b97b7368496b6ae1a551557797d9e024ecaf77f96fd3383c307"
+      "bytes": 4748,
+      "sha256": "95847287ee61348f969b41998106d1269fd8136a146d3febdd13d2ea2404af8a"
     },
     {
       "path": "metadata/inspector_verifier_compatibility.patch",
@@ -634,8 +634,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 10090,
-      "sha256": "fa70ac3e22e004f4b960d6e33e25b91ec59503b8f0ad150228263a69437ccacf"
+      "bytes": 10019,
+      "sha256": "633aca01eb64c3fcec7436b1c8b304ec96f1587d38b8e23c9abbb0ebf064b0e9"
     },
     {
       "path": "requirements-cpu.txt",
@@ -659,8 +659,8 @@
     },
     {
       "path": "review/README.md",
-      "bytes": 3796,
-      "sha256": "c2ff4068a82768d85fdde57c316f9364d78919882d3e56f31ab5ae9b48bb5662"
+      "bytes": 3725,
+      "sha256": "3d9c1cdfdf954b53e615f5e14bda236771b6dd089ec7ff8db6f36130529de55c"
     },
     {
       "path": "scripts/analysis.py",
@@ -1169,8 +1169,8 @@
     },
     {
       "path": "VERIFY.md",
-      "bytes": 6372,
-      "sha256": "b94127a3572e6ddfaba8719c9a5bc4fa0c23ab89676a9b621350ad36c522564d"
+      "bytes": 6301,
+      "sha256": "afe1af16fb55163410983f176fbdeeac57a7e5b3b8e8cb62af5b7709728206c1"
     }
   ],
   "presentation_overlay": {
@@ -1355,14 +1355,18 @@
     ]
   },
   "guide_distribution": {
-    "asset_url": "https://github.com/ahe619/GateTrace/releases/download/guide-v1/GateTrace-guide.zip",
     "scientific_code_and_results_unchanged": true,
-    "change": "Generated guide moved to a standalone Release asset; documentation links updated."
+    "change": "Generated guide moved to a standalone Release asset; documentation links updated.",
+    "previous_public_asset_url": "https://github.com/ahe619/GateTrace/releases/download/guide-v1/GateTrace-guide.zip",
+    "distribution_status": "owner_supplied_package_public_release_unpublished",
+    "package_filename": "GateTrace-guide.zip"
   },
   "review_template_distribution": {
-    "asset_url": "https://github.com/ahe619/GateTrace/releases/download/review-templates-v1/GateTrace-review-templates.zip",
     "archive_sha256": "c01a797abacd1e1448311b6d7fdf940110d96c04b77d2c6cafb4033cfe9e56be",
     "html_bytes_unchanged": true,
-    "scientific_code_and_results_unchanged": true
+    "scientific_code_and_results_unchanged": true,
+    "previous_public_asset_url": "https://github.com/ahe619/GateTrace/releases/download/review-templates-v1/GateTrace-review-templates.zip",
+    "distribution_status": "owner_supplied_package_public_release_unpublished",
+    "package_filename": "GateTrace-review-templates.zip"
   }
 }

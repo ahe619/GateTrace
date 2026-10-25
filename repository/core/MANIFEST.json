@@ -254,8 +254,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 17237,
-      "sha256": "6fafdcb4e85dc5d3d3d2c18305ee32f3ddb7de5416676b1445a717480d318ae7"
+      "bytes": 17166,
+      "sha256": "91e19726d69f87a08778aafd0706af1f6fd9c7511c9dada5fd30dfb94c35d54e"
     },
     {
       "path": "REPORT_v0_1.md",
@@ -615,8 +615,10 @@
     ]
   },
   "guide_distribution": {
-    "asset_url": "https://github.com/ahe619/GateTrace/releases/download/guide-v1/GateTrace-guide.zip",
     "scientific_code_and_results_unchanged": true,
-    "change": "Generated guide moved to a standalone Release asset; documentation links updated."
+    "change": "Generated guide moved to a standalone Release asset; documentation links updated.",
+    "previous_public_asset_url": "https://github.com/ahe619/GateTrace/releases/download/guide-v1/GateTrace-guide.zip",
+    "distribution_status": "owner_supplied_package_public_release_unpublished",
+    "package_filename": "GateTrace-guide.zip"
   }
 }

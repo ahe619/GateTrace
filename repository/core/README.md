@@ -2,7 +2,7 @@
 
 CPU label reconstruction, track-output scoring and event inspection for GateTrace.
 
-See the [coauthor guide](../../START_HERE.md) and [standalone repository guide](https://github.com/ahe619/GateTrace/releases/download/guide-v1/GateTrace-guide.zip) for project navigation.
+See the [coauthor guide](../../START_HERE.md) and owner-supplied standalone repository guide for project navigation.
 
 **Local release candidate.** This sample supports only MOT20-01 and MOT20-02. It reproduces derived labels and evaluation on CPU from an existing system cache. Scope: a project development sample using established detector/tracker outputs. Official MOTChallenge benchmarking is outside this scope; independent reproduction and human reference validation were pending when this candidate was prepared.
 

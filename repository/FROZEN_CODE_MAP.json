@@ -1188,7 +1188,6 @@
   },
   "external_release_files": [
     {
-      "asset_url": "https://github.com/ahe619/GateTrace/releases/download/review-templates-v1/GateTrace-review-templates.zip",
       "archive_path": "GateTrace-review-templates/review/q2/r15e30_blind_review_template.html",
       "bytes": 23258,
       "sha256": "2d37c49dc6ab99e24af2a5846add601c0c64db311e8fd55726e7641e5e9f1612",
@@ -1213,10 +1212,12 @@
         "revision": "English display strings and corresponding synthetic fixture strings",
         "scientific_function_replacement": false,
         "answer_schema_storage_keys_timing_and_control_structure_unchanged": true
-      }
+      },
+      "previous_public_asset_url": "https://github.com/ahe619/GateTrace/releases/download/review-templates-v1/GateTrace-review-templates.zip",
+      "distribution_status": "owner_supplied_package_public_release_unpublished",
+      "package_filename": "GateTrace-review-templates.zip"
     },
     {
-      "asset_url": "https://github.com/ahe619/GateTrace/releases/download/review-templates-v1/GateTrace-review-templates.zip",
       "archive_path": "GateTrace-review-templates/review/q3/review_template.html",
       "bytes": 41696,
       "sha256": "b19fe6125b7a1847315a35dbdc9e1da01750ffafc5fd548772354c155128a97c",
@@ -1241,7 +1242,10 @@
         "revision": "English display strings and corresponding synthetic fixture strings",
         "scientific_function_replacement": false,
         "answer_schema_storage_keys_timing_and_control_structure_unchanged": true
-      }
+      },
+      "previous_public_asset_url": "https://github.com/ahe619/GateTrace/releases/download/review-templates-v1/GateTrace-review-templates.zip",
+      "distribution_status": "owner_supplied_package_public_release_unpublished",
+      "package_filename": "GateTrace-review-templates.zip"
     }
   ],
   "review_template_distribution": {

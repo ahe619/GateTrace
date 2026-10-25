@@ -2,7 +2,7 @@
 
 Date: 2026-10-25. Distribution: complete source snapshot, authorized by the project owner for a public GateTrace repository.
 
-The initial source snapshot preserved all 237 repository files. The guide and the two human-review templates are now distributed as separate Release assets; this packaging update changes navigation documentation and file manifests. Source code, frozen parameters, numerical examples and reported results are unchanged. This release adds component-specific license texts, source credits and a path-bound license map. The project MIT grants remain scoped to project-authored material; GPL and AGPL conditions apply to the combinations described in [LICENSE_SCOPE.md](LICENSE_SCOPE.md).
+The initial source snapshot preserved all 237 repository files. The project owner retains the guide and the two human-review templates as companion packages; their GitHub Releases are unpublished drafts; this packaging update changes navigation documentation and file manifests. Source code, frozen parameters, numerical examples and reported results are unchanged. This release adds component-specific license texts, source credits and a path-bound license map. The project MIT grants remain scoped to project-authored material; GPL and AGPL conditions apply to the combinations described in [LICENSE_SCOPE.md](LICENSE_SCOPE.md).
 
 The public SORT grant is used for inherited SORT material. No separate permissive grant or legal certification is claimed. The pinned OC-SORT MIT notice and all existing source notices remain present. Historical local-candidate status statements inside the repository describe their original delivery context.
 

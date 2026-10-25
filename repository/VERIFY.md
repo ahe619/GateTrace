@@ -23,7 +23,7 @@ The second check took 39.516 seconds. Derived-label contents matched exactly, an
 
 ## Synthetic and structural checks
 
-For the UI commands, extract the [review-template package](https://github.com/ahe619/GateTrace/releases/download/review-templates-v1/GateTrace-review-templates.zip) and set `REVIEW_PACKAGE_ROOT` to its root directory. The template checks run inside that package. The source audit applies to the source distribution.
+For the UI commands, obtain the review-template package from the project owner and extract it and set `REVIEW_PACKAGE_ROOT` to its root directory. The template checks run inside that package. The source audit applies to the source distribution.
 
 The following checks were executed on synthetic/structural inputs. Downloads, training, GPU inference and human answers remained outside their scope:
 
