@@ -45,7 +45,14 @@
     "bytes": 22671,
     "sha256": "69ea4fa4d8a49123cc0a4f89b81a4948151efe816394c1f4728e1479a039c50c",
     "copy_mode": "verbatim",
-    "role": "synthetic_ui_or_empty_template"
+    "role": "synthetic_ui_or_empty_template",
+    "distribution": {
+      "location": "external_release_asset",
+      "asset_url": "https://github.com/ahe619/GateTrace/releases/download/review-templates-v1/GateTrace-review-templates.zip",
+      "archive_path": "GateTrace-review-templates/review/q2/r15e30_blind_review_template.html",
+      "content_sha256": "2d37c49dc6ab99e24af2a5846add601c0c64db311e8fd55726e7641e5e9f1612",
+      "repo_path_semantics": "Historical source path; current file is in the external asset."
+    }
   },
   {
     "repo_path": "review/q2/r15e30_blind_review_template_check.js",
@@ -61,7 +68,14 @@
     "bytes": 39658,
     "sha256": "5a00eb995f5e6ed5ffb8c1af638373398d7164a2f8501b175c711b3f2c271371",
     "copy_mode": "verbatim",
-    "role": "synthetic_ui_or_empty_template"
+    "role": "synthetic_ui_or_empty_template",
+    "distribution": {
+      "location": "external_release_asset",
+      "asset_url": "https://github.com/ahe619/GateTrace/releases/download/review-templates-v1/GateTrace-review-templates.zip",
+      "archive_path": "GateTrace-review-templates/review/q3/review_template.html",
+      "content_sha256": "b19fe6125b7a1847315a35dbdc9e1da01750ffafc5fd548772354c155128a97c",
+      "repo_path_semantics": "Historical source path; current file is in the external asset."
+    }
   },
   {
     "repo_path": "review/q3/synthetic_ui_test.js",

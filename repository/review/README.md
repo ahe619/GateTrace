@@ -1,6 +1,6 @@
 # Human review: protocols and empty templates
 
-This directory supplies protocols and empty interfaces. Formal item manifests, original videos, system outputs, group mappings and reviewer answers remain outside this distribution. The research lead manages the user's separately supplied answers under the original protocol.
+This directory retains review documentation and synthetic checking scripts. The [standalone review-template package](https://github.com/ahe619/GateTrace/releases/download/review-templates-v1/GateTrace-review-templates.zip) supplies the two empty HTML interfaces, exact copies of their checks and the protocols. Formal item manifests, original videos, system outputs, group mappings and reviewer answers remain outside this distribution. The research lead manages the user's separately supplied answers under the original protocol.
 
 ## Review questions
 
@@ -11,16 +11,16 @@ The historical Q3 batch described in this snapshot had 77 items: 72 confirmed, 4
 
 ## Templates and protocols
 
-- `q2/r15e30_blind_review_template.html`: English-localized empty template with original behavior and schema preserved. Its default item list is empty, so validation refuses to start. Organizers may replace only the public JSON element `id="dataset"`.
-- `q3/review_template.html`: English-localized template preserving original behavior and schema, retaining `__PUBLIC_ITEMS_JSON__`. Organizers must populate the original schema before collecting formal answers.
+- `review/q2/r15e30_blind_review_template.html` in the download package: English-localized empty template with original behavior and schema preserved. Its default item list is empty, so validation refuses to start. Organizers may replace only the public JSON element `id="dataset"`.
+- `review/q3/review_template.html` in the download package: English-localized template preserving original behavior and schema, retaining `__PUBLIC_ITEMS_JSON__`. Organizers must populate the original schema before collecting formal answers.
 - `../protocols/human_qc/`: original protocol copies, read in precedence order v1→v2→86 amendment→87 amendment. Other datasets in early protocols describe historical plans. The material and human-review scope recorded here is MOT20-01/02.
-- File hashes and original relative paths appear in `../metadata/human_materials_map.json`.
+- File hashes, original relative paths and the external asset location appear in `../metadata/human_materials_map.json`; complete original source records are preserved in `FROZEN_CODE_MAP.json.external_release_files`.
 
 Both templates save locally in the browser and support exported backups. Reviewer codes distinguish records; authentication is a separate concern. Reviewers should use separate devices or browser profiles, preserve independent answers and import only their own backups. Browser storage may be lost, so export after every session. Keep exported answers in the separately managed answer location.
 
 ## Synthetic checks
 
-Run from the repository root. Node is an optional development-check tool; CPU scoring has its own dependencies.
+Download and extract the template package, then run the commands below from its root. The package keeps each HTML file beside its unchanged checking script. Node is an optional development-check tool; CPU scoring has its own dependencies.
 
 ```text
 node review/q2/r15e30_blind_review_template_check.js

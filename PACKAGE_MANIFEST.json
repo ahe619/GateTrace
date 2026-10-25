@@ -2,7 +2,7 @@
   "project": "GateTrace",
   "release_scope": "complete_source_snapshot",
   "scientific_code_and_results_unchanged": true,
-  "repository_files_byte_identical": 233,
+  "repository_files_byte_identical": 230,
   "source_bundle_manifest_sha256": "f7dd6d8d5c1d4df7550058613986245254957b6be15951f28c782ee1adac17bf",
   "license_scope": "LICENSE_SCOPE.md",
   "files": [
@@ -53,13 +53,13 @@
     },
     {
       "path": "PUBLICATION_STATUS.md",
-      "bytes": 1626,
-      "sha256": "a1cfb61c87a29321efe57b25d7c92fae3ad370fd6938ae85391a3b42c39e1195"
+      "bytes": 1661,
+      "sha256": "93aa2e8ede1a850774340c0646239025f5490a6d15d67f596df91492f26f46f5"
     },
     {
       "path": "README.md",
-      "bytes": 2608,
-      "sha256": "5c091a3312fdb6677c7f4762aae1e48b8cb7ce9569ba33640044dabba78cf14f"
+      "bytes": 2909,
+      "sha256": "ae26181212961dc5f501e2a2a9dbfe82afcbe4a7307980fd2ccc8ecdade356ec"
     },
     {
       "path": "repository/.gitattributes",
@@ -588,8 +588,8 @@
     },
     {
       "path": "repository/FROZEN_CODE_MAP.json",
-      "bytes": 57118,
-      "sha256": "cc976e24e08bd571c1f6d34a10be70dfa6195dfcd8fe9cb39c244b054c5d8db5"
+      "bytes": 58322,
+      "sha256": "1fc5db579ca10aa818861c91fae42eb4b663b05a301a08f5c6c8a09ca792d76c"
     },
     {
       "path": "repository/HISTORY.md",
@@ -608,8 +608,8 @@
     },
     {
       "path": "repository/MANIFEST.json",
-      "bytes": 50317,
-      "sha256": "1769fc88f428b346fe4d42f03f6f2d0b54d9f4afbf8e9a5f7ca2fed8a171137b"
+      "bytes": 50308,
+      "sha256": "4334698c9e08daa36dce3391e02c16e874db3fb670ac8f5587bc0c927527240e"
     },
     {
       "path": "repository/metadata/core_frozen_map.json",
@@ -623,8 +623,8 @@
     },
     {
       "path": "repository/metadata/human_materials_map.json",
-      "bytes": 3461,
-      "sha256": "e70c589ac183c4da16980a2365a8e749cc32641585c906dc6d0d681502a5615d"
+      "bytes": 4428,
+      "sha256": "91eaeb07e0fa5b97b7368496b6ae1a551557797d9e024ecaf77f96fd3383c307"
     },
     {
       "path": "repository/metadata/inspector_verifier_compatibility.patch",
@@ -712,19 +712,9 @@
       "sha256": "ffce18fe1589394bff63b131470d2dfbe6b43c6d03e5b9feb215f59472110898"
     },
     {
-      "path": "repository/review/q2/r15e30_blind_review_template.html",
-      "bytes": 23258,
-      "sha256": "2d37c49dc6ab99e24af2a5846add601c0c64db311e8fd55726e7641e5e9f1612"
-    },
-    {
       "path": "repository/review/q2/r15e30_blind_review_template_check.js",
       "bytes": 3604,
       "sha256": "40f7d7febbfdd8ad8b49cbe7de804a8c988e768c200ff93054c8c256e9a07364"
-    },
-    {
-      "path": "repository/review/q3/review_template.html",
-      "bytes": 41696,
-      "sha256": "b19fe6125b7a1847315a35dbdc9e1da01750ffafc5fd548772354c155128a97c"
     },
     {
       "path": "repository/review/q3/synthetic_ui_test.js",
@@ -733,8 +723,8 @@
     },
     {
       "path": "repository/review/README.md",
-      "bytes": 3226,
-      "sha256": "3a0b6db91a04f5873868cc35588e8ff57de4477cd95492e96d6a259e7dd11cdd"
+      "bytes": 3796,
+      "sha256": "c2ff4068a82768d85fdde57c316f9364d78919882d3e56f31ab5ae9b48bb5662"
     },
     {
       "path": "repository/scripts/analysis.py",
@@ -1243,8 +1233,8 @@
     },
     {
       "path": "repository/VERIFY.md",
-      "bytes": 6009,
-      "sha256": "f4202009eedfc579b7802ebd4b61d2965d79d5368ae7c9c7e05cfe470d751d77"
+      "bytes": 6372,
+      "sha256": "b94127a3572e6ddfaba8719c9a5bc4fa0c23ab89676a9b621350ad36c522564d"
     },
     {
       "path": "SOURCE_LICENSE_MAP.json",
@@ -1253,8 +1243,8 @@
     },
     {
       "path": "START_HERE.md",
-      "bytes": 976,
-      "sha256": "e9165184e2f412d66e36769ad6710a1ce92529f80dc34443df5aea34e16145ee"
+      "bytes": 1094,
+      "sha256": "842e1b5d12ffd1db703806ec18a887fb34f0c4818ddc0f9020688c2025674fc8"
     },
     {
       "path": "THIRD_PARTY_NOTICES_PUBLIC.md",
@@ -1267,5 +1257,11 @@
     "scientific_code_and_results_unchanged": true,
     "change": "Generated guide moved to a standalone Release asset; documentation links updated."
   },
-  "repository_files_compared_to": "f7617d5e7a3724b30b4855da2c43c05c35df6b64"
+  "repository_files_compared_to": "42febdcd4e7dea4153f77338a2070faa6166d28a",
+  "review_template_distribution": {
+    "asset_url": "https://github.com/ahe619/GateTrace/releases/download/review-templates-v1/GateTrace-review-templates.zip",
+    "archive_sha256": "c01a797abacd1e1448311b6d7fdf940110d96c04b77d2c6cafb4033cfe9e56be",
+    "html_bytes_unchanged": true,
+    "scientific_code_and_results_unchanged": true
+  }
 }

@@ -899,56 +899,12 @@
       "end_line": 106
     },
     {
-      "repo_path": "review/q2/r15e30_blind_review_template.html",
-      "kind": "presentation_layer_revision",
-      "role": "synthetic_ui_or_empty_template",
-      "bytes": 23258,
-      "sha256": "2d37c49dc6ab99e24af2a5846add601c0c64db311e8fd55726e7641e5e9f1612",
-      "previous_provenance": {
-        "repo_path": "review/q2/r15e30_blind_review_template.html",
-        "original_project_path": "scripts/r15e30_blind_review_template.html",
-        "sha256": "69ea4fa4d8a49123cc0a4f89b81a4948151efe816394c1f4728e1479a039c50c",
-        "bytes": 22671,
-        "kind": "complete_file_copy",
-        "role": "synthetic_ui_or_empty_template"
-      },
-      "original_preimage": {
-        "bytes": 22671,
-        "sha256": "69ea4fa4d8a49123cc0a4f89b81a4948151efe816394c1f4728e1479a039c50c"
-      },
-      "revision": "English display strings and corresponding synthetic fixture strings",
-      "scientific_function_replacement": false,
-      "answer_schema_storage_keys_timing_and_control_structure_unchanged": true
-    },
-    {
       "repo_path": "review/q2/r15e30_blind_review_template_check.js",
       "original_project_path": "scripts/r15e30_blind_review_template_check.js",
       "sha256": "40f7d7febbfdd8ad8b49cbe7de804a8c988e768c200ff93054c8c256e9a07364",
       "bytes": 3604,
       "kind": "complete_file_copy",
       "role": "synthetic_ui_or_empty_template"
-    },
-    {
-      "repo_path": "review/q3/review_template.html",
-      "kind": "presentation_layer_revision",
-      "role": "synthetic_ui_or_empty_template",
-      "bytes": 41696,
-      "sha256": "b19fe6125b7a1847315a35dbdc9e1da01750ffafc5fd548772354c155128a97c",
-      "previous_provenance": {
-        "repo_path": "review/q3/review_template.html",
-        "original_project_path": "scripts/q3qc86/review_template.html",
-        "sha256": "5a00eb995f5e6ed5ffb8c1af638373398d7164a2f8501b175c711b3f2c271371",
-        "bytes": 39658,
-        "kind": "complete_file_copy",
-        "role": "synthetic_ui_or_empty_template"
-      },
-      "original_preimage": {
-        "bytes": 39658,
-        "sha256": "5a00eb995f5e6ed5ffb8c1af638373398d7164a2f8501b175c711b3f2c271371"
-      },
-      "revision": "English display strings and corresponding synthetic fixture strings",
-      "scientific_function_replacement": false,
-      "answer_schema_storage_keys_timing_and_control_structure_unchanged": true
     },
     {
       "repo_path": "review/q3/synthetic_ui_test.js",
@@ -1229,5 +1185,69 @@
     "source_patch_sha256": "487cef3646038ee3dbb0b451bb47ecc3f00e7a398d263c7c221d135646a9ca94",
     "revised_mapped_document_entries": 0,
     "science_entries_unchanged": true
+  },
+  "external_release_files": [
+    {
+      "asset_url": "https://github.com/ahe619/GateTrace/releases/download/review-templates-v1/GateTrace-review-templates.zip",
+      "archive_path": "GateTrace-review-templates/review/q2/r15e30_blind_review_template.html",
+      "bytes": 23258,
+      "sha256": "2d37c49dc6ab99e24af2a5846add601c0c64db311e8fd55726e7641e5e9f1612",
+      "provenance": {
+        "repo_path": "review/q2/r15e30_blind_review_template.html",
+        "kind": "presentation_layer_revision",
+        "role": "synthetic_ui_or_empty_template",
+        "bytes": 23258,
+        "sha256": "2d37c49dc6ab99e24af2a5846add601c0c64db311e8fd55726e7641e5e9f1612",
+        "previous_provenance": {
+          "repo_path": "review/q2/r15e30_blind_review_template.html",
+          "original_project_path": "scripts/r15e30_blind_review_template.html",
+          "sha256": "69ea4fa4d8a49123cc0a4f89b81a4948151efe816394c1f4728e1479a039c50c",
+          "bytes": 22671,
+          "kind": "complete_file_copy",
+          "role": "synthetic_ui_or_empty_template"
+        },
+        "original_preimage": {
+          "bytes": 22671,
+          "sha256": "69ea4fa4d8a49123cc0a4f89b81a4948151efe816394c1f4728e1479a039c50c"
+        },
+        "revision": "English display strings and corresponding synthetic fixture strings",
+        "scientific_function_replacement": false,
+        "answer_schema_storage_keys_timing_and_control_structure_unchanged": true
+      }
+    },
+    {
+      "asset_url": "https://github.com/ahe619/GateTrace/releases/download/review-templates-v1/GateTrace-review-templates.zip",
+      "archive_path": "GateTrace-review-templates/review/q3/review_template.html",
+      "bytes": 41696,
+      "sha256": "b19fe6125b7a1847315a35dbdc9e1da01750ffafc5fd548772354c155128a97c",
+      "provenance": {
+        "repo_path": "review/q3/review_template.html",
+        "kind": "presentation_layer_revision",
+        "role": "synthetic_ui_or_empty_template",
+        "bytes": 41696,
+        "sha256": "b19fe6125b7a1847315a35dbdc9e1da01750ffafc5fd548772354c155128a97c",
+        "previous_provenance": {
+          "repo_path": "review/q3/review_template.html",
+          "original_project_path": "scripts/q3qc86/review_template.html",
+          "sha256": "5a00eb995f5e6ed5ffb8c1af638373398d7164a2f8501b175c711b3f2c271371",
+          "bytes": 39658,
+          "kind": "complete_file_copy",
+          "role": "synthetic_ui_or_empty_template"
+        },
+        "original_preimage": {
+          "bytes": 39658,
+          "sha256": "5a00eb995f5e6ed5ffb8c1af638373398d7164a2f8501b175c711b3f2c271371"
+        },
+        "revision": "English display strings and corresponding synthetic fixture strings",
+        "scientific_function_replacement": false,
+        "answer_schema_storage_keys_timing_and_control_structure_unchanged": true
+      }
+    }
+  ],
+  "review_template_distribution": {
+    "source_commit": "42febdcd4e7dea4153f77338a2070faa6166d28a",
+    "previous_frozen_code_map_sha256": "cc976e24e08bd571c1f6d34a10be70dfa6195dfcd8fe9cb39c244b054c5d8db5",
+    "change": "Two HTML templates moved to a separate Release asset with their provenance retained.",
+    "scientific_code_and_results_unchanged": true
   }
 }

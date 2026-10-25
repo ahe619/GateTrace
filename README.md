@@ -10,6 +10,10 @@ GateTrace provides reproducible labels, evaluation tools, and event-level eviden
 2. Read [START_HERE.md](START_HERE.md) for the package layout.
 3. Open the [repository README](repository/README.md) for environment setup and reproducible commands. Run those commands from `repository/`.
 
+## Human-review templates
+
+Download the [Q2/Q3 template package](https://github.com/ahe619/GateTrace/releases/download/review-templates-v1/GateTrace-review-templates.zip) for the review pages, their synthetic checks and protocols. Formal review items, videos and answers are supplied separately.
+
 ## Read the research
 
 - [Pipeline](repository/PIPELINE.md): inputs, outputs and commands.

@@ -23,14 +23,16 @@ The second check took 39.516 seconds. Derived-label contents matched exactly, an
 
 ## Synthetic and structural checks
 
+For the UI commands, extract the [review-template package](https://github.com/ahe619/GateTrace/releases/download/review-templates-v1/GateTrace-review-templates.zip) and set `REVIEW_PACKAGE_ROOT` to its root directory. The template checks run inside that package. The source audit applies to the source distribution.
+
 The following checks were executed on synthetic/structural inputs. Downloads, training, GPU inference and human answers remained outside their scope:
 
 ```bash
 python -B scripts/run_resource_synthetic.py
 python -I -S -B tests/test_pipeline_portability.py
 python -B tests/test_native_v11_scoring.py
-node review/q2/r15e30_blind_review_template_check.js
-node review/q3/synthetic_ui_test.js "$NEW_SYNTHETIC_TEST_DIR"
+node "$REVIEW_PACKAGE_ROOT/review/q2/r15e30_blind_review_template_check.js"
+node "$REVIEW_PACKAGE_ROOT/review/q3/synthetic_ui_test.js" "$NEW_SYNTHETIC_TEST_DIR"
 ```
 
 - Resource adapters passed 9 checks, and the original evidence entry point passed 13.

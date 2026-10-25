@@ -529,8 +529,8 @@
     },
     {
       "path": "FROZEN_CODE_MAP.json",
-      "bytes": 57118,
-      "sha256": "cc976e24e08bd571c1f6d34a10be70dfa6195dfcd8fe9cb39c244b054c5d8db5"
+      "bytes": 58322,
+      "sha256": "1fc5db579ca10aa818861c91fae42eb4b663b05a301a08f5c6c8a09ca792d76c"
     },
     {
       "path": "HISTORY.md",
@@ -559,8 +559,8 @@
     },
     {
       "path": "metadata/human_materials_map.json",
-      "bytes": 3461,
-      "sha256": "e70c589ac183c4da16980a2365a8e749cc32641585c906dc6d0d681502a5615d"
+      "bytes": 4428,
+      "sha256": "91eaeb07e0fa5b97b7368496b6ae1a551557797d9e024ecaf77f96fd3383c307"
     },
     {
       "path": "metadata/inspector_verifier_compatibility.patch",
@@ -648,19 +648,9 @@
       "sha256": "ffce18fe1589394bff63b131470d2dfbe6b43c6d03e5b9feb215f59472110898"
     },
     {
-      "path": "review/q2/r15e30_blind_review_template.html",
-      "bytes": 23258,
-      "sha256": "2d37c49dc6ab99e24af2a5846add601c0c64db311e8fd55726e7641e5e9f1612"
-    },
-    {
       "path": "review/q2/r15e30_blind_review_template_check.js",
       "bytes": 3604,
       "sha256": "40f7d7febbfdd8ad8b49cbe7de804a8c988e768c200ff93054c8c256e9a07364"
-    },
-    {
-      "path": "review/q3/review_template.html",
-      "bytes": 41696,
-      "sha256": "b19fe6125b7a1847315a35dbdc9e1da01750ffafc5fd548772354c155128a97c"
     },
     {
       "path": "review/q3/synthetic_ui_test.js",
@@ -669,8 +659,8 @@
     },
     {
       "path": "review/README.md",
-      "bytes": 3226,
-      "sha256": "3a0b6db91a04f5873868cc35588e8ff57de4477cd95492e96d6a259e7dd11cdd"
+      "bytes": 3796,
+      "sha256": "c2ff4068a82768d85fdde57c316f9364d78919882d3e56f31ab5ae9b48bb5662"
     },
     {
       "path": "scripts/analysis.py",
@@ -1179,8 +1169,8 @@
     },
     {
       "path": "VERIFY.md",
-      "bytes": 6009,
-      "sha256": "f4202009eedfc579b7802ebd4b61d2965d79d5368ae7c9c7e05cfe470d751d77"
+      "bytes": 6372,
+      "sha256": "b94127a3572e6ddfaba8719c9a5bc4fa0c23ab89676a9b621350ad36c522564d"
     }
   ],
   "presentation_overlay": {
@@ -1368,5 +1358,11 @@
     "asset_url": "https://github.com/ahe619/GateTrace/releases/download/guide-v1/GateTrace-guide.zip",
     "scientific_code_and_results_unchanged": true,
     "change": "Generated guide moved to a standalone Release asset; documentation links updated."
+  },
+  "review_template_distribution": {
+    "asset_url": "https://github.com/ahe619/GateTrace/releases/download/review-templates-v1/GateTrace-review-templates.zip",
+    "archive_sha256": "c01a797abacd1e1448311b6d7fdf940110d96c04b77d2c6cafb4033cfe9e56be",
+    "html_bytes_unchanged": true,
+    "scientific_code_and_results_unchanged": true
   }
 }
