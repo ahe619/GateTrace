@@ -1,0 +1,262 @@
+{
+  "schema": "gatetrace_full_distribution_license_map_v1",
+  "date": "2026-10-25",
+  "scope_notice": "LICENSE_SCOPE.md",
+  "supplemental_notice": "THIRD_PARTY_NOTICES_PUBLIC.md",
+  "original_project_grant": "repository/LICENSE_CODE",
+  "original_data_grant": "repository/DATA_LICENSE",
+  "scientific_files_modified": false,
+  "external_dependency": {
+    "name": "ultralytics",
+    "version": "8.3.192",
+    "license": "AGPL-3.0-only",
+    "source_url": "https://github.com/ultralytics/ultralytics/tree/v8.3.192",
+    "included_in_archive": false,
+    "integration": "same-process native v11 imports and BYTETracker subclass",
+    "scope": "applicable AGPL obligations on combined application; existing independent project MIT grants retained"
+  },
+  "file_records": [
+    {
+      "path": "repository/src/track/frozen/sota83d/vendor/oc/ocsort.py",
+      "bytes": 17824,
+      "sha256": "122cc1c27d3321eac0debdf3ba782b76d189e1ac878256b8291ffeb4314fa979",
+      "license_expression": "GPL-3.0-or-later AND MIT",
+      "notes": "SORT-derived component distributed under GPL3+; existing OC-SORT MIT contribution notice preserved. See THIRD_PARTY_NOTICES_PUBLIC.md."
+    },
+    {
+      "path": "repository/src/track/frozen/sota83d/vendor/oc/association.py",
+      "bytes": 13384,
+      "sha256": "c009a78eaa1c35c1d61217506255051ba882a7b99f9505cdec64da474ff0fbd7",
+      "license_expression": "GPL-3.0-or-later AND MIT",
+      "notes": "Explicit SORT-derived IoU function; conservative GPL3+ distribution with existing MIT contribution notice retained."
+    },
+    {
+      "path": "repository/src/track/frozen/sota83d/vendor/oc/kalmanfilter.py",
+      "bytes": 60075,
+      "sha256": "165a2d5243f2b874e37d3a3ae8112402f5c53ddfb6eb6e2cddda3311c3a2cded",
+      "license_expression": "MIT",
+      "notes": "Roger R. Labbe Jr. notice retained; full FilterPy MIT text supplied."
+    },
+    {
+      "path": "repository/src/detect/frozen/r15_yolox82e_vendor/__init__.py",
+      "bytes": 72,
+      "sha256": "402926cb779b3db7eebe40e74d58b9188589f07897b06339327de675b86e599b",
+      "license_expression": "MIT",
+      "notes": "Project-authored private import initializer; no upstream model mathematics. Other model files retain their Apache2/MIT origin notices."
+    },
+    {
+      "path": "repository/src/detect/frozen/r15_yolox82e_vendor/fusion.py",
+      "bytes": 1705,
+      "sha256": "109e9f9c5926c9753db1c0281038fb64816834e0fa9fd49c35b30a9ab2908be4",
+      "license_expression": "Apache-2.0 AND MIT",
+      "notes": "YOLOX-origin component and ByteTrack/project contributions; preserve Apache2 and MIT notices. Private import-only initializer is project-authored."
+    },
+    {
+      "path": "repository/src/detect/frozen/r15_yolox82e_vendor/models/__init__.py",
+      "bytes": 78,
+      "sha256": "59e4fb820ceff218276790e7c7784bb71ec0ab032118e4426333b9c854aa920a",
+      "license_expression": "MIT",
+      "notes": "Project-authored private import initializer; no upstream model mathematics. Other model files retain their Apache2/MIT origin notices."
+    },
+    {
+      "path": "repository/src/detect/frozen/r15_yolox82e_vendor/models/darknet.py",
+      "bytes": 6028,
+      "sha256": "37fd32ae7f7de29df646f7c457837834fcc0e4e08ce83034a6397092fbae6a62",
+      "license_expression": "Apache-2.0 AND MIT",
+      "notes": "YOLOX-origin component and ByteTrack/project contributions; preserve Apache2 and MIT notices. Private import-only initializer is project-authored."
+    },
+    {
+      "path": "repository/src/detect/frozen/r15_yolox82e_vendor/models/losses.py",
+      "bytes": 2900,
+      "sha256": "e4644f138ddb8658cc26a03e5d80bb0fcd4e91bb8b0085d695958aafd47a031e",
+      "license_expression": "Apache-2.0 AND MIT",
+      "notes": "YOLOX-origin component and ByteTrack/project contributions; preserve Apache2 and MIT notices. Private import-only initializer is project-authored."
+    },
+    {
+      "path": "repository/src/detect/frozen/r15_yolox82e_vendor/models/network_blocks.py",
+      "bytes": 6102,
+      "sha256": "250982431c53a5ed49c3e465266baeabe3e21a41eac941a8e5345c2e71e14a7d",
+      "license_expression": "Apache-2.0 AND MIT",
+      "notes": "YOLOX-origin component and ByteTrack/project contributions; preserve Apache2 and MIT notices. Private import-only initializer is project-authored."
+    },
+    {
+      "path": "repository/src/detect/frozen/r15_yolox82e_vendor/models/yolo_head.py",
+      "bytes": 24081,
+      "sha256": "c2e3a95d0c7980d6d27b0a8a58fc16a6a058630d3ac569830f823ff2566435dc",
+      "license_expression": "Apache-2.0 AND MIT",
+      "notes": "YOLOX-origin component and ByteTrack/project contributions; preserve Apache2 and MIT notices. Private import-only initializer is project-authored."
+    },
+    {
+      "path": "repository/src/detect/frozen/r15_yolox82e_vendor/models/yolo_pafpn.py",
+      "bytes": 3540,
+      "sha256": "bfeb522c87fc076659c804927751b503ef0185fe1cf8f9f7153369e9177a9627",
+      "license_expression": "Apache-2.0 AND MIT",
+      "notes": "YOLOX-origin component and ByteTrack/project contributions; preserve Apache2 and MIT notices. Private import-only initializer is project-authored."
+    },
+    {
+      "path": "repository/src/detect/frozen/r15_yolox82e_vendor/models/yolox.py",
+      "bytes": 1374,
+      "sha256": "a4d70f5ef75dfbb1da5394d886dc348c68cdfbb27ab725f36c313e981ba605ee",
+      "license_expression": "Apache-2.0 AND MIT",
+      "notes": "YOLOX-origin component and ByteTrack/project contributions; preserve Apache2 and MIT notices. Private import-only initializer is project-authored."
+    },
+    {
+      "path": "repository/src/detect/frozen/r15_yolox82e_vendor/postprocess.py",
+      "bytes": 2925,
+      "sha256": "669a6ae0a256c661ab824a8e4acbe855fdc0da16957aeb342a9418fee6b352c7",
+      "license_expression": "Apache-2.0 AND MIT",
+      "notes": "YOLOX-origin component and ByteTrack/project contributions; preserve Apache2 and MIT notices. Private import-only initializer is project-authored."
+    },
+    {
+      "path": "repository/src/detect/frozen/r15_yolox82e_vendor/preprocess.py",
+      "bytes": 1121,
+      "sha256": "822960b3dceda2f213719055b8b0f4a409f36a1ed157b7dddcf95fb2f17ddda6",
+      "license_expression": "Apache-2.0 AND MIT",
+      "notes": "YOLOX-origin component and ByteTrack/project contributions; preserve Apache2 and MIT notices. Private import-only initializer is project-authored."
+    },
+    {
+      "path": "repository/src/track/frozen/r15e17_trackers.py",
+      "bytes": 12253,
+      "sha256": "fceb7352bca9c75061371e6c6e27ad8c243a293a770010fae0a5e819a2b97599",
+      "license_expression": "MIT",
+      "notes": "Project source retains MIT grant; execution integrates Ultralytics 8.3.192. Combined-program AGPL3 scope is declared in LICENSE_SCOPE.md; this row is not an exemption from it."
+    },
+    {
+      "path": "repository/src/track/frozen/r15_tracker_idxfix.py",
+      "bytes": 3163,
+      "sha256": "477c3041fed126903e8e18de967e14da4a98775fef5ac4a4cf48a5eb611ac0d3",
+      "license_expression": "MIT",
+      "notes": "Project source retains MIT grant; execution integrates Ultralytics 8.3.192. Combined-program AGPL3 scope is declared in LICENSE_SCOPE.md; this row is not an exemption from it."
+    },
+    {
+      "path": "repository/src/track/native_v11.py",
+      "bytes": 10193,
+      "sha256": "f7ee8018eea469d02f28dec83833e1cadafb35a42161eb9a03bee281aaf481f8",
+      "license_expression": "MIT",
+      "notes": "Project source retains MIT grant; execution integrates Ultralytics 8.3.192. Combined-program AGPL3 scope is declared in LICENSE_SCOPE.md; this row is not an exemption from it."
+    },
+    {
+      "path": "repository/src/track/fragments/r15e26_run_v2__MethodTracker.py",
+      "bytes": 3106,
+      "sha256": "eee4662f21f8a53cc951c1c8b692258e26cec518c7b3475c3857f46c00d423ee",
+      "license_expression": "MIT",
+      "notes": "Project source retains MIT grant; execution integrates Ultralytics 8.3.192. Combined-program AGPL3 scope is declared in LICENSE_SCOPE.md; this row is not an exemption from it."
+    },
+    {
+      "path": "repository/src/track/fragments/r15e24_inference__ByteTrackTracker.py",
+      "bytes": 6626,
+      "sha256": "12c19ed11304202e9ee7df4d60551ae6b088ef46528754563d370facd6c8a3fb",
+      "license_expression": "MIT",
+      "notes": "Project source retains MIT grant; execution integrates Ultralytics 8.3.192. Combined-program AGPL3 scope is declared in LICENSE_SCOPE.md; this row is not an exemption from it."
+    },
+    {
+      "path": "repository/src/track/frozen/sota83d/vendor/byte/__init__.py",
+      "bytes": 25,
+      "sha256": "cedd223b068848334f5d814b369870eebc05b5a19c7207da6623b031c006ab1b",
+      "license_expression": "MIT",
+      "notes": "Existing author license and source notices preserved."
+    },
+    {
+      "path": "repository/src/track/frozen/sota83d/vendor/byte/basetrack.py",
+      "bytes": 951,
+      "sha256": "c938afcf7c516bba4a77155c2499fcae6f926df7a2faa6f73a4be1b073f9bb2d",
+      "license_expression": "MIT",
+      "notes": "Existing author license and source notices preserved."
+    },
+    {
+      "path": "repository/src/track/frozen/sota83d/vendor/byte/byte_tracker.py",
+      "bytes": 11925,
+      "sha256": "3d2739eb8341f07fa46d0154b99e87ccd8ea09ed97e4ccaa6a981049fc57d6b2",
+      "license_expression": "MIT",
+      "notes": "Existing author license and source notices preserved."
+    },
+    {
+      "path": "repository/src/track/frozen/sota83d/vendor/byte/kalman_filter.py",
+      "bytes": 9547,
+      "sha256": "9842d0dd9957c97e312d42e5789441add55082066d87cc051ac768143a46eb39",
+      "license_expression": "MIT",
+      "notes": "Existing author license and source notices preserved."
+    },
+    {
+      "path": "repository/src/track/frozen/sota83d/vendor/byte/matching.py",
+      "bytes": 6186,
+      "sha256": "b94735328311b0d4b7a8178d3417dc3cdff8b99e00d96fe034eb2a1c446a88f0",
+      "license_expression": "MIT",
+      "notes": "Existing author license and source notices preserved."
+    },
+    {
+      "path": "repository/src/track/frozen/sota83d/vendor/bot/__init__.py",
+      "bytes": 25,
+      "sha256": "cedd223b068848334f5d814b369870eebc05b5a19c7207da6623b031c006ab1b",
+      "license_expression": "MIT",
+      "notes": "Existing author license and source notices preserved."
+    },
+    {
+      "path": "repository/src/track/frozen/sota83d/vendor/bot/basetrack.py",
+      "bytes": 1111,
+      "sha256": "a0f717a5059ebfa626a63cea5b040a649acd7720072f503cabfa24d749f082f6",
+      "license_expression": "MIT",
+      "notes": "Existing author license and source notices preserved."
+    },
+    {
+      "path": "repository/src/track/frozen/sota83d/vendor/bot/bot_sort.py",
+      "bytes": 16760,
+      "sha256": "82a336dfe44bbc7f5736368fcbb0b6d044c9c7bf8e443b5d445d624fbcb85788",
+      "license_expression": "MIT",
+      "notes": "Existing author license and source notices preserved."
+    },
+    {
+      "path": "repository/src/track/frozen/sota83d/vendor/bot/gmc.py",
+      "bytes": 11754,
+      "sha256": "c1cf477cd31170540b1ce2f10c708e3ea833f5275232766295f8f9e67e06eb28",
+      "license_expression": "MIT",
+      "notes": "Existing author license and source notices preserved."
+    },
+    {
+      "path": "repository/src/track/frozen/sota83d/vendor/bot/kalman_filter.py",
+      "bytes": 9671,
+      "sha256": "c1a4c0acc71b9a91c0cdbe7b689f88712d68e7e8be4d7e54fb437f33fdbc9e5a",
+      "license_expression": "MIT",
+      "notes": "Existing author license and source notices preserved."
+    },
+    {
+      "path": "repository/src/track/frozen/sota83d/vendor/bot/matching.py",
+      "bytes": 6427,
+      "sha256": "34edce37889a3ecac3f2c43183fe1ead77e4335201f96bf5d82a7c61cefb80f2",
+      "license_expression": "MIT",
+      "notes": "Existing author license and source notices preserved."
+    }
+  ],
+  "additional_notice_lookup": [
+    {
+      "repo": "Megvii-BaseDetection/YOLOX",
+      "ref": "0.3.0",
+      "root_notice_members": [],
+      "source_url": "https://api.github.com/repos/Megvii-BaseDetection/YOLOX/contents?ref=0.3.0"
+    },
+    {
+      "repo": "FoundationVision/ByteTrack",
+      "ref": "d1bf0191adff59bc8fcfeaa0b33d3d1642552a99",
+      "root_notice_members": [],
+      "source_url": "https://api.github.com/repos/FoundationVision/ByteTrack/contents?ref=d1bf0191adff59bc8fcfeaa0b33d3d1642552a99"
+    }
+  ],
+  "limits": [
+    "The original upstream MIT grant is retained; inherited SORT portions use the public GPL3+ grant.",
+    "No alternate permissive SORT grant is claimed.",
+    "This technical inventory is not a legal certification or a complete license scan of separately installed environments.",
+    "Source and numerical result bytes remain unchanged."
+  ],
+  "combined_programs": [
+    {
+      "path": "OC-SORT / GateTrace OC execution program",
+      "license": "GPL-3.0-or-later",
+      "retained_independent_grants": "MIT contributions and independently usable MIT modules retain their grants"
+    },
+    {
+      "path": "native v11 with Ultralytics 8.3.192",
+      "license": "applicable AGPL-3.0 terms",
+      "retained_independent_grants": "Project MIT modules retain their original grants; AGPL governs the integrated program"
+    }
+  ]
+}

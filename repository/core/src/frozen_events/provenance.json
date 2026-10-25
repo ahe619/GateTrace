@@ -1,0 +1,360 @@
+{
+  "schema": "frozen_events_source_v1",
+  "modules": [
+    {
+      "source": {
+        "path": "scripts/r15e3_regions_common.py",
+        "sha256": "e2dd5687f6b5574d1aa49a3396cba97baee453c20c6870e7515bc2a86f8f25e4"
+      },
+      "output": {
+        "path": "src/frozen_events/chain.py",
+        "bytes": 21407,
+        "sha256": "0e0bfb5f3fe68b49dd6ceea8af2923aef8b143cf65bb34f316d78af04173b7e8"
+      },
+      "functions": [
+        {
+          "name": "nearest_boundary",
+          "kind": "FunctionDef",
+          "start_line": 8,
+          "end_line": 21,
+          "source_segment_sha256": "77da1ac295a9cabe3c718b5d19bf04783921770f28457413ffb9a1c03de98d12",
+          "ast_sha256": "2ce6d4fc3ca552ebac1cd08f89499d0a2b2b1f88667258802482fa7e7de1f6cc"
+        },
+        {
+          "name": "signed_distance",
+          "kind": "FunctionDef",
+          "start_line": 24,
+          "end_line": 31,
+          "source_segment_sha256": "dee9ca04d8ba9c0acb652d18e7e3ddf089cbf13b0611020b6775606dc2414563",
+          "ast_sha256": "6768778b626f3e0c676d60c166afc1cb32274c8e6054dda6b784ecedae2f2e26"
+        }
+      ],
+      "changes": "Explicit dependency imports/header only; member source segments and AST unchanged"
+    },
+    {
+      "source": {
+        "path": "scripts/r15e3_e2_core.py",
+        "sha256": "a9d4ef470e8adbd7b6cb0f0a0017c8592873a885b3ea2b5e9423c31484476c89"
+      },
+      "output": {
+        "path": "src/frozen_events/chain.py",
+        "bytes": 21407,
+        "sha256": "0e0bfb5f3fe68b49dd6ceea8af2923aef8b143cf65bb34f316d78af04173b7e8"
+      },
+      "functions": [
+        {
+          "name": "zone_from_distances",
+          "kind": "FunctionDef",
+          "start_line": 7,
+          "end_line": 10,
+          "source_segment_sha256": "275655a7b66ba6fc4a4960cd197dfff1a7bb27235df4e9efd7f9f77e501b4110",
+          "ast_sha256": "7ba3aca9904fc2efe80569feb5bcda9a97d2b987fc3e22b69b460ad01d83afca"
+        },
+        {
+          "name": "extract_region_events",
+          "kind": "FunctionDef",
+          "start_line": 13,
+          "end_line": 63,
+          "source_segment_sha256": "adf0081a3fdbcf92cd7078e77014bfa448f1b83c67bd4411df38349ed1eac793",
+          "ast_sha256": "b3c70557e5bddb60e298055e525b5666d52f20bf51ea3ba87cdb833b1a0820ef"
+        }
+      ],
+      "changes": "Explicit dependency imports/header only; member source segments and AST unchanged"
+    },
+    {
+      "source": {
+        "path": "scripts/r15e6_core.py",
+        "sha256": "91bb6c597db1c404738f153d8ed86608b449c71aa4f48204d489ff8047447ded"
+      },
+      "output": {
+        "path": "src/frozen_events/chain.py",
+        "bytes": 21407,
+        "sha256": "0e0bfb5f3fe68b49dd6ceea8af2923aef8b143cf65bb34f316d78af04173b7e8"
+      },
+      "functions": [
+        {
+          "name": "height_at_foot",
+          "kind": "FunctionDef",
+          "start_line": 9,
+          "end_line": 20,
+          "source_segment_sha256": "506eab2b112950a2a138b249d4013bea31a440248a13d3ec42420ebc4d06fe63",
+          "ast_sha256": "93e68298c0e935b13cfc8745d6e180d884f5506da7342845ed72e96ba19b11a9"
+        },
+        {
+          "name": "edge_distance",
+          "kind": "FunctionDef",
+          "start_line": 22,
+          "end_line": 30,
+          "source_segment_sha256": "9c7f10e027a3d702bc82ca156759d69d545abe054128ee0c4b3842b18840ab55",
+          "ast_sha256": "3ad926805ab26d7d2d474812c91372b590ffe210bb1394f423a14bd419f8145f"
+        },
+        {
+          "name": "evidence",
+          "kind": "FunctionDef",
+          "start_line": 48,
+          "end_line": 87,
+          "source_segment_sha256": "eb51d0fee378c8137a9cf303f66d24ca6f29042154e9892b4968de67f4780690",
+          "ast_sha256": "eec1808ed91c68d453b8830bddc6f22b42884a93f05ab2a54455b55d0cb4d7f4"
+        }
+      ],
+      "changes": "Explicit dependency imports/header only; member source segments and AST unchanged"
+    },
+    {
+      "source": {
+        "path": "scripts/r15_dedup_direction.py",
+        "sha256": "dbf70dc6eb38875250d4248f3b49f36c03bba0d0fd1bf7ac90241f4d20bcb9f7"
+      },
+      "output": {
+        "path": "src/frozen_events/chain.py",
+        "bytes": 21407,
+        "sha256": "0e0bfb5f3fe68b49dd6ceea8af2923aef8b143cf65bb34f316d78af04173b7e8"
+      },
+      "functions": [
+        {
+          "name": "VARIANTS",
+          "kind": "Assign",
+          "start_line": 13,
+          "end_line": 13,
+          "source_segment_sha256": "7269824b7374656afa5a1f9d5eead85873282a857a28781244f04d49baa9a84d",
+          "ast_sha256": "866d1dbebc05a43360622b90d852424fca2c3700df139c85398f60ba3e3a2008"
+        },
+        {
+          "name": "SOURCE_ZONE",
+          "kind": "Assign",
+          "start_line": 14,
+          "end_line": 14,
+          "source_segment_sha256": "c096e9df9a016fc762167ab54601b91401164d6efc361e41f4a3a1a982b4d594",
+          "ast_sha256": "c7990a6dfd611e5dcefeb902d70d05b6dd2ff9d083df2909e8fc58e1dce11eeb"
+        },
+        {
+          "name": "TARGET_ZONE",
+          "kind": "Assign",
+          "start_line": 15,
+          "end_line": 15,
+          "source_segment_sha256": "4770b25539224d1cafd0bbd7fe4fc9c8266f0c29602ba1e48b9f8cdb7824a057",
+          "ast_sha256": "f1d92b3b4894ca965bef2d6c5db0f97e001ff7d310b256b1604a911f133f955e"
+        },
+        {
+          "name": "_event_frame",
+          "kind": "FunctionDef",
+          "start_line": 18,
+          "end_line": 23,
+          "source_segment_sha256": "9f1a8d7763059c747526670097c96427b7adeb6a363312b587aa4cd6d3b74866",
+          "ast_sha256": "6dd39a59d2f76afa7570d7a368e91522d9bc8453fd82e6bf0fd8ac510e96778c"
+        },
+        {
+          "name": "_event_key",
+          "kind": "FunctionDef",
+          "start_line": 26,
+          "end_line": 27,
+          "source_segment_sha256": "1abcde2bc70b2e8cafa56c7e2aa3fdafe460d4674770827ac5d238c9690097fa",
+          "ast_sha256": "751ac0bc94656c79d237600f9674b5215fa7921d9b76f6237b01308089365d55"
+        },
+        {
+          "name": "_valid_point",
+          "kind": "FunctionDef",
+          "start_line": 30,
+          "end_line": 34,
+          "source_segment_sha256": "5b1ffbaedefd74d42b8ff20d796ef51bf47a2e98d96e2a0df22e0f36ab7b6bcd",
+          "ast_sha256": "deb125aae4dd798a383e8ab98e32167e4d0ffea1cd50365288eb65bc65cb9a40"
+        },
+        {
+          "name": "_observation_detail",
+          "kind": "FunctionDef",
+          "start_line": 37,
+          "end_line": 42,
+          "source_segment_sha256": "9d665cac9a5cbe0853af65ba079a68f74b694ef19cc7aa41f6465ca17f1dd8b0",
+          "ast_sha256": "39c71c07ff264894f9cf5da98e66253752f2bfc8e06fd155c7c1a9032d167353"
+        },
+        {
+          "name": "_window",
+          "kind": "FunctionDef",
+          "start_line": 45,
+          "end_line": 54,
+          "source_segment_sha256": "c237773a587bb570bc55d05b500e5a2e90472b61ca60f92af25c55835f44870e",
+          "ast_sha256": "c820ab3c4a9197e80684fba04faabbfa11eb2c0d9b660be57d5bbf09b2da635f"
+        },
+        {
+          "name": "transform_events",
+          "kind": "FunctionDef",
+          "start_line": 57,
+          "end_line": 167,
+          "source_segment_sha256": "c4620038be9e3489271bf1838920f985ac17388629c772696611c0fc9ccc643e",
+          "ast_sha256": "b9b5bcd3704a0686f56e5f9b974016aa10fac5629a5b5dde35af53e1064fb1cb"
+        }
+      ],
+      "changes": "Explicit dependency imports/header only; member source segments and AST unchanged"
+    },
+    {
+      "source": {
+        "path": "scripts/r15e3_head.py",
+        "sha256": "e67a1c05abb9f5039433054aadfef9491a488c42b6bb336ffe4b20086afa2f17"
+      },
+      "output": {
+        "path": "src/frozen_events/chain.py",
+        "bytes": 21407,
+        "sha256": "0e0bfb5f3fe68b49dd6ceea8af2923aef8b143cf65bb34f316d78af04173b7e8"
+      },
+      "functions": [
+        {
+          "name": "finite_point",
+          "kind": "FunctionDef",
+          "start_line": 7,
+          "end_line": 8,
+          "source_segment_sha256": "f0e5ad9f6f6d5195d80ca8576b02b72db4d33b13b920eb2bea53847a1f2b636a",
+          "ast_sha256": "96aa46c703796945f4805a403f68811aab5d8697c4c7a2ab774f361b8fdf7189"
+        },
+        {
+          "name": "keypoint_mean",
+          "kind": "FunctionDef",
+          "start_line": 11,
+          "end_line": 18,
+          "source_segment_sha256": "701b666ef09f4df5dee89eddd6c01766e48119fac76d77013a5a7b4f55a59f91",
+          "ast_sha256": "0c370ed1888525e487da7f53a0df07aaac472710323ba6de23d09f7e440f1063"
+        },
+        {
+          "name": "predict_height",
+          "kind": "FunctionDef",
+          "start_line": 75,
+          "end_line": 77,
+          "source_segment_sha256": "86743a372f8da51f78bf1167cf55d277c2dd65bfa63d35dcc9219aaaeec2ce26",
+          "ast_sha256": "4cd9b04ec0ca11b40ae626ae6fe427a1bb5b4cf9fc7fc383871db1de5461963d"
+        },
+        {
+          "name": "select_point",
+          "kind": "FunctionDef",
+          "start_line": 130,
+          "end_line": 150,
+          "source_segment_sha256": "aaec07c9a845a490b629c7cac398766fbc31b828ad515f791355d66aec0002aa",
+          "ast_sha256": "4e143ee12bbe27c5b1e7d3e5e2efac46962464721169896b6e27203afd929a4e"
+        }
+      ],
+      "changes": "Explicit dependency imports/header only; member source segments and AST unchanged"
+    },
+    {
+      "source": {
+        "path": "scripts/r15e24_events.py",
+        "sha256": "14ddf655a5ddf59861ba15fa7b3f712e3234b11b18e33aacf23114817dd924bb"
+      },
+      "output": {
+        "path": "src/frozen_events/adapter.py",
+        "bytes": 8631,
+        "sha256": "1290edbd86a16ff88a8e8d7d5481dee816ef261809be84debae758db4ab637bc"
+      },
+      "functions": [
+        {
+          "name": "C1_KEY",
+          "kind": "Assign",
+          "start_line": 43,
+          "end_line": 43,
+          "source_segment_sha256": "7a38fe2c599832f2d595658a857ccfc30bd88d527d44f3287cd9e04978a7ad82",
+          "ast_sha256": "e484874e03164af6d9eacb512a1bedbaab88fb89c74aa2a4b9deeb916ccf8e13"
+        },
+        {
+          "name": "make_height_model",
+          "kind": "FunctionDef",
+          "start_line": 46,
+          "end_line": 55,
+          "source_segment_sha256": "9159c7be7a4f4478163efce90f4a99288eb64653451e95dc664292dfdf5f28e7",
+          "ast_sha256": "8c6e1c5b533d541274a637f0425e64f2a3746763077041aec3d5826e4a957ac5"
+        },
+        {
+          "name": "FrozenEvents",
+          "kind": "ClassDef",
+          "start_line": 106,
+          "end_line": 221,
+          "source_segment_sha256": "106a3fa2459224adbc271b0f33c5925f1c660e5947cc38fcaf7ba2e087776d89",
+          "ast_sha256": "b1472e8740a61566f8e13991769b64fabb1c538cb2c20a0fe0ed4d6b4fa64bdc"
+        }
+      ],
+      "changes": "Explicit dependency imports/header only; member source segments and AST unchanged"
+    },
+    {
+      "source": {
+        "path": "scripts/r15e24_run55.py",
+        "sha256": "90d81ca958ab21e7e5c99f3a917710520803c7896546e67815c829072a6cc5f5"
+      },
+      "output": {
+        "path": "src/frozen_events/point.py",
+        "bytes": 509,
+        "sha256": "21f4a33f76ac0975c6d6b65efa2552b362befb6ec0e259a592f9417ac3d64813"
+      },
+      "functions": [
+        {
+          "name": "point_for",
+          "kind": "FunctionDef",
+          "start_line": 101,
+          "end_line": 106,
+          "source_segment_sha256": "7b4fa20671afd747c0141e014e41d512f09246a0759780fdae34ed49a2ab30c8",
+          "ast_sha256": "2866de894bf2817863051108c99881d22e27f1babfac72290f8cb011bddd2a89"
+        }
+      ],
+      "changes": "Explicit dependency imports/header only; member source segments and AST unchanged"
+    },
+    {
+      "source": {
+        "path": "scripts/sota83d/event_view.py",
+        "sha256": "35ed003fd13b4dc4a70b013b012e2e43e5a2b09eed78e8a0ab5573b8edf88c05"
+      },
+      "output": {
+        "path": "src/frozen_events/event_view.py",
+        "bytes": 412,
+        "sha256": "05a4e9a7e77d65f0d7e1f1c436cda091db77f685e9edfc42f50781cc1d024947"
+      },
+      "functions": [
+        {
+          "name": "event_view",
+          "kind": "FunctionDef",
+          "start_line": 2,
+          "end_line": 8,
+          "source_segment_sha256": "e803c47c8626d8fc42952f8e9241079d4c76e29e96845302ffcec478475e486a",
+          "ast_sha256": "1344b24fd217aecbb887a2b4867b2010979557497e984fc220d56cb4a3880af6"
+        }
+      ],
+      "changes": "Explicit dependency imports/header only; member source segments and AST unchanged"
+    }
+  ],
+  "load_frozen_namespace": [
+    "Counter",
+    "deepcopy",
+    "defaultdict",
+    "math",
+    "np"
+  ],
+  "chain_member_global_reads": [
+    "Counter",
+    "SOURCE_ZONE",
+    "TARGET_ZONE",
+    "VARIANTS",
+    "_event_frame",
+    "_event_key",
+    "_observation_detail",
+    "_valid_point",
+    "_window",
+    "deepcopy",
+    "defaultdict",
+    "edge_distance",
+    "finite_point",
+    "height_at_foot",
+    "keypoint_mean",
+    "math",
+    "nearest_boundary",
+    "np",
+    "predict_height",
+    "zone_from_distances"
+  ],
+  "adapter_member_global_reads": [
+    "C1_KEY",
+    "deepcopy",
+    "defaultdict",
+    "math"
+  ],
+  "panel_run_function_audit": {
+    "status": "EQUAL",
+    "runs": 6,
+    "comparison": "source-segment SHA256 and line span of all 20 load_frozen members equal the event_functions audit saved by each of the six panel runs; point_for source file SHA256 equals each run's point_function_source"
+  },
+  "ast_hash_method": "sha256(ast.dump(node, include_attributes=False)) under CPython 3.10.18",
+  "no_old_main_imported": true,
+  "scientific_functions_changed": false
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "crossing_labels_v0",
+  "dataset_scope": [
+    "MOT20-01",
+    "MOT20-02"
+  ],
+  "file": "labels/transitions.jsonl.gz",
+  "population": "all transitions including unconfirmed",
+  "stable_id": "event_id = sequence_suffix + line_id + frozen prediction_id",
+  "scientific_fields": "All original census fields except jsonl_logical_line are invariant.",
+  "logical_line": "Local output row; historical mapping in labels/reference_line_map.jsonl, excluded from scientific comparison.",
+  "confirmation": "confirmed is algorithmic GT-rule confirmation, not human review.",
+  "human_qc": "audit.human_qc=not_reviewed",
+  "coordinates": "GT left/top minus1; native pixels. GT frames one-based; function frame zero-based.",
+  "time": "First observed target-region entry; interval supports available in frozen_transition and audit.",
+  "source_lineage": [
+    "frozen_transition.endpoints[*].gt_file_physical_line",
+    "confirmation.first_confirming_observation.gt_file_physical_line",
+    "audit.visibility_observations[*].gt_file_physical_line"
+  ],
+  "interpolation": false,
+  "known_limitations": [
+    "Amodal body boxes may be estimated under occlusion.",
+    "Rule confirmation does not establish annotation correctness.",
+    "No human QC has yet been performed for this sample."
+  ]
+}

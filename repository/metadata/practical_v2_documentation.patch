@@ -1,0 +1,86 @@
+--- a/README.md
++++ b/README.md
+@@ -8,8 +8,8 @@
+ 
+ - **检测**：在一帧里画出“这里可能有个人”的框。**跟踪**：把不同帧里被认为属于同一人的框接成一条带编号的轨迹。编号本身不保证身份正确。
+-- **越线事件**：这个人从虚拟门的一侧进入另一侧，并满足冻结的确认、去重及方向规则。这里的门是图像坐标中的评价几何，不是另外拍摄的门或模拟视频。
++- **越线事件（区域转换）**：参考点从一个固定区域进入另一个区域，并满足相应冻结规则。参考时间是首次观察到目标区域内有效参考点的时刻，参考位置是该帧的点；不是有限黄线的精确交点，也不是C1确认时刻。提取器未检验与有限黄线线段相交，区域转换不能不加限定地等同于真实人体穿过该线段。这里的门是图像坐标中的评价几何。
+ - **IVR（身份越线找回率）**：分母是参考标签中按规则确认的越线；分子是被正确人物、正确方向及允许的时间/位置误差匹配到的次数。比如 180 次参考事件找回 99 次，IVR 为 55.0%。时间容差为 1 秒，位置容差为对应人物的参考框高。
+ - **precision（身份精确率）**：系统最终报出的事件中，有多少能正确匹配参考事件。它的分母是全部最终系统事件，包括身份未知、混合或忽略状态；不能只保留容易认人的输出来提高分数。
+-- **可见度**：参考标注描述人物被看见的程度。事件按越线前后各 1 秒的平均值分为低、中低、中高、高四档，边界是 0.25、0.50、0.75。逐框指标用单帧值，二者分母不同。
++- **可见度**：参考标注描述人物被看见的程度。事件按参考目标区域首次进入帧前后各 1 秒的平均值分为低、中低、中高、高四档，边界是 0.25、0.50、0.75。逐框指标用单帧值，二者分母不同。
+ - **身份有效输出**：输出框经过冻结身份规则后，支持它属于参考的那个人。某一侧没有这种输出，可能涉及检测、关联、规则或证据不足；**不能直接解释为原图里看不见这个人**。
+ 
+@@ -66,5 +66,5 @@
+ 这里用轨迹框底中点生成事件。历史 v11 还使用原始检测框脚点；只交一份标准轨迹文件无法无损保留那种历史语义，所以不能把新接口得分冒称为历史 v11 的完整重现。
+ 
+-原生 v11 另提供 `native_v11.py` 和 `score_native_v11.py`，直接连接原脚点事件与实际输出框的身份评分，命令见 [PIPELINE](PIPELINE.md)。这条评分闭包已实现并通过 10 项纯合成检查，状态仍为 **`NOT_REAL_DATA_REGRESSED`**：真实 01/02 等价回归尚未取得回执，完整 GPU 流程也未验证。它不会通过读取历史答案来自动宣布复现成功。来源与状态见 [native_v11_scoring_status](metadata/native_v11_scoring_status.json) 及文档来源 S32–S34。
++原生 v11 另提供 `native_v11.py` 和 `score_native_v11.py`，直接连接原脚点事件与实际输出框的身份评分，命令见 [PIPELINE](PIPELINE.md)。这条评分闭包已实现并通过 10 项纯合成检查，原先记录为 **`NOT_REAL_DATA_REGRESSED`**。后续开发集等价回归已取得 **`LOCAL_EQUIVALENCE_PASS_PENDING_CLAUDE_RECOMPUTE`** 回执，见 [状态补充](docs/NATIVE101A_STATUS_ADDENDUM.md)；这是已有本机回执，本次 inspector 接入没有重跑，Claude 审核与完整 GPU 流程验收仍未完成。它不会通过读取历史答案来自动宣布复现成功。旧来源与历史状态快照见 [native_v11_scoring_status](metadata/native_v11_scoring_status.json) 及文档来源 S32–S34。
+ 
+ ## 按目的阅读
+--- a/core/README.md
++++ b/core/README.md
+@@ -78,5 +78,5 @@
+ - **12 virtual gates**, six per development sequence. They are image-space geometries defined by the frozen GT height relation, not real-world calibrated ground-plane exits.
+ - The whole-sequence population contains **901 transitions: 724 rule-confirmed and 177 unconfirmed**. MOT20-01 contributes 90/74 transitions/confirmed, MOT20-02 contributes 811/650. The older core-window population is smaller (837/671); it is retained as metadata but is **not** the denominator of this sample's E1 v2 main score.
+-- A valid body-box bottom-centre point changing from one non-gap region to the other produces a transition. Its timestamp is the first observed target-region entry. This is not an interpolated physical instant at the centre line.
++- A valid body-box bottom-centre point changing from one non-gap region to the other produces a transition. Its timestamp is the first observed target-region entry. The recorded position is the reference point at that entry frame, not a projection onto the centre line; C1 confirmation does not redefine it. The extractor does not test intersection with the finite centre-line segment. Points outside both regions are treated as gap, so a region transition must not be equated without qualification with a physical crossing of that finite segment.
+ - The included example uses existing **YOLOX-X + v11 downstream** outputs. Identity association is rebuilt using the actual output trajectory boxes, not all detector input boxes. The sample does not rerun tracking or the C1/R1/R2 event decoder.
+ - Main event matching requires the same GT person, the same direction, time difference at most 1 second, and native-image distance at most the frozen GT body height. Matching first maximizes cardinality, then minimizes total absolute time difference, then resolves ties deterministically.
+--- a/VERIFY.md
++++ b/VERIFY.md
+@@ -1,5 +1,5 @@
+ # 本地验收记录 / Local verification
+ 
+-本目录是本地候选仓库，未上传。资源重建与评分入口已通过本机 CPU 验收；完整原生 v11 适配层仍为 **NOT_REAL_DATA_REGRESSED**。不能把这些自检称为异机复现，也不能把合成测试称为真实流程等价验证。
++本目录是本地候选仓库，未上传。资源重建与评分入口已通过本机 CPU 验收；下文保留整理时的原生 v11 历史状态；后续开发集等价回归已有 **LOCAL_EQUIVALENCE_PASS_PENDING_CLAUDE_RECOMPUTE** 回执，见 [状态补充](docs/NATIVE101A_STATUS_ADDENDUM.md)。本次 inspector 接入未重跑该回归，仍待 Claude 审核。不能把这些自检称为异机复现，也不能把合成测试称为真实流程等价验证。
+ 
+ ## 已执行的资源自检
+@@ -47,5 +47,5 @@
+ ## 尚未通过的关口
+ 
+-原生 v11 的真实缓存回归尚未执行。准备输入时误读了混合序列的几何/身高元数据容器，已记录并暂停此项，等待输入范围裁定；没有在此回归中运行跟踪或评分。计划改用已有仅含开发序列的干净资源文件。正式验收仍要求 MOT20-01/02 逐门事件完全相同，并复现 86/180、203/210、569/712。不得用资源包自检或合成测试代替这个关口。
++以下为当时暂停记录，保留以说明发生过的输入问题，不是最新状态：原生 v11 的真实缓存回归当时尚未执行。准备输入时误读了混合序列的几何/身高元数据容器，已记录并暂停此项，等待输入范围裁定；没有在此回归中运行跟踪或评分。计划改用已有仅含开发序列的干净资源文件。正式验收仍要求 MOT20-01/02 逐门事件完全相同，并复现 86/180、203/210、569/712。不得用资源包自检或合成测试代替这个关口。后续已有本机等价回归通过回执，状态与比对范围见 [状态补充](docs/NATIVE101A_STATUS_ADDENDUM.md)，尚不能写成 Claude 已接受或异机验收。
+ 
+ GPU 导出、作者跟踪面板及整条确认流程本轮没有重新执行。历史分析目录提供可追溯的科学函数及适配入口，不承诺一条命令重现所有历史探索。依赖版本为已观察的参考环境，尚无干净机器安装和跨机器逐位一致性证明。
+--- a/PIPELINE.md
++++ b/PIPELINE.md
+@@ -85,5 +85,5 @@
+ 默认只核查两个 `native_manifest.json`，不打开帧缓存、事件、GT 或 seqinfo。显式执行要求 NumPy 2.2.6，调用冻结标签重建、E1-v2 输出框池、身份关联、配对、最优范围与聚合函数；直接使用保存的 `final_events` 和实际 post-M4 `tracker_rows`，重新计算身份，不重提取事件、不读取旧答案，也不自动声明历史等价。输出包括重建标签、身份/配对证据、分档分子分母、范围与读取账本。
+ 
+-不要用 `score_tracker.py` 从导出的标准轨迹重提取事件来冒称同一原生语义。原生评分闭包已实现并通过 10 项纯合成检查，当前明确状态仍为 **`NOT_REAL_DATA_REGRESSED`**；真实 01/02 等价回归仍暂停，尚未取得回执。状态文件见 [native_v11_scoring_status.json](metadata/native_v11_scoring_status.json)，详细接口见 [PIPELINE_PORTABILITY](docs/PIPELINE_PORTABILITY.md)，实际验收见 [VERIFY](VERIFY.md)。完整 GPU 流程也未运行；ReID #93 的外观推理 driver 不因权重来源或决策原语已经提供就成为已验证全流程。来源快照：S32–S34，见 [docs_sources](metadata/docs_sources.json)。
++不要用 `score_tracker.py` 从导出的标准轨迹重提取事件来冒称同一原生语义。原生评分闭包已实现并通过 10 项纯合成检查，当时记录为 **`NOT_REAL_DATA_REGRESSED`**；后续开发集等价回归已取得 **`LOCAL_EQUIVALENCE_PASS_PENDING_CLAUDE_RECOMPUTE`** 回执，见 [状态补充](docs/NATIVE101A_STATUS_ADDENDUM.md)。本次 inspector 接入没有重跑该回归。历史状态快照见 [native_v11_scoring_status.json](metadata/native_v11_scoring_status.json)，详细接口见 [PIPELINE_PORTABILITY](docs/PIPELINE_PORTABILITY.md)，实际验收见 [VERIFY](VERIFY.md)。完整 GPU 流程也未运行；ReID #93 的外观推理 driver 不因权重来源或决策原语已经提供就成为已验证全流程。来源快照：S32–S34，见 [docs_sources](metadata/docs_sources.json)。
+ 
+ ## 5. 诊断原语与一次性确认
+--- a/docs/claims_and_limits.md
++++ b/docs/claims_and_limits.md
+@@ -7,5 +7,5 @@
+ ## 指标与信息条件
+ 
+-身份越线找回率的分母是参考规则确认事件。正确匹配要求同人、同方向、时间差不超过 1 秒且距离不超过对应参考框高；身份精确率的分母包含全部最终事件，不剔除未知、混合或忽略状态。事件可见度用越线前后各 1 秒的平均值；逐框指标按单帧值分档，分母不可互换。开发口径为 12 条线、901 次转换中的 724 次规则确认事件；同一人物可重复出现在不同门，不能视作 724 个独立视频或独立人物。来源：S20、S21。
++身份越线找回率的分母是参考规则确认事件。正确匹配要求同人、同方向、时间差不超过 1 秒且距离不超过对应参考框高；身份精确率的分母包含全部最终事件，不剔除未知、混合或忽略状态。事件可见度用参考目标区域首次进入帧前后各 1 秒的平均值；逐框指标按单帧值分档，分母不可互换。开发口径为 12 条线、901 次转换中的 724 次规则确认事件；同一人物可重复出现在不同门，不能视作 724 个独立视频或独立人物。来源：S20、S21。
+ 
+ 规则确认不是人类确认。O1 的参考全身框包含遮挡部分，与标签派生还共享参考框，只是该信息条件下的诊断参照。标准轨迹接口使用轨迹框底中点，不能无损代替历史 v11 的原始检测框脚点。没有身份有效输出，也不能证明图像不可见；输出层面的未知应保留未知。来源：S20、S21、S30。
+@@ -35,5 +35,5 @@
+ |独立异机验收|目前尚未闭合|不能用同机复制、自检或本仓库文件数量代替|
+ 
+-新增原生 v11 身份评分闭包直接使用保存的 `final_events` 与实际 post-M4 `tracker_rows`，重用冻结标签、E1-v2 身份池、配对与聚合函数，未改用标准轨迹框底点事件链。入口已实现并通过 10 项纯合成检查，但状态明确为 `NOT_REAL_DATA_REGRESSED`；真实 01/02 等价回归仍暂停、无回执，不能把历史结果中的目标数字写成这次验收通过。历史表和复算结论不因此改变。来源：S32–S34；当前状态见 [native_v11_scoring_status.json](../metadata/native_v11_scoring_status.json)。
++新增原生 v11 身份评分闭包直接使用保存的 `final_events` 与实际 post-M4 `tracker_rows`，重用冻结标签、E1-v2 身份池、配对与聚合函数，未改用标准轨迹框底点事件链。入口已实现并通过 10 项纯合成检查，其历史快照为 `NOT_REAL_DATA_REGRESSED`；后续开发集等价回归已取得 `LOCAL_EQUIVALENCE_PASS_PENDING_CLAUDE_RECOMPUTE` 回执，见 [状态补充](NATIVE101A_STATUS_ADDENDUM.md)。这不是本次 inspector 接入重新验收，也不等于 Claude 已接受或异机复现。历史表和复算结论不因此改变。来源：S32–S34；历史状态快照见 [native_v11_scoring_status.json](../metadata/native_v11_scoring_status.json)。
+ 
+ HeadGate 只覆盖 01 同源开发设置；D1 仍保留单次、未独立复算状态；GateLink 仅继承 O-link G50 三系统主判的复算记录，不扩成所有消融都通过。T3 继续 `STOP_CURRENT_CLAIM`，不通过改门槛、挑子集或本次确认结果恢复原强主张。来源：S12、S13、S19、S20、S31。
+--- a/docs/PIPELINE_PORTABILITY.md
++++ b/docs/PIPELINE_PORTABILITY.md
+@@ -61,5 +61,5 @@
+ Outputs include rebuilt `labels/`, per-frame identity evidence, per-gate event-matching evidence, `units.json`, `matching_ranges.json`, `scores.json` and a read ledger. The report includes low/mid-low/mid-high/high, overall and precision numerator/denominator pairs plus per-sequence aggregates. The generic adapter does not call the core's example-specific `score()` driver, whose parity contract is tied to a different bundled example. It does not load old result files or declare a historical parity pass.
+ 
+-The explicit current status is **NOT_REAL_DATA_REGRESSED**, also recorded in [native_v11_scoring_status.json](../metadata/native_v11_scoring_status.json), the native output manifest and score reports. Ten synthetic tests validate the new interface and frozen-kernel composition. They do not establish the requested 01/02 real-data equivalence, and that regression remains paused pending its separate authorization/ruling and receipt.
++The original interface snapshot was **NOT_REAL_DATA_REGRESSED**, as retained in [native_v11_scoring_status.json](../metadata/native_v11_scoring_status.json) and the historical manifests/reports. Ten synthetic tests validate the interface and frozen-kernel composition; they do not establish real-data equivalence. A later local development-equivalence receipt has status **LOCAL_EQUIVALENCE_PASS_PENDING_CLAUDE_RECOMPUTE**; see [the status addendum](NATIVE101A_STATUS_ADDENDUM.md). This inspector integration did not rerun that regression, and neither Claude acceptance nor clean-machine validation is claimed.
+ 
+ ## Frozen confirmation command generation
+--- a/docs/PIPELINE_PATCHDIFF.md
++++ b/docs/PIPELINE_PATCHDIFF.md
+@@ -38,3 +38,3 @@
+ The first wrapper test found a Windows-specific root-relative path acceptance case; the new I/O layer now rejects leading `/` explicitly. Independent interface review also corrected the new MOT writer to use standard 1-based left/top. These were new-wrapper issues; frozen scientific files remained byte-identical. The final synthetic suite passes with the corrected adapters.
+ 
+-The native scorer adds no scientific source excerpt or new matching rule. Its source inventory is the existing [core_frozen_map.json](../metadata/core_frozen_map.json), and the exact called functions are listed in [native_v11_scoring_status.json](../metadata/native_v11_scoring_status.json). New orchestration replaces the historical application's fixed input/result paths with explicit inputs and hash-bound native artifacts. It reuses the original whole-sequence label population and the exact frozen assignment, identity, event-matching, range and aggregation calls; it does not invoke the example-specific high-level `score()` parity driver or the standard tracker-box event decoder. The input events remain unchanged on disk. The new `native_manifest.json` fields bind their bytes and the actual tracker frames separately. Status remains **NOT_REAL_DATA_REGRESSED** pending a separate real-data equivalence receipt.
++The native scorer adds no scientific source excerpt or new matching rule. Its source inventory is the existing [core_frozen_map.json](../metadata/core_frozen_map.json), and the exact called functions are listed in [native_v11_scoring_status.json](../metadata/native_v11_scoring_status.json). New orchestration replaces the historical application's fixed input/result paths with explicit inputs and hash-bound native artifacts. It reuses the original whole-sequence label population and the exact frozen assignment, identity, event-matching, range and aggregation calls; it does not invoke the example-specific high-level `score()` parity driver or the standard tracker-box event decoder. The input events remain unchanged on disk. The new `native_manifest.json` fields bind their bytes and the actual tracker frames separately. The historical status was **NOT_REAL_DATA_REGRESSED**. A later local development-equivalence receipt is **LOCAL_EQUIVALENCE_PASS_PENDING_CLAUDE_RECOMPUTE**; see [the status addendum](NATIVE101A_STATUS_ADDENDUM.md). The present inspector integration did not rerun it or establish Claude acceptance.

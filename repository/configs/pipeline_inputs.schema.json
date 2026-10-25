@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Explicit portable pipeline input manifests",
+  "$defs": {
+    "binding": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "bytes", "sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1, "description": "POSIX relative path below the manifest directory; no parent traversal, absolute path or symlink."},
+        "bytes": {"type": "integer", "minimum": 0},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    },
+    "sequence": {"enum": ["MOT20-01", "MOT20-02"]},
+    "size": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "integer", "minimum": 2}},
+    "pixel": {
+      "type": "object", "additionalProperties": false,
+      "required": ["schema", "sequence", "fps", "native_size", "weight", "images"],
+      "properties": {
+        "schema": {"const": "crowd_flow_pixel_inputs_v1"},
+        "sequence": {"$ref": "#/$defs/sequence"},
+        "fps": {"type": "number", "exclusiveMinimum": 0},
+        "native_size": {"$ref": "#/$defs/size"},
+        "weight": {"$ref": "#/$defs/binding"},
+        "images": {"type": "array", "minItems": 1, "items": {
+          "type": "object", "additionalProperties": false,
+          "required": ["source_frame", "binding"],
+          "properties": {"source_frame": {"type": "integer", "minimum": 1}, "binding": {"$ref": "#/$defs/binding"}}
+        }}
+      }
+    },
+    "native_v11": {
+      "type": "object", "additionalProperties": false,
+      "required": ["schema", "sequence", "fps", "native_size", "frames", "source_kind", "cache", "geometry", "g1", "m4_policy", "detector_lineage"],
+      "properties": {
+        "schema": {"const": "crowd_flow_native_v11_inputs_v1"},
+        "sequence": {"$ref": "#/$defs/sequence"}, "fps": {"const": 25},
+        "native_size": {"$ref": "#/$defs/size"}, "frames": {"type": "integer", "minimum": 1},
+        "source_kind": {"enum": ["yolox", "crowddet"]},
+        "cache": {"$ref": "#/$defs/binding"}, "geometry": {"$ref": "#/$defs/binding"},
+        "g1": {"$ref": "#/$defs/binding"}, "m4_policy": {"$ref": "#/$defs/binding"},
+        "detector_lineage": {"$ref": "#/$defs/binding"}
+      }
+    },
+    "gmc": {
+      "type": "object", "additionalProperties": false, "required": ["sequence", "gmc"],
+      "properties": {"sequence": {"$ref": "#/$defs/sequence"}, "gmc": {"$ref": "#/$defs/binding"}}
+    }
+  },
+  "oneOf": [{"$ref": "#/$defs/pixel"}, {"$ref": "#/$defs/native_v11"}, {"$ref": "#/$defs/gmc"}]
+}

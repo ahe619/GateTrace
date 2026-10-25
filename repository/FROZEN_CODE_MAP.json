@@ -1,0 +1,1233 @@
+{
+  "schema": "github_repo_frozen_code_map_v1",
+  "definition": "Whole-file copies and user-approved physical source-node slices are distinct. Neither category claims GPU or real-data regression automatically.",
+  "slice_authorization": "User approved exact original function slices with complete provenance and differences; #101a requires cached development equivalence before native_v11 acceptance.",
+  "native_v11_equivalence_status": "PENDING_SCOPE_REVIEW_NOT_EXECUTED",
+  "files": [
+    {
+      "repo_path": "core/inspect_event.py",
+      "kind": "presentation_layer_revision",
+      "role": "inspection_display_layer",
+      "bytes": 5104,
+      "sha256": "843a4229b0aa80867d3dd8fc648f2c8e9c58ebbbafb26031b616beb45791308c",
+      "previous_provenance": {
+        "repo_path": "core/inspect_event.py",
+        "original_project_path": "release/mot20_crossing_events_v0_2_candidate/inspect_event.py",
+        "sha256": "cda4c10491a803f942b5624fd27b15bd0b4dbe86326256c24f1ffc8e87dd78e2",
+        "bytes": 3897,
+        "kind": "complete_file_copy",
+        "role": "resource_core",
+        "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/inspect_event.py"
+      },
+      "original_preimage": {
+        "bytes": 3897,
+        "sha256": "cda4c10491a803f942b5624fd27b15bd0b4dbe86326256c24f1ffc8e87dd78e2"
+      },
+      "derived_from": {
+        "project_relative_path": "release/mot20_crossing_events_v0_2_1_candidate_round2/inspect_event.py",
+        "manifest_sha256": "c55ce74cf46913ae5e171eef3adb95e6b283b5bb1d80b0566f00af33885ca74d",
+        "bytes": 5104,
+        "sha256": "843a4229b0aa80867d3dd8fc648f2c8e9c58ebbbafb26031b616beb45791308c"
+      },
+      "scientific_function_replacement": false
+    },
+    {
+      "repo_path": "core/reproduce.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/reproduce.py",
+      "sha256": "66ba70732dc072a2336286122eec5b1da06aeb113f1e993589d49fc2b500af40",
+      "bytes": 9062,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/reproduce.py"
+    },
+    {
+      "repo_path": "core/score_tracker.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/score_tracker.py",
+      "sha256": "65a344605e01d4fb6d6c1ec3ad1feaa3e822e8813a9b41cb1a3719110f3ab259",
+      "bytes": 8707,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/score_tracker.py"
+    },
+    {
+      "repo_path": "core/src/__init__.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/__init__.py",
+      "sha256": "0f5f1b2edd3795fef8a344716973e3513b6f8177f63bade5ce940588834093a3",
+      "bytes": 80,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/__init__.py"
+    },
+    {
+      "repo_path": "core/src/events.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/events.py",
+      "sha256": "4f8830e0ea5cc86aca42b965c40146ccd018228b7804ee53aada1009bd773e93",
+      "bytes": 6709,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/events.py"
+    },
+    {
+      "repo_path": "core/src/frozen_events/__init__.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_events/__init__.py",
+      "sha256": "584d4674fb941352ac8841b8d323ce6de65531dc1b01663234b29e5ad5afa9fe",
+      "bytes": 65,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_events/__init__.py"
+    },
+    {
+      "repo_path": "core/src/frozen_events/adapter.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_events/adapter.py",
+      "sha256": "1290edbd86a16ff88a8e8d7d5481dee816ef261809be84debae758db4ab637bc",
+      "bytes": 8631,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_events/adapter.py"
+    },
+    {
+      "repo_path": "core/src/frozen_events/chain.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_events/chain.py",
+      "sha256": "0e0bfb5f3fe68b49dd6ceea8af2923aef8b143cf65bb34f316d78af04173b7e8",
+      "bytes": 21407,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_events/chain.py"
+    },
+    {
+      "repo_path": "core/src/frozen_events/event_view.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_events/event_view.py",
+      "sha256": "05a4e9a7e77d65f0d7e1f1c436cda091db77f685e9edfc42f50781cc1d024947",
+      "bytes": 412,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_events/event_view.py"
+    },
+    {
+      "repo_path": "core/src/frozen_events/point.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_events/point.py",
+      "sha256": "21f4a33f76ac0975c6d6b65efa2552b362befb6ec0e259a592f9417ac3d64813",
+      "bytes": 509,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_events/point.py"
+    },
+    {
+      "repo_path": "core/src/frozen_labels_census.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_labels_census.py",
+      "sha256": "318d4761a1d5ca24dddce5977763cba4fbe3dca3a4567f62d46ee1736082d379",
+      "bytes": 15340,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_labels_census.py"
+    },
+    {
+      "repo_path": "core/src/frozen_labels_regions.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_labels_regions.py",
+      "sha256": "637d18ea00ded921ba7be8ff8264aebbc445888d7c346460c8712df3b9f262a1",
+      "bytes": 6054,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_labels_regions.py"
+    },
+    {
+      "repo_path": "core/src/frozen_score/__init__.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_score/__init__.py",
+      "sha256": "9d9394e5f1615ae7d22a9a274e6ce15c8239ee22438f440707b2fa2d151949f7",
+      "bytes": 64,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/__init__.py"
+    },
+    {
+      "repo_path": "core/src/frozen_score/aggregate.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_score/aggregate.py",
+      "sha256": "17b83db898956ecbd15cd2f4c4b3e7e58da6776fa43f8195528eafd496bdcf8a",
+      "bytes": 1763,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/aggregate.py"
+    },
+    {
+      "repo_path": "core/src/frozen_score/e1.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_score/e1.py",
+      "sha256": "8edc931b0a02aee872e7a20f2ab67e1921322b180a80de321488ae1d9c95fc02",
+      "bytes": 10122,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/e1.py"
+    },
+    {
+      "repo_path": "core/src/frozen_score/identity.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_score/identity.py",
+      "sha256": "ab33874ce2cd7ecf55b3d335331309fd69b6a9dc058e59bb00378186c607192a",
+      "bytes": 3219,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/identity.py"
+    },
+    {
+      "repo_path": "core/src/frozen_score/labels_view.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_score/labels_view.py",
+      "sha256": "1df49add65704dcfed0e0c698d92802d4f284d6041833a465e2ef160d2acae6e",
+      "bytes": 2267,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/labels_view.py"
+    },
+    {
+      "repo_path": "core/src/frozen_score/matching.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_score/matching.py",
+      "sha256": "bf40affe41d742c07b826303f92062ef391be54123517ac260060eaddcf5b0ae",
+      "bytes": 11031,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/matching.py"
+    },
+    {
+      "repo_path": "core/src/inspection.py",
+      "kind": "presentation_layer_revision",
+      "role": "inspection_display_layer",
+      "bytes": 20112,
+      "sha256": "9f32ebe70ef596480f6d22997b3b964c5b312bf74f2abd3c2a44dde39c0630b6",
+      "previous_provenance": {
+        "repo_path": "core/src/inspection.py",
+        "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/inspection.py",
+        "sha256": "d07f447d613bc628139cbd59834b07ca527e40d7f3d4d5ef153b80bb87ee08b3",
+        "bytes": 18434,
+        "kind": "complete_file_copy",
+        "role": "resource_core",
+        "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/inspection.py"
+      },
+      "original_preimage": {
+        "bytes": 18434,
+        "sha256": "d07f447d613bc628139cbd59834b07ca527e40d7f3d4d5ef153b80bb87ee08b3"
+      },
+      "derived_from": {
+        "project_relative_path": "release/mot20_crossing_events_v0_2_1_candidate_round2/src/inspection.py",
+        "manifest_sha256": "c55ce74cf46913ae5e171eef3adb95e6b283b5bb1d80b0566f00af33885ca74d",
+        "bytes": 20112,
+        "sha256": "9f32ebe70ef596480f6d22997b3b964c5b312bf74f2abd3c2a44dde39c0630b6"
+      },
+      "scientific_function_replacement": false
+    },
+    {
+      "repo_path": "core/src/labels.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/labels.py",
+      "sha256": "252d539cef3bf0963af3e560e25f6ed44975eb58745ffd5593eb30a17d333018",
+      "bytes": 10467,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/labels.py"
+    },
+    {
+      "repo_path": "core/src/lineage.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/lineage.py",
+      "sha256": "91589e80d57b2135243616e279627010610ee6267dc96bddc3b0aedeb48977e3",
+      "bytes": 5121,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/lineage.py"
+    },
+    {
+      "repo_path": "core/src/motchallenge.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/motchallenge.py",
+      "sha256": "63b752284f7daf9d167c202373dc130b71521f747da548ecc42abca44710dbcc",
+      "bytes": 2868,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/motchallenge.py"
+    },
+    {
+      "repo_path": "core/src/regression.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/regression.py",
+      "sha256": "dcb84522be6064fd6dcb8de230f7519e944a281b5e6c7bb3e467b56d841d7155",
+      "bytes": 3530,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/regression.py"
+    },
+    {
+      "repo_path": "core/src/score.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/score.py",
+      "sha256": "dc6e8602791858f04e2efba3ec91f2073e72c3c0932d22a95b8a78ac139c1fbd",
+      "bytes": 15026,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/score.py"
+    },
+    {
+      "repo_path": "core/src/tracker_score.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/src/tracker_score.py",
+      "sha256": "9916a2b8e232e1c78ba8a48875331cab8b1c2829c41f2cdbc7284a1132c7520f",
+      "bytes": 13641,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/src/tracker_score.py"
+    },
+    {
+      "repo_path": "core/tests/test_inspection_synthetic.py",
+      "original_project_path": "release/mot20_crossing_events_v0_2_candidate/tests/test_inspection_synthetic.py",
+      "sha256": "78427c01996dea8f2f156ae06a0195743874de54c6a9609335066cfc3623af59",
+      "bytes": 5824,
+      "kind": "complete_file_copy",
+      "role": "resource_core",
+      "intermediate_source": "release/anon/mot20_crossing_events_v0_2_candidate/tests/test_inspection_synthetic.py"
+    },
+    {
+      "repo_path": "src/detect/frozen/r15_yolox82e_detector.py",
+      "original_project_path": "scripts/r15_yolox82e_detector.py",
+      "sha256": "2167c6bb02ccb240b479da85ef3e3fd55d9dcb4c6945e32c413b439b1ea1da76",
+      "bytes": 9148,
+      "kind": "complete_file_copy",
+      "role": "frozen_detector"
+    },
+    {
+      "repo_path": "src/detect/frozen/r15_yolox82e_vendor/__init__.py",
+      "original_project_path": "scripts/r15_yolox82e_vendor/__init__.py",
+      "sha256": "402926cb779b3db7eebe40e74d58b9188589f07897b06339327de675b86e599b",
+      "bytes": 72,
+      "kind": "complete_file_copy",
+      "role": "third_party_detector"
+    },
+    {
+      "repo_path": "src/detect/frozen/r15_yolox82e_vendor/fusion.py",
+      "original_project_path": "scripts/r15_yolox82e_vendor/fusion.py",
+      "sha256": "109e9f9c5926c9753db1c0281038fb64816834e0fa9fd49c35b30a9ab2908be4",
+      "bytes": 1705,
+      "kind": "complete_file_copy",
+      "role": "third_party_detector"
+    },
+    {
+      "repo_path": "src/detect/frozen/r15_yolox82e_vendor/LICENSE.ByteTrack",
+      "original_project_path": "scripts/r15_yolox82e_vendor/LICENSE.ByteTrack",
+      "sha256": "e9d83751678cbaba6dfba902ea39215c423d93425e58f8450d6001f7261696f9",
+      "bytes": 1067,
+      "kind": "complete_file_copy",
+      "role": "third_party_detector"
+    },
+    {
+      "repo_path": "src/detect/frozen/r15_yolox82e_vendor/models/__init__.py",
+      "original_project_path": "scripts/r15_yolox82e_vendor/models/__init__.py",
+      "sha256": "59e4fb820ceff218276790e7c7784bb71ec0ab032118e4426333b9c854aa920a",
+      "bytes": 78,
+      "kind": "complete_file_copy",
+      "role": "third_party_detector"
+    },
+    {
+      "repo_path": "src/detect/frozen/r15_yolox82e_vendor/models/darknet.py",
+      "original_project_path": "scripts/r15_yolox82e_vendor/models/darknet.py",
+      "sha256": "37fd32ae7f7de29df646f7c457837834fcc0e4e08ce83034a6397092fbae6a62",
+      "bytes": 6028,
+      "kind": "complete_file_copy",
+      "role": "third_party_detector"
+    },
+    {
+      "repo_path": "src/detect/frozen/r15_yolox82e_vendor/models/losses.py",
+      "original_project_path": "scripts/r15_yolox82e_vendor/models/losses.py",
+      "sha256": "e4644f138ddb8658cc26a03e5d80bb0fcd4e91bb8b0085d695958aafd47a031e",
+      "bytes": 2900,
+      "kind": "complete_file_copy",
+      "role": "third_party_detector"
+    },
+    {
+      "repo_path": "src/detect/frozen/r15_yolox82e_vendor/models/network_blocks.py",
+      "original_project_path": "scripts/r15_yolox82e_vendor/models/network_blocks.py",
+      "sha256": "250982431c53a5ed49c3e465266baeabe3e21a41eac941a8e5345c2e71e14a7d",
+      "bytes": 6102,
+      "kind": "complete_file_copy",
+      "role": "third_party_detector"
+    },
+    {
+      "repo_path": "src/detect/frozen/r15_yolox82e_vendor/models/yolo_head.py",
+      "original_project_path": "scripts/r15_yolox82e_vendor/models/yolo_head.py",
+      "sha256": "c2e3a95d0c7980d6d27b0a8a58fc16a6a058630d3ac569830f823ff2566435dc",
+      "bytes": 24081,
+      "kind": "complete_file_copy",
+      "role": "third_party_detector"
+    },
+    {
+      "repo_path": "src/detect/frozen/r15_yolox82e_vendor/models/yolo_pafpn.py",
+      "original_project_path": "scripts/r15_yolox82e_vendor/models/yolo_pafpn.py",
+      "sha256": "bfeb522c87fc076659c804927751b503ef0185fe1cf8f9f7153369e9177a9627",
+      "bytes": 3540,
+      "kind": "complete_file_copy",
+      "role": "third_party_detector"
+    },
+    {
+      "repo_path": "src/detect/frozen/r15_yolox82e_vendor/models/yolox.py",
+      "original_project_path": "scripts/r15_yolox82e_vendor/models/yolox.py",
+      "sha256": "a4d70f5ef75dfbb1da5394d886dc348c68cdfbb27ab725f36c313e981ba605ee",
+      "bytes": 1374,
+      "kind": "complete_file_copy",
+      "role": "third_party_detector"
+    },
+    {
+      "repo_path": "src/detect/frozen/r15_yolox82e_vendor/NOTICE.md",
+      "original_project_path": "scripts/r15_yolox82e_vendor/NOTICE.md",
+      "sha256": "b2035cb6031091837e5ab27b29d2023cc827b5069ddab68185703c992e40cdf5",
+      "bytes": 632,
+      "kind": "complete_file_copy",
+      "role": "third_party_detector"
+    },
+    {
+      "repo_path": "src/detect/frozen/r15_yolox82e_vendor/postprocess.py",
+      "original_project_path": "scripts/r15_yolox82e_vendor/postprocess.py",
+      "sha256": "669a6ae0a256c661ab824a8e4acbe855fdc0da16957aeb342a9418fee6b352c7",
+      "bytes": 2925,
+      "kind": "complete_file_copy",
+      "role": "third_party_detector"
+    },
+    {
+      "repo_path": "src/detect/frozen/r15_yolox82e_vendor/preprocess.py",
+      "original_project_path": "scripts/r15_yolox82e_vendor/preprocess.py",
+      "sha256": "822960b3dceda2f213719055b8b0f4a409f36a1ed157b7dddcf95fb2f17ddda6",
+      "bytes": 1121,
+      "kind": "complete_file_copy",
+      "role": "third_party_detector"
+    },
+    {
+      "repo_path": "src/track/frozen/r15_tracker_idxfix.py",
+      "original_project_path": "scripts/r15_tracker_idxfix.py",
+      "sha256": "477c3041fed126903e8e18de967e14da4a98775fef5ac4a4cf48a5eb611ac0d3",
+      "bytes": 3163,
+      "kind": "complete_file_copy",
+      "role": "frozen_tracking"
+    },
+    {
+      "repo_path": "src/track/frozen/r15e17_trackers.py",
+      "original_project_path": "scripts/r15e17_trackers.py",
+      "sha256": "fceb7352bca9c75061371e6c6e27ad8c243a293a770010fae0a5e819a2b97599",
+      "bytes": 12253,
+      "kind": "complete_file_copy",
+      "role": "frozen_tracking"
+    },
+    {
+      "repo_path": "src/track/frozen/r15e26_stitch_v2.py",
+      "original_project_path": "scripts/r15e26_stitch_v2.py",
+      "sha256": "a0e2b0f4a03189270a4b985be8dac99a1ba59e6f59b38be83946a1977f991ded",
+      "bytes": 19998,
+      "kind": "complete_file_copy",
+      "role": "frozen_tracking"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/panel.py",
+      "original_project_path": "scripts/sota83d/panel.py",
+      "sha256": "6a485ff44c980635a787f12a76d8e10e4168743e37f85d56aa92c8cdf1f00c7b",
+      "bytes": 6425,
+      "kind": "complete_file_copy",
+      "role": "frozen_panel_adapter"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/__init__.py",
+      "original_project_path": "scripts/sota83d/vendor/__init__.py",
+      "sha256": "64f0ed44dffcd37d8fe405e5c598e330447100ec086c71a12283e6d285932eda",
+      "bytes": 74,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/bot/__init__.py",
+      "original_project_path": "scripts/sota83d/vendor/bot/__init__.py",
+      "sha256": "cedd223b068848334f5d814b369870eebc05b5a19c7207da6623b031c006ab1b",
+      "bytes": 25,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/bot/basetrack.py",
+      "original_project_path": "scripts/sota83d/vendor/bot/basetrack.py",
+      "sha256": "a0f717a5059ebfa626a63cea5b040a649acd7720072f503cabfa24d749f082f6",
+      "bytes": 1111,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/bot/bot_sort.py",
+      "original_project_path": "scripts/sota83d/vendor/bot/bot_sort.py",
+      "sha256": "82a336dfe44bbc7f5736368fcbb0b6d044c9c7bf8e443b5d445d624fbcb85788",
+      "bytes": 16760,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/bot/gmc.py",
+      "original_project_path": "scripts/sota83d/vendor/bot/gmc.py",
+      "sha256": "c1cf477cd31170540b1ce2f10c708e3ea833f5275232766295f8f9e67e06eb28",
+      "bytes": 11754,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/bot/kalman_filter.py",
+      "original_project_path": "scripts/sota83d/vendor/bot/kalman_filter.py",
+      "sha256": "c1a4c0acc71b9a91c0cdbe7b689f88712d68e7e8be4d7e54fb437f33fdbc9e5a",
+      "bytes": 9671,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/bot/LICENSE",
+      "original_project_path": "scripts/sota83d/vendor/bot/LICENSE",
+      "sha256": "12a15474ca15cec568da311e6cd89e593e3cd2bb5b790e75b90e1608306a3a5f",
+      "bytes": 1067,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/bot/matching.py",
+      "original_project_path": "scripts/sota83d/vendor/bot/matching.py",
+      "sha256": "34edce37889a3ecac3f2c43183fe1ead77e4335201f96bf5d82a7c61cefb80f2",
+      "bytes": 6427,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/byte/__init__.py",
+      "original_project_path": "scripts/sota83d/vendor/byte/__init__.py",
+      "sha256": "cedd223b068848334f5d814b369870eebc05b5a19c7207da6623b031c006ab1b",
+      "bytes": 25,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/byte/basetrack.py",
+      "original_project_path": "scripts/sota83d/vendor/byte/basetrack.py",
+      "sha256": "c938afcf7c516bba4a77155c2499fcae6f926df7a2faa6f73a4be1b073f9bb2d",
+      "bytes": 951,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/byte/byte_tracker.py",
+      "original_project_path": "scripts/sota83d/vendor/byte/byte_tracker.py",
+      "sha256": "3d2739eb8341f07fa46d0154b99e87ccd8ea09ed97e4ccaa6a981049fc57d6b2",
+      "bytes": 11925,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/byte/kalman_filter.py",
+      "original_project_path": "scripts/sota83d/vendor/byte/kalman_filter.py",
+      "sha256": "9842d0dd9957c97e312d42e5789441add55082066d87cc051ac768143a46eb39",
+      "bytes": 9547,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/byte/LICENSE",
+      "original_project_path": "scripts/sota83d/vendor/byte/LICENSE",
+      "sha256": "e9d83751678cbaba6dfba902ea39215c423d93425e58f8450d6001f7261696f9",
+      "bytes": 1067,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/byte/matching.py",
+      "original_project_path": "scripts/sota83d/vendor/byte/matching.py",
+      "sha256": "b94735328311b0d4b7a8178d3417dc3cdff8b99e00d96fe034eb2a1c446a88f0",
+      "bytes": 6186,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/oc/__init__.py",
+      "original_project_path": "scripts/sota83d/vendor/oc/__init__.py",
+      "sha256": "cedd223b068848334f5d814b369870eebc05b5a19c7207da6623b031c006ab1b",
+      "bytes": 25,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/oc/association.py",
+      "original_project_path": "scripts/sota83d/vendor/oc/association.py",
+      "sha256": "c009a78eaa1c35c1d61217506255051ba882a7b99f9505cdec64da474ff0fbd7",
+      "bytes": 13384,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/oc/kalmanfilter.py",
+      "original_project_path": "scripts/sota83d/vendor/oc/kalmanfilter.py",
+      "sha256": "165a2d5243f2b874e37d3a3ae8112402f5c53ddfb6eb6e2cddda3311c3a2cded",
+      "bytes": 60075,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/oc/LICENSE",
+      "original_project_path": "scripts/sota83d/vendor/oc/LICENSE",
+      "sha256": "e9d83751678cbaba6dfba902ea39215c423d93425e58f8450d6001f7261696f9",
+      "bytes": 1067,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83d/vendor/oc/ocsort.py",
+      "original_project_path": "scripts/sota83d/vendor/oc/ocsort.py",
+      "sha256": "122cc1c27d3321eac0debdf3ba782b76d189e1ac878256b8291ffeb4314fa979",
+      "bytes": 17824,
+      "kind": "complete_file_copy",
+      "role": "approved_third_party_tracker"
+    },
+    {
+      "repo_path": "src/track/frozen/sota83c/bbox_overlaps_numpy.py",
+      "original_project_path": "scripts/sota83c/bbox_overlaps_numpy.py",
+      "sha256": "254feb415b64d590e7de59f96a72130b6836302756c25dec36d58ee23f682947",
+      "bytes": 4151,
+      "kind": "complete_file_copy",
+      "role": "approved_numpy_compatibility"
+    },
+    {
+      "repo_path": "src/analysis/frozen/r15e28_e1_core78a_v2.py",
+      "original_project_path": "scripts/r15e28_e1_core78a_v2.py",
+      "sha256": "d6342df4fa8befca129d02124030e05205e6fb80a9e2f6c753a6782615aee11b",
+      "bytes": 17772,
+      "kind": "complete_file_copy",
+      "role": "frozen_analysis"
+    },
+    {
+      "repo_path": "src/analysis/frozen/r15e28_e2_masks.py",
+      "original_project_path": "scripts/r15e28_e2_masks.py",
+      "sha256": "f323aa2dda434f02aa46f0a36636d033c0719455c8b3fb6cb9f0a6e111b41887",
+      "bytes": 9513,
+      "kind": "complete_file_copy",
+      "role": "frozen_analysis"
+    },
+    {
+      "repo_path": "src/analysis/frozen/r15e27_headgate_inference.py",
+      "original_project_path": "scripts/r15e27_headgate_inference.py",
+      "sha256": "eb9f0ea5b265eb19e2aac416fcb26ee4176af9bcbe3ea18aa5f4f412ce6255a3",
+      "bytes": 22345,
+      "kind": "complete_file_copy",
+      "role": "frozen_analysis"
+    },
+    {
+      "repo_path": "src/analysis/frozen/r15e29_gap_core81.py",
+      "original_project_path": "scripts/r15e29_gap_core81.py",
+      "sha256": "4049fc3528b2ca6e22a66861e17f0b3369c93b77e8d75f449ccb8b211d2b1c41",
+      "bytes": 4109,
+      "kind": "complete_file_copy",
+      "role": "frozen_analysis"
+    },
+    {
+      "repo_path": "src/analysis/frozen/r15e32_gatelink_oracle.py",
+      "original_project_path": "scripts/r15e32_gatelink_oracle.py",
+      "sha256": "715d389d58907c3be5ad2a38025e6f4b0aae902fab3c63138f76812a7fb80c51",
+      "bytes": 5596,
+      "kind": "complete_file_copy",
+      "role": "frozen_analysis"
+    },
+    {
+      "repo_path": "src/confirm/production_v1/manifest.py",
+      "original_project_path": "scripts/confirmation85/production_v1/manifest.py",
+      "sha256": "6dcd47c32132a3306cc3fae4e2078ef8aa4a550cec8e4fec727c4e1128b016a9",
+      "bytes": 28013,
+      "kind": "complete_file_copy",
+      "role": "frozen_confirmation_control_or_worker"
+    },
+    {
+      "repo_path": "src/confirm/production_v1/command.py",
+      "original_project_path": "scripts/confirmation85/production_v1/command.py",
+      "sha256": "c20c195c94461dd5d5ca50ccfe6596187df5d97a6f8c389eb358de5843b6cdc5",
+      "bytes": 11917,
+      "kind": "complete_file_copy",
+      "role": "frozen_confirmation_control_or_worker"
+    },
+    {
+      "repo_path": "src/confirm/production_v1/run.py",
+      "original_project_path": "scripts/confirmation85/production_v1/run.py",
+      "sha256": "92d984db1da5cb7e1bb43f9cb2445b7231715d41f9bbb633c19de957fe345625",
+      "bytes": 4097,
+      "kind": "complete_file_copy",
+      "role": "frozen_confirmation_control_or_worker"
+    },
+    {
+      "repo_path": "src/confirm/production_v1/workers.py",
+      "original_project_path": "scripts/confirmation85/production_v1/workers.py",
+      "sha256": "ee6b25265e4711577c8e5d4cdd1f162a8b582e25d14428fa158f5b41a3938110",
+      "bytes": 41854,
+      "kind": "complete_file_copy",
+      "role": "frozen_confirmation_control_or_worker"
+    },
+    {
+      "repo_path": "src/confirm/production_v1/reference_score.py",
+      "original_project_path": "scripts/confirmation85/production_v1/reference_score.py",
+      "sha256": "0d31ea79f9cdaa1de48c6e3926243e82db30a51aa68c73a77de6eecc491931f1",
+      "bytes": 33494,
+      "kind": "complete_file_copy",
+      "role": "frozen_confirmation_control_or_worker"
+    },
+    {
+      "repo_path": "src/track/frozen/r15e24_events.py",
+      "original_project_path": "scripts/r15e24_events.py",
+      "sha256": "14ddf655a5ddf59861ba15fa7b3f712e3234b11b18e33aacf23114817dd924bb",
+      "bytes": 12908,
+      "kind": "complete_file_copy",
+      "role": "frozen_native_event_adapter_or_AST_source"
+    },
+    {
+      "repo_path": "src/track/frozen/event_sources/scripts/r15e3_regions_common.py",
+      "original_project_path": "scripts/r15e3_regions_common.py",
+      "sha256": "e2dd5687f6b5574d1aa49a3396cba97baee453c20c6870e7515bc2a86f8f25e4",
+      "bytes": 3169,
+      "kind": "complete_file_copy",
+      "role": "frozen_native_event_adapter_or_AST_source"
+    },
+    {
+      "repo_path": "src/track/frozen/event_sources/scripts/r15e3_e2_core.py",
+      "original_project_path": "scripts/r15e3_e2_core.py",
+      "sha256": "a9d4ef470e8adbd7b6cb0f0a0017c8592873a885b3ea2b5e9423c31484476c89",
+      "bytes": 7310,
+      "kind": "complete_file_copy",
+      "role": "frozen_native_event_adapter_or_AST_source"
+    },
+    {
+      "repo_path": "src/track/frozen/event_sources/scripts/r15e6_core.py",
+      "original_project_path": "scripts/r15e6_core.py",
+      "sha256": "91bb6c597db1c404738f153d8ed86608b449c71aa4f48204d489ff8047447ded",
+      "bytes": 18866,
+      "kind": "complete_file_copy",
+      "role": "frozen_native_event_adapter_or_AST_source"
+    },
+    {
+      "repo_path": "src/track/frozen/event_sources/scripts/r15_dedup_direction.py",
+      "original_project_path": "scripts/r15_dedup_direction.py",
+      "sha256": "dbf70dc6eb38875250d4248f3b49f36c03bba0d0fd1bf7ac90241f4d20bcb9f7",
+      "bytes": 9786,
+      "kind": "complete_file_copy",
+      "role": "frozen_native_event_adapter_or_AST_source"
+    },
+    {
+      "repo_path": "src/track/frozen/event_sources/scripts/r15e3_head.py",
+      "original_project_path": "scripts/r15e3_head.py",
+      "sha256": "e67a1c05abb9f5039433054aadfef9491a488c42b6bb336ffe4b20086afa2f17",
+      "bytes": 9234,
+      "kind": "complete_file_copy",
+      "role": "frozen_native_event_adapter_or_AST_source"
+    },
+    {
+      "repo_path": "src/track/fragments/r15e26_run_v2__MethodTracker.py",
+      "original_project_path": "scripts/r15e26_run_v2.py",
+      "sha256": "eee4662f21f8a53cc951c1c8b692258e26cec518c7b3475c3857f46c00d423ee",
+      "bytes": 3106,
+      "kind": "verbatim_source_node_slice",
+      "source_file_sha256": "97f80b90d7bd4dd1fd687d3b5375289ba3f372ec3a172d5e276a9e3877d5c026",
+      "source_file_bytes": 48544,
+      "node": "MethodTracker",
+      "start_line": 214,
+      "end_line": 255
+    },
+    {
+      "repo_path": "src/track/fragments/r15e26_run_v2__fresh_raw.py",
+      "original_project_path": "scripts/r15e26_run_v2.py",
+      "sha256": "3f230ac853f719ca41492730e44eac7d3547f8fbbfbab36dbcb558ddd652cc2a",
+      "bytes": 528,
+      "kind": "verbatim_source_node_slice",
+      "source_file_sha256": "97f80b90d7bd4dd1fd687d3b5375289ba3f372ec3a172d5e276a9e3877d5c026",
+      "source_file_bytes": 48544,
+      "node": "fresh_raw",
+      "start_line": 298,
+      "end_line": 306
+    },
+    {
+      "repo_path": "src/track/fragments/r15e24_inference__SEED.py",
+      "original_project_path": "scripts/r15e24_inference.py",
+      "sha256": "a3e81347b3e65db0ea099be62e0fc53ce7a9a75d5c68b48b1b06f4e1cb40cfe1",
+      "bytes": 16,
+      "kind": "verbatim_source_node_slice",
+      "source_file_sha256": "4f56e1a23ab81533f120eeb44871a0de00e74946f789cbba4fd99a479cfb0864",
+      "source_file_bytes": 18017,
+      "node": "SEED",
+      "start_line": 7,
+      "end_line": 7
+    },
+    {
+      "repo_path": "src/track/fragments/r15e24_inference__TRACKER_ADAPTER_SHA.py",
+      "original_project_path": "scripts/r15e24_inference.py",
+      "sha256": "aa691a122dcde89c7ae3b59a442347765957afe0f24fc1842b29f49e7c265f1c",
+      "bytes": 89,
+      "kind": "verbatim_source_node_slice",
+      "source_file_sha256": "4f56e1a23ab81533f120eeb44871a0de00e74946f789cbba4fd99a479cfb0864",
+      "source_file_bytes": 18017,
+      "node": "TRACKER_ADAPTER_SHA",
+      "start_line": 10,
+      "end_line": 10
+    },
+    {
+      "repo_path": "src/track/fragments/r15e24_inference__IDXFIX_SHA.py",
+      "original_project_path": "scripts/r15e24_inference.py",
+      "sha256": "c7799f637a10ae707a582c4fa40f1d6bc145106c0c4ebcb759c0963f1e0b9da0",
+      "bytes": 80,
+      "kind": "verbatim_source_node_slice",
+      "source_file_sha256": "4f56e1a23ab81533f120eeb44871a0de00e74946f789cbba4fd99a479cfb0864",
+      "source_file_bytes": 18017,
+      "node": "IDXFIX_SHA",
+      "start_line": 12,
+      "end_line": 12
+    },
+    {
+      "repo_path": "src/track/fragments/r15e24_inference___require.py",
+      "original_project_path": "scripts/r15e24_inference.py",
+      "sha256": "bfcf891dd8b6d6aaba9cdc3edbeb60d8d80cbb200fdd6a78791d27b34deb299b",
+      "bytes": 84,
+      "kind": "verbatim_source_node_slice",
+      "source_file_sha256": "4f56e1a23ab81533f120eeb44871a0de00e74946f789cbba4fd99a479cfb0864",
+      "source_file_bytes": 18017,
+      "node": "_require",
+      "start_line": 18,
+      "end_line": 20
+    },
+    {
+      "repo_path": "src/track/fragments/r15e24_inference___bound_bytes.py",
+      "original_project_path": "scripts/r15e24_inference.py",
+      "sha256": "7e1bee5b9318552eeca41b98a9da5343952fe96e84317ac6bc949ccabb0dcb70",
+      "bytes": 444,
+      "kind": "verbatim_source_node_slice",
+      "source_file_sha256": "4f56e1a23ab81533f120eeb44871a0de00e74946f789cbba4fd99a479cfb0864",
+      "source_file_bytes": 18017,
+      "node": "_bound_bytes",
+      "start_line": 28,
+      "end_line": 36
+    },
+    {
+      "repo_path": "src/track/fragments/r15e24_inference___load_adapter.py",
+      "original_project_path": "scripts/r15e24_inference.py",
+      "sha256": "c6330f3f5f93415360ee2da9a9a56e29d5bf3a0f87aead05382845f20c458c87",
+      "bytes": 451,
+      "kind": "verbatim_source_node_slice",
+      "source_file_sha256": "4f56e1a23ab81533f120eeb44871a0de00e74946f789cbba4fd99a479cfb0864",
+      "source_file_bytes": 18017,
+      "node": "_load_adapter",
+      "start_line": 39,
+      "end_line": 47
+    },
+    {
+      "repo_path": "src/track/fragments/r15e24_inference___register_packages.py",
+      "original_project_path": "scripts/r15e24_inference.py",
+      "sha256": "fff53fac4cd298eff725072c73fac8edb91c35f2169d40cd49bb2eff8f30affe",
+      "bytes": 541,
+      "kind": "verbatim_source_node_slice",
+      "source_file_sha256": "4f56e1a23ab81533f120eeb44871a0de00e74946f789cbba4fd99a479cfb0864",
+      "source_file_bytes": 18017,
+      "node": "_register_packages",
+      "start_line": 50,
+      "end_line": 61
+    },
+    {
+      "repo_path": "src/track/fragments/r15e24_inference___seed.py",
+      "original_project_path": "scripts/r15e24_inference.py",
+      "sha256": "dc61600d8636596b36091199a9bd815575f28e5c23ac85fe93df31e0b974346b",
+      "bytes": 278,
+      "kind": "verbatim_source_node_slice",
+      "source_file_sha256": "4f56e1a23ab81533f120eeb44871a0de00e74946f789cbba4fd99a479cfb0864",
+      "source_file_bytes": 18017,
+      "node": "_seed",
+      "start_line": 64,
+      "end_line": 74
+    },
+    {
+      "repo_path": "src/track/fragments/r15e24_inference__ByteTrackTracker.py",
+      "original_project_path": "scripts/r15e24_inference.py",
+      "sha256": "12c19ed11304202e9ee7df4d60551ae6b088ef46528754563d370facd6c8a3fb",
+      "bytes": 6626,
+      "kind": "verbatim_source_node_slice",
+      "source_file_sha256": "4f56e1a23ab81533f120eeb44871a0de00e74946f789cbba4fd99a479cfb0864",
+      "source_file_bytes": 18017,
+      "node": "ByteTrackTracker",
+      "start_line": 233,
+      "end_line": 340
+    },
+    {
+      "repo_path": "src/analysis/fragments/r15_reid93_analysis__RULES_SHA.py",
+      "original_project_path": "scripts/r15_reid93_analysis.py",
+      "sha256": "139115c4ed43682eeae22840bf20339af73b65a82b0765c2abbc34ffede095c4",
+      "bytes": 79,
+      "kind": "verbatim_source_node_slice",
+      "source_file_sha256": "bbe3ac25732f56cc1f9dfeb913c8d3e057e13d2466cb4e415bc2c25bfff16b0f",
+      "source_file_bytes": 24514,
+      "node": "RULES_SHA",
+      "start_line": 39,
+      "end_line": 39
+    },
+    {
+      "repo_path": "src/analysis/fragments/r15_reid93_analysis__fraction_value.py",
+      "original_project_path": "scripts/r15_reid93_analysis.py",
+      "sha256": "d0000687a9ab417867b83187bf05e16fa82b52f564089e9548b41d284e6b67a8",
+      "bytes": 138,
+      "kind": "verbatim_source_node_slice",
+      "source_file_sha256": "bbe3ac25732f56cc1f9dfeb913c8d3e057e13d2466cb4e415bc2c25bfff16b0f",
+      "source_file_bytes": 24514,
+      "node": "fraction_value",
+      "start_line": 171,
+      "end_line": 172
+    },
+    {
+      "repo_path": "src/analysis/fragments/r15_reid93_analysis__decision.py",
+      "original_project_path": "scripts/r15_reid93_analysis.py",
+      "sha256": "04a62fbe57c0e66f2760b1974abfe5d5718c6671bc3bd67126e51f55dd69f5fe",
+      "bytes": 1827,
+      "kind": "verbatim_source_node_slice",
+      "source_file_sha256": "bbe3ac25732f56cc1f9dfeb913c8d3e057e13d2466cb4e415bc2c25bfff16b0f",
+      "source_file_bytes": 24514,
+      "node": "decision",
+      "start_line": 175,
+      "end_line": 203
+    },
+    {
+      "repo_path": "src/analysis/fragments/r15_reid93_analysis__sidecat.py",
+      "original_project_path": "scripts/r15_reid93_analysis.py",
+      "sha256": "fa673ac1ff0eaa8da099e9e41c90c31660ca1de50427d8fa5ef654063a92e1c2",
+      "bytes": 277,
+      "kind": "verbatim_source_node_slice",
+      "source_file_sha256": "bbe3ac25732f56cc1f9dfeb913c8d3e057e13d2466cb4e415bc2c25bfff16b0f",
+      "source_file_bytes": 24514,
+      "node": "sidecat",
+      "start_line": 206,
+      "end_line": 209
+    },
+    {
+      "repo_path": "src/track/fragments/r15e24_run55__point_for.py",
+      "original_project_path": "scripts/r15e24_run55.py",
+      "sha256": "e30c005e897d23ed9f76662b4c7358ce25e8822d062c5d1802e672cb3c2cdecc",
+      "bytes": 320,
+      "kind": "verbatim_source_node_slice",
+      "source_file_sha256": "90d81ca958ab21e7e5c99f3a917710520803c7896546e67815c829072a6cc5f5",
+      "source_file_bytes": 21037,
+      "node": "point_for",
+      "start_line": 101,
+      "end_line": 106
+    },
+    {
+      "repo_path": "review/q2/r15e30_blind_review_template.html",
+      "kind": "presentation_layer_revision",
+      "role": "synthetic_ui_or_empty_template",
+      "bytes": 23258,
+      "sha256": "2d37c49dc6ab99e24af2a5846add601c0c64db311e8fd55726e7641e5e9f1612",
+      "previous_provenance": {
+        "repo_path": "review/q2/r15e30_blind_review_template.html",
+        "original_project_path": "scripts/r15e30_blind_review_template.html",
+        "sha256": "69ea4fa4d8a49123cc0a4f89b81a4948151efe816394c1f4728e1479a039c50c",
+        "bytes": 22671,
+        "kind": "complete_file_copy",
+        "role": "synthetic_ui_or_empty_template"
+      },
+      "original_preimage": {
+        "bytes": 22671,
+        "sha256": "69ea4fa4d8a49123cc0a4f89b81a4948151efe816394c1f4728e1479a039c50c"
+      },
+      "revision": "English display strings and corresponding synthetic fixture strings",
+      "scientific_function_replacement": false,
+      "answer_schema_storage_keys_timing_and_control_structure_unchanged": true
+    },
+    {
+      "repo_path": "review/q2/r15e30_blind_review_template_check.js",
+      "original_project_path": "scripts/r15e30_blind_review_template_check.js",
+      "sha256": "40f7d7febbfdd8ad8b49cbe7de804a8c988e768c200ff93054c8c256e9a07364",
+      "bytes": 3604,
+      "kind": "complete_file_copy",
+      "role": "synthetic_ui_or_empty_template"
+    },
+    {
+      "repo_path": "review/q3/review_template.html",
+      "kind": "presentation_layer_revision",
+      "role": "synthetic_ui_or_empty_template",
+      "bytes": 41696,
+      "sha256": "b19fe6125b7a1847315a35dbdc9e1da01750ffafc5fd548772354c155128a97c",
+      "previous_provenance": {
+        "repo_path": "review/q3/review_template.html",
+        "original_project_path": "scripts/q3qc86/review_template.html",
+        "sha256": "5a00eb995f5e6ed5ffb8c1af638373398d7164a2f8501b175c711b3f2c271371",
+        "bytes": 39658,
+        "kind": "complete_file_copy",
+        "role": "synthetic_ui_or_empty_template"
+      },
+      "original_preimage": {
+        "bytes": 39658,
+        "sha256": "5a00eb995f5e6ed5ffb8c1af638373398d7164a2f8501b175c711b3f2c271371"
+      },
+      "revision": "English display strings and corresponding synthetic fixture strings",
+      "scientific_function_replacement": false,
+      "answer_schema_storage_keys_timing_and_control_structure_unchanged": true
+    },
+    {
+      "repo_path": "review/q3/synthetic_ui_test.js",
+      "kind": "presentation_layer_revision",
+      "role": "synthetic_ui_or_empty_template",
+      "bytes": 14825,
+      "sha256": "f20ad8883a4be1b7817200771b7f8f64c297e2f6b1770739c5fe7c1749332e27",
+      "previous_provenance": {
+        "repo_path": "review/q3/synthetic_ui_test.js",
+        "original_project_path": "scripts/q3qc86/synthetic_ui_test.js",
+        "sha256": "d157155c137d2f515d9f0f8642dc854dbfe8bbb1b9928d95a1d40be346c05857",
+        "bytes": 14808,
+        "kind": "complete_file_copy",
+        "role": "synthetic_ui_or_empty_template"
+      },
+      "original_preimage": {
+        "bytes": 14808,
+        "sha256": "d157155c137d2f515d9f0f8642dc854dbfe8bbb1b9928d95a1d40be346c05857"
+      },
+      "revision": "English display strings and corresponding synthetic fixture strings",
+      "scientific_function_replacement": false,
+      "answer_schema_storage_keys_timing_and_control_structure_unchanged": true
+    },
+    {
+      "repo_path": "core/ENGINEERING_CHANGES.md",
+      "kind": "documentation_revision",
+      "role": "inspection_engineering_support",
+      "bytes": 2227,
+      "sha256": "6efd0801a86d99b036e26133487ea1cb76aaa763c22d4ca8636e4c38e91db872",
+      "previous_provenance": {
+        "repo_path": "core/ENGINEERING_CHANGES.md",
+        "kind": "presentation_layer_support_copy",
+        "role": "inspection_engineering_support",
+        "bytes": 2167,
+        "sha256": "c71be5c459f243e39febd1c1c761ac1f0b6af4a3f758fd7310904bcdda0a9cf1",
+        "derived_from": {
+          "project_relative_path": "release/mot20_crossing_events_v0_2_1_candidate_round2/ENGINEERING_CHANGES.md",
+          "manifest_sha256": "c55ce74cf46913ae5e171eef3adb95e6b283b5bb1d80b0566f00af33885ca74d",
+          "bytes": 2167,
+          "sha256": "c71be5c459f243e39febd1c1c761ac1f0b6af4a3f758fd7310904bcdda0a9cf1"
+        },
+        "scientific_function_replacement": false
+      },
+      "original_preimage": {
+        "bytes": 2167,
+        "sha256": "c71be5c459f243e39febd1c1c761ac1f0b6af4a3f758fd7310904bcdda0a9cf1"
+      },
+      "revision": "English engineering prose; scientific and technical facts preserved",
+      "scientific_function_replacement": false,
+      "answer_schema_storage_keys_timing_and_control_structure_unchanged": null
+    },
+    {
+      "repo_path": "core/check_inspector.py",
+      "kind": "presentation_layer_support_copy",
+      "role": "inspection_engineering_support",
+      "bytes": 3597,
+      "sha256": "a2910ef413753b3550f37565964e9d1f098ba255b2b22647489f65d0cd0cb902",
+      "derived_from": {
+        "project_relative_path": "release/mot20_crossing_events_v0_2_1_candidate_round2/check_inspector.py",
+        "manifest_sha256": "c55ce74cf46913ae5e171eef3adb95e6b283b5bb1d80b0566f00af33885ca74d",
+        "bytes": 3597,
+        "sha256": "a2910ef413753b3550f37565964e9d1f098ba255b2b22647489f65d0cd0cb902"
+      },
+      "scientific_function_replacement": false
+    },
+    {
+      "repo_path": "core/inspect_saved_event.py",
+      "kind": "presentation_layer_support_copy",
+      "role": "inspection_engineering_support",
+      "bytes": 5540,
+      "sha256": "2eabf2217ba9a0bd81f59d66c0e7c5f2890155fc3d92a6ff615218a11a15fb0c",
+      "derived_from": {
+        "project_relative_path": "release/mot20_crossing_events_v0_2_1_candidate_round2/inspect_saved_event.py",
+        "manifest_sha256": "c55ce74cf46913ae5e171eef3adb95e6b283b5bb1d80b0566f00af33885ca74d",
+        "bytes": 5540,
+        "sha256": "2eabf2217ba9a0bd81f59d66c0e7c5f2890155fc3d92a6ff615218a11a15fb0c"
+      },
+      "scientific_function_replacement": false
+    },
+    {
+      "repo_path": "core/requirements-inspection.txt",
+      "kind": "presentation_layer_support_copy",
+      "role": "inspection_engineering_support",
+      "bytes": 167,
+      "sha256": "6d3d71589b7c2236418b8a61863664c561446ea33d308ee98beb7aad1f37bdb6",
+      "derived_from": {
+        "project_relative_path": "release/mot20_crossing_events_v0_2_1_candidate_round2/requirements-inspection.txt",
+        "manifest_sha256": "c55ce74cf46913ae5e171eef3adb95e6b283b5bb1d80b0566f00af33885ca74d",
+        "bytes": 167,
+        "sha256": "6d3d71589b7c2236418b8a61863664c561446ea33d308ee98beb7aad1f37bdb6"
+      },
+      "scientific_function_replacement": false
+    },
+    {
+      "repo_path": "core/src/audit_integrity.py",
+      "kind": "presentation_layer_support_copy",
+      "role": "inspection_engineering_support",
+      "bytes": 11325,
+      "sha256": "77bd4b52ccf47975b8b58149e52f5f7359139267c55fe10f56742856ada4dcdc",
+      "derived_from": {
+        "project_relative_path": "release/mot20_crossing_events_v0_2_1_candidate_round2/src/audit_integrity.py",
+        "manifest_sha256": "c55ce74cf46913ae5e171eef3adb95e6b283b5bb1d80b0566f00af33885ca74d",
+        "bytes": 11325,
+        "sha256": "77bd4b52ccf47975b8b58149e52f5f7359139267c55fe10f56742856ada4dcdc"
+      },
+      "scientific_function_replacement": false
+    },
+    {
+      "repo_path": "core/src/evidence_seal.py",
+      "kind": "presentation_layer_support_copy",
+      "role": "inspection_engineering_support",
+      "bytes": 4957,
+      "sha256": "76a8cacee13de7b22e156323ed4f973466247ad395aab43331744c97bc494b4d",
+      "derived_from": {
+        "project_relative_path": "release/mot20_crossing_events_v0_2_1_candidate_round2/src/evidence_seal.py",
+        "manifest_sha256": "c55ce74cf46913ae5e171eef3adb95e6b283b5bb1d80b0566f00af33885ca74d",
+        "bytes": 4957,
+        "sha256": "76a8cacee13de7b22e156323ed4f973466247ad395aab43331744c97bc494b4d"
+      },
+      "scientific_function_replacement": false
+    },
+    {
+      "repo_path": "core/src/image_paths.py",
+      "kind": "presentation_layer_support_copy",
+      "role": "inspection_engineering_support",
+      "bytes": 4469,
+      "sha256": "532078a0b53f8a468c0f021ac1859affc50850aa88e982af79fbb054538724c9",
+      "derived_from": {
+        "project_relative_path": "release/mot20_crossing_events_v0_2_1_candidate_round2/src/image_paths.py",
+        "manifest_sha256": "c55ce74cf46913ae5e171eef3adb95e6b283b5bb1d80b0566f00af33885ca74d",
+        "bytes": 4469,
+        "sha256": "532078a0b53f8a468c0f021ac1859affc50850aa88e982af79fbb054538724c9"
+      },
+      "scientific_function_replacement": false
+    },
+    {
+      "repo_path": "core/tests/scratch_support.py",
+      "kind": "presentation_layer_support_copy",
+      "role": "inspection_engineering_support",
+      "bytes": 613,
+      "sha256": "1a6ed1160638417be3f74322aafb9cf83b814128102001387353c092bc2290e1",
+      "derived_from": {
+        "project_relative_path": "release/mot20_crossing_events_v0_2_1_candidate_round2/tests/scratch_support.py",
+        "manifest_sha256": "c55ce74cf46913ae5e171eef3adb95e6b283b5bb1d80b0566f00af33885ca74d",
+        "bytes": 613,
+        "sha256": "1a6ed1160638417be3f74322aafb9cf83b814128102001387353c092bc2290e1"
+      },
+      "scientific_function_replacement": false
+    },
+    {
+      "repo_path": "core/tests/test_audit_integrity_round2.py",
+      "kind": "presentation_layer_support_copy",
+      "role": "inspection_engineering_support",
+      "bytes": 11701,
+      "sha256": "aea255d29ccbdcef07e9901669c90af90f72c5533f50f2f24ba1cc29d39c5181",
+      "derived_from": {
+        "project_relative_path": "release/mot20_crossing_events_v0_2_1_candidate_round2/tests/test_audit_integrity_round2.py",
+        "manifest_sha256": "c55ce74cf46913ae5e171eef3adb95e6b283b5bb1d80b0566f00af33885ca74d",
+        "bytes": 11701,
+        "sha256": "aea255d29ccbdcef07e9901669c90af90f72c5533f50f2f24ba1cc29d39c5181"
+      },
+      "scientific_function_replacement": false
+    },
+    {
+      "repo_path": "core/tests/test_evidence_seal_round2.py",
+      "kind": "presentation_layer_support_copy",
+      "role": "inspection_engineering_support",
+      "bytes": 5785,
+      "sha256": "0e704fffc6e06c12c3592d8c4a9fa70defd1be7d624fe9d15f4e86cc1d4498bd",
+      "derived_from": {
+        "project_relative_path": "release/mot20_crossing_events_v0_2_1_candidate_round2/tests/test_evidence_seal_round2.py",
+        "manifest_sha256": "c55ce74cf46913ae5e171eef3adb95e6b283b5bb1d80b0566f00af33885ca74d",
+        "bytes": 5785,
+        "sha256": "0e704fffc6e06c12c3592d8c4a9fa70defd1be7d624fe9d15f4e86cc1d4498bd"
+      },
+      "scientific_function_replacement": false
+    },
+    {
+      "repo_path": "core/tests/test_image_paths_round2.py",
+      "kind": "presentation_layer_support_copy",
+      "role": "inspection_engineering_support",
+      "bytes": 8276,
+      "sha256": "b4421e7703963db6d2d46b2fcc3a15be1cc53355c593082696f61f084459b1f0",
+      "derived_from": {
+        "project_relative_path": "release/mot20_crossing_events_v0_2_1_candidate_round2/tests/test_image_paths_round2.py",
+        "manifest_sha256": "c55ce74cf46913ae5e171eef3adb95e6b283b5bb1d80b0566f00af33885ca74d",
+        "bytes": 8276,
+        "sha256": "b4421e7703963db6d2d46b2fcc3a15be1cc53355c593082696f61f084459b1f0"
+      },
+      "scientific_function_replacement": false
+    },
+    {
+      "repo_path": "core/tests/test_inspector_integration_round2.py",
+      "kind": "presentation_layer_support_copy",
+      "role": "inspection_engineering_support",
+      "bytes": 26269,
+      "sha256": "5ad0d1af967ec642155ae714c86b086430c7377da28f7906c369bc5335859e7b",
+      "derived_from": {
+        "project_relative_path": "release/mot20_crossing_events_v0_2_1_candidate_round2/tests/test_inspector_integration_round2.py",
+        "manifest_sha256": "c55ce74cf46913ae5e171eef3adb95e6b283b5bb1d80b0566f00af33885ca74d",
+        "bytes": 26269,
+        "sha256": "5ad0d1af967ec642155ae714c86b086430c7377da28f7906c369bc5335859e7b"
+      },
+      "scientific_function_replacement": false
+    },
+    {
+      "repo_path": "core/tests/test_rendering_round2.py",
+      "kind": "presentation_layer_support_copy",
+      "role": "inspection_engineering_support",
+      "bytes": 10286,
+      "sha256": "26d6e0eee352f912c291f69c64c6780b225c27176d201ac0f5d995015ce5954d",
+      "derived_from": {
+        "project_relative_path": "release/mot20_crossing_events_v0_2_1_candidate_round2/tests/test_rendering_round2.py",
+        "manifest_sha256": "c55ce74cf46913ae5e171eef3adb95e6b283b5bb1d80b0566f00af33885ca74d",
+        "bytes": 10286,
+        "sha256": "26d6e0eee352f912c291f69c64c6780b225c27176d201ac0f5d995015ce5954d"
+      },
+      "scientific_function_replacement": false
+    },
+    {
+      "repo_path": "core/tests/test_saved_inspection_cli_round2.py",
+      "kind": "presentation_layer_support_copy",
+      "role": "inspection_engineering_support",
+      "bytes": 11558,
+      "sha256": "bd2cb68500ca298143936d74e90c7f271ab4365c77c3178f260d6a8a36ce7fed",
+      "derived_from": {
+        "project_relative_path": "release/mot20_crossing_events_v0_2_1_candidate_round2/tests/test_saved_inspection_cli_round2.py",
+        "manifest_sha256": "c55ce74cf46913ae5e171eef3adb95e6b283b5bb1d80b0566f00af33885ca74d",
+        "bytes": 11558,
+        "sha256": "bd2cb68500ca298143936d74e90c7f271ab4365c77c3178f260d6a8a36ce7fed"
+      },
+      "scientific_function_replacement": false
+    }
+  ],
+  "excluded_complete_files": [
+    {
+      "source_project_path": "scripts/r15_yolox82e_vendor/SOURCE_MANIFEST.json",
+      "sha256": "7ec73f8d5ee7cd49b1e45a67b74685fcc7a273eba57a3fa14b5ba93649b5334c",
+      "bytes": 9520,
+      "reason": "Historical build metadata contains machine-specific absolute paths; new relative map replaces metadata only, not code."
+    },
+    {
+      "source_project_path": "scripts/r15e26_run_v2.py",
+      "sha256": "97f80b90d7bd4dd1fd687d3b5375289ba3f372ec3a172d5e276a9e3877d5c026",
+      "bytes": 48544,
+      "reason": "Application driver embeds machine-specific data roots; complete file excluded."
+    },
+    {
+      "source_project_path": "scripts/r15e24_inference.py",
+      "sha256": "4f56e1a23ab81533f120eeb44871a0de00e74946f789cbba4fd99a479cfb0864",
+      "bytes": 18017,
+      "reason": "Unused P1 detector class embeds a machine-specific weight path; complete file excluded."
+    },
+    {
+      "source_project_path": "scripts/r15_reid93_analysis.py",
+      "sha256": "bbe3ac25732f56cc1f9dfeb913c8d3e057e13d2466cb4e415bc2c25bfff16b0f",
+      "bytes": 24514,
+      "reason": "Application driver embeds machine-specific official-label and seqinfo roots; complete file excluded."
+    },
+    {
+      "source_project_path": "scripts/r15e24_run55.py",
+      "sha256": "90d81ca958ab21e7e5c99f3a917710520803c7896546e67815c829072a6cc5f5",
+      "bytes": 21037,
+      "reason": "Application driver embeds machine-specific asset roots; only unchanged point_for is published under the approved fragment exception."
+    }
+  ],
+  "new_adapters": "New I/O/path wrappers are outside this frozen-source map; their content is bound by repository MANIFEST.",
+  "presentation_overlay": {
+    "status": "CANDIDATE_PENDING_CLAUDE_REVIEW",
+    "original_map_sha256": "6ff22ed72bf9b0ebb856056d0b3f8feaa57d816a457adc8d930a943e60f2f725",
+    "original_scientific_entries_unchanged": true,
+    "real_data_regression_rerun": false,
+    "note": "Historical non-overlay entries and their historical status fields are preserved unchanged."
+  },
+  "documentation_update": {
+    "status": "CANDIDATE_PENDING_CLAUDE_REVIEW",
+    "source_repository_manifest_sha256": "94df9a739e0613b5e1cad66e406c0f2726f81b8162d6317ed7220a503dfa184b",
+    "source_patch_sha256": "487cef3646038ee3dbb0b451bb47ecc3f00e7a398d263c7c221d135646a9ca94",
+    "revised_mapped_document_entries": 0,
+    "science_entries_unchanged": true
+  }
+}

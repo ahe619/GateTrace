@@ -1,0 +1,82 @@
+{
+  "MOT20-02": {
+    "coefficients": [
+      74.8386744375657,
+      0.6623288066678867,
+      321.5865780331107
+    ],
+    "coefficient_order": [
+      "a",
+      "b",
+      "c"
+    ],
+    "rank": 3,
+    "fitting_rows": 148095,
+    "residual_sum_squares": [
+      137201441.99777907
+    ],
+    "singular_values": [
+      442.9747748904784,
+      66.5643308626832,
+      43.10436810150217
+    ],
+    "fitting_coordinate_range": {
+      "x_normalized": [
+        0.015885416666666666,
+        0.9848958333333333
+      ],
+      "y_top_normalized": [
+        0.000925925925925926,
+        0.9694444444444444
+      ]
+    },
+    "parameterization": "h=a+b*x_center/W+c*y_top/H",
+    "foot_height_formula": "(a+b*x/W+c*y/H)/(1+c/H)",
+    "numpy_version": "2.2.6",
+    "native_size": [
+      1920,
+      1080
+    ],
+    "full_precision": true
+  },
+  "MOT20-01": {
+    "coefficients": [
+      -52.618665551516415,
+      -20.604137400621028,
+      426.0410821822999
+    ],
+    "coefficient_order": [
+      "a",
+      "b",
+      "c"
+    ],
+    "rank": 3,
+    "fitting_rows": 18674,
+    "residual_sum_squares": [
+      9398013.1507391
+    ],
+    "singular_values": [
+      176.10179872637346,
+      22.047584906606534,
+      11.067141714207816
+    ],
+    "fitting_coordinate_range": {
+      "x_normalized": [
+        0.05416666666666667,
+        0.9890625
+      ],
+      "y_top_normalized": [
+        0.3861111111111111,
+        0.8537037037037037
+      ]
+    },
+    "parameterization": "h=a+b*x_center/W+c*y_top/H",
+    "foot_height_formula": "(a+b*x/W+c*y/H)/(1+c/H)",
+    "numpy_version": "2.2.6",
+    "native_size": [
+      1920,
+      1080
+    ],
+    "full_precision": true
+  }
+}

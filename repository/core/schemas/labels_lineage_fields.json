@@ -1,0 +1,13 @@
+{
+  "schema": "crossing_lineage_dictionary_v0",
+  "fields": {
+    "gate_position_u": "Unclipped (target_x-line_extent[0])/(line_extent[1]-line_extent[0]) for horizontal gates; target_y for vertical gates. Target is first observed entry, not physical line intersection.",
+    "actual_line_intersection_native_px": "Always null: no physical intersection is inferred.",
+    "source_annotation_interpolation": "Always unknown_not_provided: the original GT rows do not identify interpolation or manual estimation.",
+    "derivation_interpolation_used": "False refers only to this generator; it makes no claim about source annotation.",
+    "support_frame_interval_one_based": "Original observed source and target GT frames; not a statistical uncertainty interval.",
+    "unobserved_native_frames_in_support": "Exact frozen transition count; no missing position is filled.",
+    "invalid_point_observations_in_support": "Original GT-ID rows whose boundary rule makes the foot invalid, kept separate from absent rows.",
+    "human_qc": "Always not_reviewed. Rule-confirmed labels have not yet been checked by two people."
+  }
+}

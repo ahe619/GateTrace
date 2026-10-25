@@ -1,0 +1,12 @@
+{
+  "schema": "release85_final_events_v1",
+  "sequence": "MOT20-01",
+  "gate_id": "H_50",
+  "metadata": {
+    "nb_frames": 429,
+    "fps": 25.0,
+    "width": 1920,
+    "height": 1080
+  },
+  "final_events": []
+}

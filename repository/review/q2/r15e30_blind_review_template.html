@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Independent crossing-clip review</title>
+<style>
+:root{color-scheme:light;--ink:#172332;--muted:#5d6875;--line:#d9e1e8;--accent:#145f91;--soft:#eaf3fa;--warn:#8a3900}*{box-sizing:border-box}body{margin:0;background:#f4f7fa;color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer;background:#fff;border:1px solid #b9c9d5;border-radius:7px;padding:.45rem .75rem;color:var(--ink)}button:hover{background:var(--soft)}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #e5a11d;outline-offset:2px}button:disabled{opacity:.45;cursor:not-allowed}.primary{background:var(--accent);color:#fff}.primary:hover{background:#10486c}header{background:#fff;border-bottom:1px solid var(--line);padding:1rem 1.4rem}h1{font-size:1.35rem;margin:0}p{margin:.5rem 0}.small{font-size:.88rem;color:var(--muted)}main{max-width:1600px;margin:auto;padding:1rem;display:grid;grid-template-columns:minmax(0,1.8fr) minmax(320px,1fr);gap:1rem}.card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:1rem}.wide{grid-column:1/-1}.row{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}.spaced{justify-content:space-between}.notice{border-left:4px solid var(--accent);background:var(--soft);padding:.6rem .85rem}.error{color:#9c2020;white-space:pre-wrap}.success{color:#145c36}.status{min-height:1.5rem}label{display:inline-block}#reviewer{max-width:15rem;padding:.45rem;border:1px solid var(--line);border-radius:5px}#stage{position:relative;background:#111;overflow:hidden;width:100%;aspect-ratio:16/9;touch-action:none;user-select:none}#video{display:block;width:100%;height:100%;object-fit:contain;transform-origin:center center;pointer-events:none}#stage.zoomed{cursor:grab}#stage.dragging{cursor:grabbing}.controls{margin-top:.7rem}#seek{flex:1;min-width:140px}#frameInfo{font-variant-numeric:tabular-nums}fieldset{border:0;margin:0;padding:.85rem 0;border-bottom:1px solid var(--line)}legend{font-weight:650;padding:0}.choices{display:flex;gap:.55rem;flex-wrap:wrap;margin-top:.45rem}.choices label{border:1px solid var(--line);border-radius:7px;padding:.45rem .7rem;cursor:pointer}.choices label:has(input:checked){background:#dceefb;border-color:var(--accent)}.choices input{margin-right:.35rem}.clear{font-size:.8rem;padding:.25rem .45rem}textarea{width:100%;min-height:70px;border:1px solid var(--line);border-radius:6px;padding:.6rem;resize:vertical}progress{width:180px;height:14px}#itemList{display:flex;flex-wrap:wrap;gap:.35rem;max-height:150px;overflow:auto;margin-top:.5rem}#itemList button{font-size:.8rem;padding:.28rem .5rem}#itemList .done{background:#e8f4eb}#itemList .current{outline:2px solid var(--accent)}[hidden]{display:none!important}details summary{cursor:pointer}#fatal{max-width:1200px;margin:1rem auto;padding:1rem}kbd{border:1px solid var(--line);border-radius:3px;padding:0 .2rem;background:#fff;font-size:.85rem}@media(max-width:1000px){main{grid-template-columns:1fr}.wide{grid-column:1}.card{padding:.8rem}header{padding:1rem}}
+</style>
+</head>
+<body>
+<header><h1>Independent crossing-clip review</h1><p class="small">Judge the evidence visible in the video. Complete your review independently, without viewing other reviewers' answers.</p></header>
+<div id="fatal" class="card error" role="alert" hidden></div>
+<main id="app">
+<section class="card wide">
+ <p class="notice">Use the box to locate the person and judge visibility from the video itself. The line is the gate line under review. Relative time 0 marks the reference crossing frame; inspect the actual footage before and after 0 separately. Choose Uncertain when the image is unclear or you cannot distinguish the target.</p>
+ <div class="row"><label for="reviewer">Your independent reviewer code</label><input id="reviewer" type="text" autocomplete="off" maxlength="32" placeholder="For example, R01"><button id="start" class="primary">Start / resume my records</button><span id="session" class="small"></span></div>
+ <p class="small">Each code has separate answers stored in this browser. Use the unique code assigned by the organizer and import only your own backups. Browser storage may be cleared, so download backups regularly. Answers stay on this device.</p>
+ <div id="storageStatus" class="status small" role="status" aria-live="polite"></div>
+</section>
+<section class="card" id="mediaCard" hidden>
+ <div class="row spaced"><strong id="itemTitle"></strong><span id="position" class="small"></span></div>
+ <div id="stage" aria-label="Video view; zoom in and drag to pan"><video id="video" preload="metadata" muted playsinline></video></div>
+ <div class="row controls"><button id="play">Play</button><button id="prevFrame" title="Comma or left arrow">Previous frame</button><button id="nextFrame" title="Period or right arrow">Next frame</button><button id="reference">Reference time</button><label>Speed <select id="rate"><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option></select></label></div>
+ <div class="row controls"><input id="seek" type="range" min="0" max="0" step="1" value="0" aria-label="Video frame"><span id="frameInfo" class="small"></span></div>
+ <div class="row controls"><button id="zoomOut">Zoom out</button><button id="zoomIn">Zoom in</button><button id="resetView">Reset view</button><span id="zoomInfo" class="small">1.0×</span></div>
+ <p class="small">Space: play/pause; <kbd>←</kbd>/<kbd>→</kbd> or <kbd>,</kbd>/<kbd>.</kbd>: step one frame; <kbd>[</kbd>/<kbd>]</kbd>: previous/next item. Scroll to zoom, then drag to pan.</p>
+ <p id="mediaError" class="error" role="status"></p>
+</section>
+<section class="card" id="answerCard" hidden>
+ <fieldset><legend>1. Before the crossing, was any part of this person visible?</legend><p class="small">Assess only the footage before the reference time. You must be able to attribute the visible part to the person indicated by the box.</p><div class="choices" data-question="before_visible"></div></fieldset>
+ <fieldset><legend>2. After the crossing, was any part of this person visible?</legend><p class="small">Assess only the footage after the reference time. You must be able to attribute the visible part to the person indicated by the box.</p><div class="choices" data-question="after_visible"></div></fieldset>
+ <fieldset><legend>3. Did this person actually cross this line?</legend><p class="small">Base your answer on the actual footage. Markers and the reference time identify what to review. Choose Uncertain if only the GT box crosses and the original images cannot confirm that this is the person. A Yes answer requires visible evidence of the person crossing.</p><div class="choices" data-question="crossed"></div></fieldset>
+ <label for="note">Notes (optional)</label><textarea id="note" maxlength="2000" placeholder="For example: target difficult to distinguish, or a problem with the image or clip"></textarea>
+ <div class="row controls"><button id="prevItem">Previous item</button><button id="nextItem" class="primary">Next item</button><button id="nextUnanswered">Next incomplete item</button></div>
+ <p id="answerStatus" class="small status" aria-live="polite"></p>
+ <div class="row"><progress id="progress" value="0" max="1"></progress><span id="progressText" class="small"></span></div>
+ <details class="controls"><summary>Item list (your completion status only)</summary><div id="itemList"></div></details>
+</section>
+<section class="card wide" id="backupCard" hidden>
+ <div class="row"><button id="download">Download current answer backup</button><button id="downloadHistory">Download pre-change backups for my code</button><label><input id="importFile" type="file" accept="application/json,.json" hidden><button id="importButton">Import my answer backup</button></label></div>
+ <p class="small">Selections save automatically; notes save when you leave the field. A local backup is retained before each change. Imports require the same batch and reviewer code, and the current records are backed up before replacement. Exported files contain only anonymous item IDs and your answers.</p>
+</section>
+</main>
+<!-- Replace only this JSON object with the blinded public manifest. Never inject a private mapping. Escape < as \u003c when serializing. -->
+<script type="application/json" id="dataset">{"schema":"r15e30_blind_items_v1","batch_id":"TEMPLATE_NOT_READY","items":[]}</script>
+<script>
+"use strict";
+(() => {
+ const $ = id => document.getElementById(id);
+ const Q = ["before_visible", "after_visible", "crossed"];
+ const VALUES = ["yes", "no", "uncertain"];
+ const LABELS = ["Yes", "No", "Uncertain"];
+ const ANSWER_SCHEMA = "r15e30_blind_answers_v1";
+ const DATA_KEYS = ["schema", "batch_id", "items"];
+ const ITEM_KEYS = ["id", "video", "width", "height", "fps", "framecount", "reference_frame"];
+ let data, state = null, current = 0, storageKey = null, backupPrefix = null;
+ let zoom = 1, panX = 0, panY = 0, drag = null, dirty = false;
+ const video = $("video");
+ function assert(ok, message) { if (!ok) throw new Error(message); }
+ function exactKeys(obj, allowed, message) { assert(obj && typeof obj === "object" && !Array.isArray(obj), message); assert(Object.keys(obj).every(k => allowed.includes(k)), message); }
+ function plainId(x) { return typeof x === "string" && /^[A-Za-z0-9_-]{1,64}$/.test(x) && !["__proto__","prototype","constructor"].includes(x); }
+ function validateData(x) {
+  exactKeys(x, DATA_KEYS, "Invalid item-manifest fields.");
+  assert(x.schema === "r15e30_blind_items_v1" && plainId(x.batch_id), "Invalid item-manifest version or batch.");
+  assert(Array.isArray(x.items) && x.items.length > 0, "This template is empty. Load review items before starting.");
+  const ids = new Set();
+  for (const it of x.items) {
+   exactKeys(it, ITEM_KEYS, "The item contains unsupported fields; loading stopped.");
+   assert(plainId(it.id) && !ids.has(it.id), "Invalid or duplicate item ID."); ids.add(it.id);
+   assert(typeof it.video === "string" && it.video.length < 1000 && !/^(?:[a-z]+:|\/\/)/i.test(it.video) && !it.video.includes("\\") && !/[?#]/.test(it.video), "Video must use a local relative path.");
+   assert(it.video.split("/").pop() === it.id + ".mp4", "The video filename must use only the anonymous item ID.");
+   assert([it.width,it.height,it.framecount].every(n => Number.isInteger(n) && n > 0), "Invalid video dimensions or frame count.");
+   assert(Number.isFinite(it.fps) && it.fps > 0 && it.fps <= 240, "Invalid video frame rate.");
+   if (it.reference_frame !== undefined) assert(Number.isInteger(it.reference_frame) && it.reference_frame >= 0 && it.reference_frame < it.framecount, "Reference time is outside the clip.");
+  }
+  return x;
+ }
+ function validateAnswers(x, reviewer) {
+  exactKeys(x, ["schema","batch_id","reviewer_id","revision","created_utc","updated_utc","entries"], "Answer backup contains unknown fields.");
+  assert(x.schema === ANSWER_SCHEMA && x.batch_id === data.batch_id && x.reviewer_id === reviewer, "The backup must match the current batch and your reviewer code.");
+  assert(Number.isInteger(x.revision) && x.revision >= 0, "Invalid backup revision number.");
+  assert(typeof x.created_utc === "string" && Number.isFinite(Date.parse(x.created_utc)) && typeof x.updated_utc === "string" && Number.isFinite(Date.parse(x.updated_utc)), "Invalid backup timestamp.");
+  exactKeys(x.entries, data.items.map(it=>it.id), "Backup contains items outside the manifest.");
+  for (const entry of Object.values(x.entries)) {
+   exactKeys(entry, [...Q,"note","updated_utc"], "Answer entry contains unknown fields.");
+   for (const q of Q) assert(entry[q] === undefined || VALUES.includes(entry[q]), "Invalid answer value in the backup.");
+   assert(entry.note === undefined || typeof entry.note === "string" && entry.note.length <= 2000, "Invalid note.");
+   assert(entry.updated_utc === undefined || typeof entry.updated_utc === "string" && Number.isFinite(Date.parse(entry.updated_utc)), "Invalid answer timestamp.");
+  }
+  return x;
+ }
+ function status(message, error = false) { $("storageStatus").textContent = message; $("storageStatus").className = "status small " + (error ? "error" : "success"); }
+ function complete(entry) { return entry && Q.every(q => VALUES.includes(entry[q])); }
+ function copy(x) { return JSON.parse(JSON.stringify(x)); }
+ function commit(next, backup) {
+  const now = new Date().toISOString(); next.revision = state.revision + 1; next.updated_utc = now;
+  const bkey = backupPrefix + String(state.revision).padStart(8,"0") + "_" + Date.now();
+  const prior = {schema:"r15e30_blind_before_change_v1",batch_id:data.batch_id,reviewer_id:state.reviewer_id,before_revision:state.revision,created_utc:now,...backup};
+  try {
+   localStorage.setItem(bkey, JSON.stringify(prior));
+   localStorage.setItem(storageKey, JSON.stringify(next));
+   state = next; dirty = false;
+   status("Answers saved, revision " + state.revision + "; the pre-change backup is retained.");
+   paintProgress(); return true;
+  } catch (e) { dirty = true; status("Save failed: " + e.message + ". Pause the review and download the current backup; keep this page open.", true); return false; }
+ }
+ function changeAnswer(field, value) {
+  if (!state) return;
+  const id = data.items[current].id, previous = state.entries[id] || {};
+  if ((previous[field] || "") === (value || "")) return;
+  const next = copy(state), entry = copy(previous);
+  if (value === "") delete entry[field]; else entry[field] = value;
+  entry.updated_utc = new Date().toISOString(); next.entries[id] = entry;
+  if (!commit(next, {kind:"entry",item_id:id,before_entry:state.entries[id] || null})) paintAnswers();
+ }
+ function paintAnswers() {
+  const e = state.entries[data.items[current].id] || {};
+  for (const q of Q) document.querySelectorAll('input[name="'+q+'"]').forEach(el=>el.checked = el.value === e[q]);
+  $("note").value = e.note || "";
+  $("answerStatus").textContent = complete(e) ? "All three questions are complete for this item; you can return to edit them." : "Answer each of the three questions; Uncertain is a valid answer.";
+ }
+ function paintProgress() {
+  const count = data.items.filter(it=>complete(state.entries[it.id])).length;
+  $("progress").max = data.items.length; $("progress").value = count;
+  $("progressText").textContent = "Completed " + count + " / " + data.items.length;
+  $("itemList").replaceChildren();
+  data.items.forEach((it,i) => { const b = document.createElement("button"); b.textContent = it.id; b.className = (complete(state.entries[it.id]) ? "done " : "") + (i === current ? "current" : ""); b.title = complete(state.entries[it.id]) ? "Your three answers are complete" : "Incomplete"; b.onclick = ()=>show(i); $("itemList").append(b); });
+  if (state) $("answerStatus").textContent = complete(state.entries[data.items[current].id]) ? "All three questions are complete for this item; you can return to edit them." : "Answer each of the three questions; Uncertain is a valid answer.";
+ }
+ function frame() { return Math.max(0, Math.min(data.items[current].framecount - 1, Math.floor(video.currentTime * data.items[current].fps + 1e-6))); }
+ function frameDisplay() {
+  if (!state) return;
+  const it=data.items[current], f=frame(); $("seek").value=f;
+  const relative = it.reference_frame === undefined ? "" : "; relative to reference " + ((f-it.reference_frame)/it.fps).toFixed(2) + " s";
+  $("frameInfo").textContent = "Clip frame " + (f+1) + " / " + it.framecount + relative;
+ }
+ function seekFrame(f) { if (!state) return; video.pause(); const it=data.items[current]; const target = Math.max(0,Math.min(it.framecount-1,Math.round(f))); video.currentTime = (target + 0.01) / it.fps; frameDisplay(); }
+ function applyTransform() { video.style.transform="translate("+panX+"px,"+panY+"px) scale("+zoom+")"; $("zoomInfo").textContent=zoom.toFixed(1)+"×"; $("stage").classList.toggle("zoomed",zoom>1); }
+ function setZoom(v) { zoom=Math.max(1,Math.min(8,v)); if(zoom===1){panX=0;panY=0;} applyTransform(); }
+ function show(index) {
+  if (!state || index<0 || index>=data.items.length) return;
+  if (dirty) { status("Saving still has an error. Resolve the backup issue before changing items.",true); return; }
+  video.pause(); current=index; const it=data.items[current];
+  $("itemTitle").textContent="Item "+it.id; $("position").textContent=(index+1)+" / "+data.items.length;
+  $("stage").style.aspectRatio=it.width+" / "+it.height; video.src=it.video; video.load();
+  $("seek").max=it.framecount-1; $("seek").value=0; $("reference").hidden=it.reference_frame===undefined;
+  $("mediaError").textContent=""; $("prevItem").disabled=index===0; $("nextItem").disabled=index===data.items.length-1;
+  setZoom(1); paintAnswers(); paintProgress(); frameDisplay();
+ }
+ function downloadObject(object, filename) {
+  const url=URL.createObjectURL(new Blob([JSON.stringify(object,null,2)],{type:"application/json"}));
+  const a=document.createElement("a"); a.href=url;a.download=filename;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+ }
+ function startSession() {
+  try {
+   const reviewer=$("reviewer").value.trim(); assert(/^[A-Za-z0-9_-]{1,32}$/.test(reviewer),"Enter a 1-32-character code using letters, digits, underscores, or hyphens.");
+   storageKey="r15e30_blind_v1:"+data.batch_id+":"+reviewer+":answers";backupPrefix="r15e30_blind_v1:"+data.batch_id+":"+reviewer+":backup:";
+   const existing=localStorage.getItem(storageKey), now=new Date().toISOString();
+   state=existing ? validateAnswers(JSON.parse(existing),reviewer) : {schema:ANSWER_SCHEMA,batch_id:data.batch_id,reviewer_id:reviewer,revision:0,created_utc:now,updated_utc:now,entries:{}};
+   localStorage.setItem(storageKey,JSON.stringify(state));
+   $("reviewer").disabled=true;$("start").disabled=true;$("session").textContent="Current reviewer: "+reviewer;
+   ["mediaCard","answerCard","backupCard"].forEach(id=>$(id).hidden=false);
+   status("Local saving is available. Records for the current code are loaded.");
+   const first=data.items.findIndex(it=>!complete(state.entries[it.id]));show(first<0 ? 0:first);
+  } catch(e) { state=null;status(e.message,true); }
+ }
+ try { data=validateData(JSON.parse($("dataset").textContent)); } catch(e) { $("fatal").hidden=false;$("fatal").textContent=e.message;$("app").hidden=true;return; }
+ document.querySelectorAll("[data-question]").forEach(container=>{
+  const q=container.dataset.question;
+  VALUES.forEach((v,i)=>{const label=document.createElement("label"),input=document.createElement("input");input.type="radio";input.name=q;input.value=v;input.onchange=()=>changeAnswer(q,v);label.append(input,document.createTextNode(LABELS[i]));container.append(label);});
+  const clear=document.createElement("button");clear.className="clear";clear.textContent="Clear this answer";clear.onclick=()=>{changeAnswer(q,"");paintAnswers();};container.append(clear);
+ });
+ $("start").onclick=startSession;
+ $("note").onchange=()=>changeAnswer("note",$("note").value);
+ $("play").onclick=()=>{if(video.paused)video.play().catch(e=>$("mediaError").textContent=e.message);else video.pause();};
+ $("prevFrame").onclick=()=>seekFrame(frame()-1);$("nextFrame").onclick=()=>seekFrame(frame()+1);
+ $("reference").onclick=()=>seekFrame(data.items[current].reference_frame);
+ $("seek").oninput=()=>seekFrame(Number($("seek").value));
+ $("rate").onchange=()=>video.playbackRate=Number($("rate").value);
+ video.addEventListener("loadedmetadata",()=>{video.playbackRate=Number($("rate").value);frameDisplay();});
+ video.addEventListener("error",()=>{$("mediaError").textContent="Video loading failed. Check the relative locations of this page and the video, and keep the complete folder together. Leave visual answers pending until you can view the footage.";});
+ video.addEventListener("timeupdate",frameDisplay);video.addEventListener("seeked",frameDisplay);
+ video.addEventListener("play",()=>$("play").textContent="Pause");video.addEventListener("pause",()=>$("play").textContent="Play");
+ $("zoomIn").onclick=()=>setZoom(zoom*1.25);$("zoomOut").onclick=()=>setZoom(zoom/1.25);$("resetView").onclick=()=>setZoom(1);
+ $("stage").addEventListener("wheel",e=>{e.preventDefault();setZoom(zoom*(e.deltaY<0 ? 1.15:1/1.15));},{passive:false});
+ $("stage").addEventListener("pointerdown",e=>{if(zoom<=1)return;drag={x:e.clientX,y:e.clientY,px:panX,py:panY};$("stage").setPointerCapture(e.pointerId);$("stage").classList.add("dragging");});
+ $("stage").addEventListener("pointermove",e=>{if(!drag)return;panX=drag.px+e.clientX-drag.x;panY=drag.py+e.clientY-drag.y;applyTransform();});
+ const endDrag=()=>{drag=null;$("stage").classList.remove("dragging");};$("stage").addEventListener("pointerup",endDrag);$("stage").addEventListener("pointercancel",endDrag);
+ $("prevItem").onclick=()=>show(current-1);$("nextItem").onclick=()=>show(current+1);
+ $("nextUnanswered").onclick=()=>{for(let j=1;j<=data.items.length;j++){const i=(current+j)%data.items.length;if(!complete(state.entries[data.items[i].id])){show(i);return;}}status("All three questions are complete for every item. Download a backup and submit it as instructed by the organizer.");};
+ $("download").onclick=()=>{if(state)downloadObject(state,"r15e30_"+data.batch_id+"_"+state.reviewer_id+"_r"+state.revision+".json");};
+ $("downloadHistory").onclick=()=>{try{const backups=[];for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(k.startsWith(backupPrefix))backups.push({key:k,payload:JSON.parse(localStorage.getItem(k))});}backups.sort((a,b)=>a.key.localeCompare(b.key));downloadObject({schema:"r15e30_blind_backup_history_v1",batch_id:data.batch_id,reviewer_id:state.reviewer_id,backups},"r15e30_"+data.batch_id+"_"+state.reviewer_id+"_history.json");}catch(e){status("Backup export failed: "+e.message,true);}};
+ $("importButton").onclick=()=>$("importFile").click();
+ $("importFile").onchange=async()=>{const f=$("importFile").files[0];if(!f)return;try{assert(f.size<=2000000,"Answer backup exceeds 2 MB. Check the file.");const imported=validateAnswers(JSON.parse(await f.text()),state.reviewer_id);if(!confirm("Restore answers from this backup for the same code? The current records will be backed up first."))return;const next=copy(imported);next.created_utc=state.created_utc;if(commit(next,{kind:"full",before_state:copy(state)})) {paintAnswers();paintProgress();}}catch(e){status("Import failed: "+e.message,true);}finally{$("importFile").value="";}};
+ document.addEventListener("keydown",e=>{if(!state||e.ctrlKey||e.metaKey||e.altKey||["INPUT","TEXTAREA","SELECT","BUTTON"].includes(e.target.tagName))return;const actions={" ":()=>$("play").click(),ArrowLeft:()=>seekFrame(frame()-1),ArrowRight:()=>seekFrame(frame()+1),",":()=>seekFrame(frame()-1),".":()=>seekFrame(frame()+1),"[":()=>show(current-1),"]":()=>show(current+1)};if(actions[e.key]){e.preventDefault();actions[e.key]();}});
+ window.addEventListener("beforeunload",e=>{if(dirty){e.preventDefault();e.returnValue="";}});
+})();
+</script>
+</body>
+</html>

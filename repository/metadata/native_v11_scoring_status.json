@@ -1,0 +1,129 @@
+{
+  "schema": "native_v11_scoring_adapter_status_v1",
+  "status": "LOCAL_EQUIVALENCE_PASS_PENDING_CLAUDE_RECOMPUTE",
+  "entry": "scripts/score_native_v11.py",
+  "adapter": "src/score/native_v11.py",
+  "source_inventory": "metadata/core_frozen_map.json",
+  "complete_frozen_files_modified": false,
+  "functions_reused": {
+    "core/reproduce.py": [
+      "input_paths"
+    ],
+    "core/src/labels.py": [
+      "build_labels"
+    ],
+    "core/src/score.py": [
+      "_serial",
+      "_write",
+      "_integer",
+      "_optimal_ranges",
+      "_aggregate_ranges"
+    ],
+    "core/src/frozen_score/e1.py": [
+      "pools",
+      "assign",
+      "event_matching"
+    ],
+    "core/src/frozen_score/identity.py": [
+      "parse_gt",
+      "event_identity"
+    ],
+    "core/src/frozen_score/labels_view.py": [
+      "gt_row",
+      "exact_time",
+      "position"
+    ],
+    "core/src/frozen_score/matching.py": [
+      "solve",
+      "can_match_right_optimally",
+      "optimal_secondary_range"
+    ],
+    "core/src/frozen_score/aggregate.py": [
+      "aggregate"
+    ]
+  },
+  "events": "Use supplied native final_events unchanged before fresh identity attachment; never run the standard tracker-box event decoder.",
+  "identity_pool": "Actual post-M4 tracker_rows validated by frozen e1.pools with system v11.",
+  "regression_receipt": {
+    "project_relative_path": "data/r15/github_repo101_build/v11_regression_20261025T050709Z/REGRESSION_RECEIPT.json",
+    "sha256": "a23ca615e0ce945f2f64380347516333b1d0c816e59bc9e5b3330e4b902ebdb0",
+    "read_by_this_build": false,
+    "source": "Existing status addendum; no new scientific run"
+  },
+  "synthetic_validation": {
+    "test_file": "tests/test_native_v11_scoring.py",
+    "tests_passed": 10,
+    "tests_skipped": 0,
+    "python": "3.10.18",
+    "numpy": "2.2.6",
+    "dataset_files_read": false,
+    "full_production_driver_executed": false
+  },
+  "independent_scientific_verification": false,
+  "historical_status": "NOT_REAL_DATA_REGRESSED",
+  "historical_regression_receipt": null,
+  "previous_status_record": {
+    "schema": "native_v11_scoring_adapter_status_v1",
+    "status": "NOT_REAL_DATA_REGRESSED",
+    "entry": "scripts/score_native_v11.py",
+    "adapter": "src/score/native_v11.py",
+    "source_inventory": "metadata/core_frozen_map.json",
+    "complete_frozen_files_modified": false,
+    "functions_reused": {
+      "core/reproduce.py": [
+        "input_paths"
+      ],
+      "core/src/labels.py": [
+        "build_labels"
+      ],
+      "core/src/score.py": [
+        "_serial",
+        "_write",
+        "_integer",
+        "_optimal_ranges",
+        "_aggregate_ranges"
+      ],
+      "core/src/frozen_score/e1.py": [
+        "pools",
+        "assign",
+        "event_matching"
+      ],
+      "core/src/frozen_score/identity.py": [
+        "parse_gt",
+        "event_identity"
+      ],
+      "core/src/frozen_score/labels_view.py": [
+        "gt_row",
+        "exact_time",
+        "position"
+      ],
+      "core/src/frozen_score/matching.py": [
+        "solve",
+        "can_match_right_optimally",
+        "optimal_secondary_range"
+      ],
+      "core/src/frozen_score/aggregate.py": [
+        "aggregate"
+      ]
+    },
+    "events": "Use supplied native final_events unchanged before fresh identity attachment; never run the standard tracker-box event decoder.",
+    "identity_pool": "Actual post-M4 tracker_rows validated by frozen e1.pools with system v11.",
+    "regression_receipt": null,
+    "synthetic_validation": {
+      "test_file": "tests/test_native_v11_scoring.py",
+      "tests_passed": 10,
+      "tests_skipped": 0,
+      "python": "3.10.18",
+      "numpy": "2.2.6",
+      "dataset_files_read": false,
+      "full_production_driver_executed": false
+    },
+    "independent_scientific_verification": false
+  },
+  "previous_status_record_sha256": "7a4db1073de864d7a3cccb3fc2cd3e199da6d089b77465f66f4ccd59c3ed1c10",
+  "execution_authorization_granted": false,
+  "confirms_existing_receipt_only": true,
+  "runtime_emitted_status_unchanged": "NOT_REAL_DATA_REGRESSED",
+  "runtime_status_explanation": "Unchanged executables conservatively label any fresh run as not historically regressed; this documentation record concerns only the separately retained prior receipt.",
+  "real_data_or_synthetic_regression_rerun_in_this_update": false
+}

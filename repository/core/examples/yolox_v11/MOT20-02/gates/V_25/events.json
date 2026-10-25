@@ -1,0 +1,3667 @@
+{
+  "schema": "release85_final_events_v1",
+  "sequence": "MOT20-02",
+  "gate_id": "V_25",
+  "metadata": {
+    "nb_frames": 2782,
+    "fps": 25.0,
+    "width": 1920,
+    "height": 1080
+  },
+  "final_events": [
+    {
+      "track_id": 69,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 3.04,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 2.64,
+      "first_target_zone_time_s": 3.04,
+      "transition_bracket_s": [
+        2.64,
+        3.04
+      ],
+      "prediction_id": "r000000",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000000",
+      "target_frame": 76,
+      "source_frame": 77,
+      "source_time_s": 3.04,
+      "crossing_position_native_px": [
+        490.38751220703125,
+        289.2375183105469
+      ],
+      "group_id": "g000001",
+      "global_group_id": "MOT20-02:V_25:g000001",
+      "member_prediction_ids": [
+        "r000000"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000000"
+      ],
+      "first_t": 3.04,
+      "last_t": 3.04,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 69,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 3.04,
+          "prediction_id": "r000000",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000000",
+          "source_frame": 77,
+          "target_frame": 76,
+          "source_time_s": 3.04,
+          "crossing_position_native_px": [
+            490.38751220703125,
+            289.2375183105469
+          ],
+          "last_source_zone_time_s": 2.64,
+          "first_target_zone_time_s": 3.04,
+          "transition_bracket_s": [
+            2.64,
+            3.04
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 14,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 3.92,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 2.76,
+      "first_target_zone_time_s": 3.92,
+      "transition_bracket_s": [
+        2.76,
+        3.92
+      ],
+      "prediction_id": "r000001",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000001",
+      "target_frame": 98,
+      "source_frame": 99,
+      "source_time_s": 3.92,
+      "crossing_position_native_px": [
+        491.4000244140625,
+        469.8000183105469
+      ],
+      "group_id": "g000002",
+      "global_group_id": "MOT20-02:V_25:g000002",
+      "member_prediction_ids": [
+        "r000001"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000001"
+      ],
+      "first_t": 3.92,
+      "last_t": 3.92,
+      "dedup_decision": "keep_R2_insufficient",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 14,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 3.92,
+          "prediction_id": "r000001",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000001",
+          "source_frame": 99,
+          "target_frame": 98,
+          "source_time_s": 3.92,
+          "crossing_position_native_px": [
+            491.4000244140625,
+            469.8000183105469
+          ],
+          "last_source_zone_time_s": 2.76,
+          "first_target_zone_time_s": 3.92,
+          "transition_bracket_s": [
+            2.76,
+            3.92
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 13,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 4.24,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 4.08,
+      "first_target_zone_time_s": 4.24,
+      "transition_bracket_s": [
+        4.08,
+        4.24
+      ],
+      "prediction_id": "r000002",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000002",
+      "target_frame": 106,
+      "source_frame": 107,
+      "source_time_s": 4.24,
+      "crossing_position_native_px": [
+        489.37501525878906,
+        447.1875
+      ],
+      "group_id": "g000003",
+      "global_group_id": "MOT20-02:V_25:g000003",
+      "member_prediction_ids": [
+        "r000002"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000002"
+      ],
+      "first_t": 4.24,
+      "last_t": 4.24,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 13,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 4.24,
+          "prediction_id": "r000002",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000002",
+          "source_frame": 107,
+          "target_frame": 106,
+          "source_time_s": 4.24,
+          "crossing_position_native_px": [
+            489.37501525878906,
+            447.1875
+          ],
+          "last_source_zone_time_s": 4.08,
+          "first_target_zone_time_s": 4.24,
+          "transition_bracket_s": [
+            4.08,
+            4.24
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 5,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 4.68,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 4.36,
+      "first_target_zone_time_s": 4.68,
+      "transition_bracket_s": [
+        4.36,
+        4.68
+      ],
+      "prediction_id": "r000003",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000003",
+      "target_frame": 117,
+      "source_frame": 118,
+      "source_time_s": 4.68,
+      "crossing_position_native_px": [
+        468.4500274658203,
+        607.5
+      ],
+      "group_id": "g000004",
+      "global_group_id": "MOT20-02:V_25:g000004",
+      "member_prediction_ids": [
+        "r000003"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000003"
+      ],
+      "first_t": 4.68,
+      "last_t": 4.68,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 5,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 4.68,
+          "prediction_id": "r000003",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000003",
+          "source_frame": 118,
+          "target_frame": 117,
+          "source_time_s": 4.68,
+          "crossing_position_native_px": [
+            468.4500274658203,
+            607.5
+          ],
+          "last_source_zone_time_s": 4.36,
+          "first_target_zone_time_s": 4.68,
+          "transition_bracket_s": [
+            4.36,
+            4.68
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 16,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 6.84,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 5.92,
+      "first_target_zone_time_s": 6.84,
+      "transition_bracket_s": [
+        5.92,
+        6.84
+      ],
+      "prediction_id": "r000004",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000004",
+      "target_frame": 171,
+      "source_frame": 172,
+      "source_time_s": 6.84,
+      "crossing_position_native_px": [
+        470.81251525878906,
+        615.6000366210938
+      ],
+      "group_id": "g000005",
+      "global_group_id": "MOT20-02:V_25:g000005",
+      "member_prediction_ids": [
+        "r000004"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000004"
+      ],
+      "first_t": 6.84,
+      "last_t": 6.84,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 16,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 6.84,
+          "prediction_id": "r000004",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000004",
+          "source_frame": 172,
+          "target_frame": 171,
+          "source_time_s": 6.84,
+          "crossing_position_native_px": [
+            470.81251525878906,
+            615.6000366210938
+          ],
+          "last_source_zone_time_s": 5.92,
+          "first_target_zone_time_s": 6.84,
+          "transition_bracket_s": [
+            5.92,
+            6.84
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 12,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 7.84,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 7.48,
+      "first_target_zone_time_s": 7.84,
+      "transition_bracket_s": [
+        7.48,
+        7.84
+      ],
+      "prediction_id": "r000005",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000005",
+      "target_frame": 196,
+      "source_frame": 197,
+      "source_time_s": 7.84,
+      "crossing_position_native_px": [
+        470.13751220703125,
+        761.4000244140625
+      ],
+      "group_id": "g000006",
+      "global_group_id": "MOT20-02:V_25:g000006",
+      "member_prediction_ids": [
+        "r000005"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000005"
+      ],
+      "first_t": 7.84,
+      "last_t": 7.84,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 12,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 7.84,
+          "prediction_id": "r000005",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000005",
+          "source_frame": 197,
+          "target_frame": 196,
+          "source_time_s": 7.84,
+          "crossing_position_native_px": [
+            470.13751220703125,
+            761.4000244140625
+          ],
+          "last_source_zone_time_s": 7.48,
+          "first_target_zone_time_s": 7.84,
+          "transition_bracket_s": [
+            7.48,
+            7.84
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 18,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 12.2,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 12.0,
+      "first_target_zone_time_s": 12.2,
+      "transition_bracket_s": [
+        12.0,
+        12.2
+      ],
+      "prediction_id": "r000006",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000006",
+      "target_frame": 305,
+      "source_frame": 306,
+      "source_time_s": 12.2,
+      "crossing_position_native_px": [
+        470.4750061035156,
+        877.5
+      ],
+      "group_id": "g000007",
+      "global_group_id": "MOT20-02:V_25:g000007",
+      "member_prediction_ids": [
+        "r000006"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000006"
+      ],
+      "first_t": 12.2,
+      "last_t": 12.2,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 18,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 12.2,
+          "prediction_id": "r000006",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000006",
+          "source_frame": 306,
+          "target_frame": 305,
+          "source_time_s": 12.2,
+          "crossing_position_native_px": [
+            470.4750061035156,
+            877.5
+          ],
+          "last_source_zone_time_s": 12.0,
+          "first_target_zone_time_s": 12.2,
+          "transition_bracket_s": [
+            12.0,
+            12.2
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 13,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 12.36,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 12.0,
+      "first_target_zone_time_s": 12.36,
+      "transition_bracket_s": [
+        12.0,
+        12.36
+      ],
+      "prediction_id": "r000007",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000007",
+      "target_frame": 309,
+      "source_frame": 310,
+      "source_time_s": 12.36,
+      "crossing_position_native_px": [
+        468.7875213623047,
+        785.7000122070312
+      ],
+      "group_id": "g000008",
+      "global_group_id": "MOT20-02:V_25:g000008",
+      "member_prediction_ids": [
+        "r000007"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000007"
+      ],
+      "first_t": 12.36,
+      "last_t": 12.36,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 13,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 12.36,
+          "prediction_id": "r000007",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000007",
+          "source_frame": 310,
+          "target_frame": 309,
+          "source_time_s": 12.36,
+          "crossing_position_native_px": [
+            468.7875213623047,
+            785.7000122070312
+          ],
+          "last_source_zone_time_s": 12.0,
+          "first_target_zone_time_s": 12.36,
+          "transition_bracket_s": [
+            12.0,
+            12.36
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 25,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 14.6,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 14.04,
+      "first_target_zone_time_s": 14.6,
+      "transition_bracket_s": [
+        14.04,
+        14.6
+      ],
+      "prediction_id": "r000009",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000009",
+      "target_frame": 365,
+      "source_frame": 366,
+      "source_time_s": 14.6,
+      "crossing_position_native_px": [
+        470.8125,
+        819.4500122070312
+      ],
+      "group_id": "g000009",
+      "global_group_id": "MOT20-02:V_25:g000009",
+      "member_prediction_ids": [
+        "r000009"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000009"
+      ],
+      "first_t": 14.6,
+      "last_t": 14.6,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 25,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 14.6,
+          "prediction_id": "r000009",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000009",
+          "source_frame": 366,
+          "target_frame": 365,
+          "source_time_s": 14.6,
+          "crossing_position_native_px": [
+            470.8125,
+            819.4500122070312
+          ],
+          "last_source_zone_time_s": 14.04,
+          "first_target_zone_time_s": 14.6,
+          "transition_bracket_s": [
+            14.04,
+            14.6
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 333,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 25.08,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 24.96,
+      "first_target_zone_time_s": 25.08,
+      "transition_bracket_s": [
+        24.96,
+        25.08
+      ],
+      "prediction_id": "r000012",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000012",
+      "target_frame": 627,
+      "source_frame": 628,
+      "source_time_s": 25.08,
+      "crossing_position_native_px": [
+        491.7375030517578,
+        442.8000183105469
+      ],
+      "group_id": "g000010",
+      "global_group_id": "MOT20-02:V_25:g000010",
+      "member_prediction_ids": [
+        "r000012"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000012"
+      ],
+      "first_t": 25.08,
+      "last_t": 25.08,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 333,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 25.08,
+          "prediction_id": "r000012",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000012",
+          "source_frame": 628,
+          "target_frame": 627,
+          "source_time_s": 25.08,
+          "crossing_position_native_px": [
+            491.7375030517578,
+            442.8000183105469
+          ],
+          "last_source_zone_time_s": 24.96,
+          "first_target_zone_time_s": 25.08,
+          "transition_bracket_s": [
+            24.96,
+            25.08
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 264,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 28.84,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 28.6,
+      "first_target_zone_time_s": 28.84,
+      "transition_bracket_s": [
+        28.6,
+        28.84
+      ],
+      "prediction_id": "r000013",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000013",
+      "target_frame": 721,
+      "source_frame": 722,
+      "source_time_s": 28.84,
+      "crossing_position_native_px": [
+        468.45001220703125,
+        937.5750122070312
+      ],
+      "group_id": "g000011",
+      "global_group_id": "MOT20-02:V_25:g000011",
+      "member_prediction_ids": [
+        "r000013"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000013"
+      ],
+      "first_t": 28.84,
+      "last_t": 28.84,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 264,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 28.84,
+          "prediction_id": "r000013",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000013",
+          "source_frame": 722,
+          "target_frame": 721,
+          "source_time_s": 28.84,
+          "crossing_position_native_px": [
+            468.45001220703125,
+            937.5750122070312
+          ],
+          "last_source_zone_time_s": 28.6,
+          "first_target_zone_time_s": 28.84,
+          "transition_bracket_s": [
+            28.6,
+            28.84
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 248,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 32.24,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 31.8,
+      "first_target_zone_time_s": 32.24,
+      "transition_bracket_s": [
+        31.8,
+        32.24
+      ],
+      "prediction_id": "r000015",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000015",
+      "target_frame": 806,
+      "source_frame": 807,
+      "source_time_s": 32.24,
+      "crossing_position_native_px": [
+        470.4750061035156,
+        885.6000366210938
+      ],
+      "group_id": "g000012",
+      "global_group_id": "MOT20-02:V_25:g000012",
+      "member_prediction_ids": [
+        "r000015"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000015"
+      ],
+      "first_t": 32.24,
+      "last_t": 32.24,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 248,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 32.24,
+          "prediction_id": "r000015",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000015",
+          "source_frame": 807,
+          "target_frame": 806,
+          "source_time_s": 32.24,
+          "crossing_position_native_px": [
+            470.4750061035156,
+            885.6000366210938
+          ],
+          "last_source_zone_time_s": 31.8,
+          "first_target_zone_time_s": 32.24,
+          "transition_bracket_s": [
+            31.8,
+            32.24
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 133,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 34.8,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 34.52,
+      "first_target_zone_time_s": 34.8,
+      "transition_bracket_s": [
+        34.52,
+        34.8
+      ],
+      "prediction_id": "r000016",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000016",
+      "target_frame": 870,
+      "source_frame": 871,
+      "source_time_s": 34.8,
+      "crossing_position_native_px": [
+        469.12501525878906,
+        898.425048828125
+      ],
+      "group_id": "g000013",
+      "global_group_id": "MOT20-02:V_25:g000013",
+      "member_prediction_ids": [
+        "r000016"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000016"
+      ],
+      "first_t": 34.8,
+      "last_t": 34.8,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 133,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 34.8,
+          "prediction_id": "r000016",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000016",
+          "source_frame": 871,
+          "target_frame": 870,
+          "source_time_s": 34.8,
+          "crossing_position_native_px": [
+            469.12501525878906,
+            898.425048828125
+          ],
+          "last_source_zone_time_s": 34.52,
+          "first_target_zone_time_s": 34.8,
+          "transition_bracket_s": [
+            34.52,
+            34.8
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 156,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 35.72,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 35.32,
+      "first_target_zone_time_s": 35.72,
+      "transition_bracket_s": [
+        35.32,
+        35.72
+      ],
+      "prediction_id": "r000017",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000017",
+      "target_frame": 893,
+      "source_frame": 894,
+      "source_time_s": 35.72,
+      "crossing_position_native_px": [
+        469.8000183105469,
+        876.1500244140625
+      ],
+      "group_id": "g000014",
+      "global_group_id": "MOT20-02:V_25:g000014",
+      "member_prediction_ids": [
+        "r000017"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000017"
+      ],
+      "first_t": 35.72,
+      "last_t": 35.72,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 156,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 35.72,
+          "prediction_id": "r000017",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000017",
+          "source_frame": 894,
+          "target_frame": 893,
+          "source_time_s": 35.72,
+          "crossing_position_native_px": [
+            469.8000183105469,
+            876.1500244140625
+          ],
+          "last_source_zone_time_s": 35.32,
+          "first_target_zone_time_s": 35.72,
+          "transition_bracket_s": [
+            35.32,
+            35.72
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 346,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 37.36,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 36.76,
+      "first_target_zone_time_s": 37.36,
+      "transition_bracket_s": [
+        36.76,
+        37.36
+      ],
+      "prediction_id": "r000019",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000019",
+      "target_frame": 934,
+      "source_frame": 935,
+      "source_time_s": 37.36,
+      "crossing_position_native_px": [
+        469.12501525878906,
+        579.8250122070312
+      ],
+      "group_id": "g000015",
+      "global_group_id": "MOT20-02:V_25:g000015",
+      "member_prediction_ids": [
+        "r000019"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000019"
+      ],
+      "first_t": 37.36,
+      "last_t": 37.36,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 346,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 37.36,
+          "prediction_id": "r000019",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000019",
+          "source_frame": 935,
+          "target_frame": 934,
+          "source_time_s": 37.36,
+          "crossing_position_native_px": [
+            469.12501525878906,
+            579.8250122070312
+          ],
+          "last_source_zone_time_s": 36.76,
+          "first_target_zone_time_s": 37.36,
+          "transition_bracket_s": [
+            36.76,
+            37.36
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 318,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 38.6,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 37.68,
+      "first_target_zone_time_s": 38.6,
+      "transition_bracket_s": [
+        37.68,
+        38.6
+      ],
+      "prediction_id": "r000020",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000020",
+      "target_frame": 965,
+      "source_frame": 966,
+      "source_time_s": 38.6,
+      "crossing_position_native_px": [
+        469.8000183105469,
+        822.1500244140625
+      ],
+      "group_id": "g000016",
+      "global_group_id": "MOT20-02:V_25:g000016",
+      "member_prediction_ids": [
+        "r000020"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000020"
+      ],
+      "first_t": 38.6,
+      "last_t": 38.6,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 318,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 38.6,
+          "prediction_id": "r000020",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000020",
+          "source_frame": 966,
+          "target_frame": 965,
+          "source_time_s": 38.6,
+          "crossing_position_native_px": [
+            469.8000183105469,
+            822.1500244140625
+          ],
+          "last_source_zone_time_s": 37.68,
+          "first_target_zone_time_s": 38.6,
+          "transition_bracket_s": [
+            37.68,
+            38.6
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 299,
+      "fragment_index": 1,
+      "direction": "OUT",
+      "time_s": 39.0,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 38.48,
+      "first_target_zone_time_s": 39.0,
+      "transition_bracket_s": [
+        38.48,
+        39.0
+      ],
+      "prediction_id": "r000021",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000021",
+      "target_frame": 975,
+      "source_frame": 976,
+      "source_time_s": 39.0,
+      "crossing_position_native_px": [
+        469.8000183105469,
+        775.5750122070312
+      ],
+      "group_id": "g000017",
+      "global_group_id": "MOT20-02:V_25:g000017",
+      "member_prediction_ids": [
+        "r000021"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000021"
+      ],
+      "first_t": 39.0,
+      "last_t": 39.0,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 299,
+          "fragment_index": 1,
+          "direction": "OUT",
+          "time_s": 39.0,
+          "prediction_id": "r000021",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000021",
+          "source_frame": 976,
+          "target_frame": 975,
+          "source_time_s": 39.0,
+          "crossing_position_native_px": [
+            469.8000183105469,
+            775.5750122070312
+          ],
+          "last_source_zone_time_s": 38.48,
+          "first_target_zone_time_s": 39.0,
+          "transition_bracket_s": [
+            38.48,
+            39.0
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 333,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 41.76,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 41.4,
+      "first_target_zone_time_s": 41.76,
+      "transition_bracket_s": [
+        41.4,
+        41.76
+      ],
+      "prediction_id": "r000022",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000022",
+      "target_frame": 1044,
+      "source_frame": 1045,
+      "source_time_s": 41.76,
+      "crossing_position_native_px": [
+        469.125,
+        911.25
+      ],
+      "group_id": "g000018",
+      "global_group_id": "MOT20-02:V_25:g000018",
+      "member_prediction_ids": [
+        "r000022"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000022"
+      ],
+      "first_t": 41.76,
+      "last_t": 41.76,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 333,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 41.76,
+          "prediction_id": "r000022",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000022",
+          "source_frame": 1045,
+          "target_frame": 1044,
+          "source_time_s": 41.76,
+          "crossing_position_native_px": [
+            469.125,
+            911.25
+          ],
+          "last_source_zone_time_s": 41.4,
+          "first_target_zone_time_s": 41.76,
+          "transition_bracket_s": [
+            41.4,
+            41.76
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 532,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 45.68,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 45.52,
+      "first_target_zone_time_s": 45.68,
+      "transition_bracket_s": [
+        45.52,
+        45.68
+      ],
+      "prediction_id": "r000025",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000025",
+      "target_frame": 1142,
+      "source_frame": 1143,
+      "source_time_s": 45.68,
+      "crossing_position_native_px": [
+        491.7375183105469,
+        693.9000244140625
+      ],
+      "group_id": "g000019",
+      "global_group_id": "MOT20-02:V_25:g000019",
+      "member_prediction_ids": [
+        "r000025"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000025"
+      ],
+      "first_t": 45.68,
+      "last_t": 45.68,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 532,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 45.68,
+          "prediction_id": "r000025",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000025",
+          "source_frame": 1143,
+          "target_frame": 1142,
+          "source_time_s": 45.68,
+          "crossing_position_native_px": [
+            491.7375183105469,
+            693.9000244140625
+          ],
+          "last_source_zone_time_s": 45.52,
+          "first_target_zone_time_s": 45.68,
+          "transition_bracket_s": [
+            45.52,
+            45.68
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 482,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 47.28,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 46.72,
+      "first_target_zone_time_s": 47.28,
+      "transition_bracket_s": [
+        46.72,
+        47.28
+      ],
+      "prediction_id": "r000026",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000026",
+      "target_frame": 1182,
+      "source_frame": 1183,
+      "source_time_s": 47.28,
+      "crossing_position_native_px": [
+        469.1250305175781,
+        822.8250122070312
+      ],
+      "group_id": "g000020",
+      "global_group_id": "MOT20-02:V_25:g000020",
+      "member_prediction_ids": [
+        "r000026"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000026"
+      ],
+      "first_t": 47.28,
+      "last_t": 47.28,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 482,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 47.28,
+          "prediction_id": "r000026",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000026",
+          "source_frame": 1183,
+          "target_frame": 1182,
+          "source_time_s": 47.28,
+          "crossing_position_native_px": [
+            469.1250305175781,
+            822.8250122070312
+          ],
+          "last_source_zone_time_s": 46.72,
+          "first_target_zone_time_s": 47.28,
+          "transition_bracket_s": [
+            46.72,
+            47.28
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 519,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 50.28,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 49.52,
+      "first_target_zone_time_s": 50.28,
+      "transition_bracket_s": [
+        49.52,
+        50.28
+      ],
+      "prediction_id": "r000027",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000027",
+      "target_frame": 1257,
+      "source_frame": 1258,
+      "source_time_s": 50.28,
+      "crossing_position_native_px": [
+        470.81251525878906,
+        684.112548828125
+      ],
+      "group_id": "g000021",
+      "global_group_id": "MOT20-02:V_25:g000021",
+      "member_prediction_ids": [
+        "r000027"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000027"
+      ],
+      "first_t": 50.28,
+      "last_t": 50.28,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 519,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 50.28,
+          "prediction_id": "r000027",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000027",
+          "source_frame": 1258,
+          "target_frame": 1257,
+          "source_time_s": 50.28,
+          "crossing_position_native_px": [
+            470.81251525878906,
+            684.112548828125
+          ],
+          "last_source_zone_time_s": 49.52,
+          "first_target_zone_time_s": 50.28,
+          "transition_bracket_s": [
+            49.52,
+            50.28
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 459,
+      "fragment_index": 1,
+      "direction": "OUT",
+      "time_s": 51.28,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 51.04,
+      "first_target_zone_time_s": 51.28,
+      "transition_bracket_s": [
+        51.04,
+        51.28
+      ],
+      "prediction_id": "r000028",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000028",
+      "target_frame": 1282,
+      "source_frame": 1283,
+      "source_time_s": 51.28,
+      "crossing_position_native_px": [
+        470.81251525878906,
+        582.862548828125
+      ],
+      "group_id": "g000022",
+      "global_group_id": "MOT20-02:V_25:g000022",
+      "member_prediction_ids": [
+        "r000028"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000028"
+      ],
+      "first_t": 51.28,
+      "last_t": 51.28,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 459,
+          "fragment_index": 1,
+          "direction": "OUT",
+          "time_s": 51.28,
+          "prediction_id": "r000028",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000028",
+          "source_frame": 1283,
+          "target_frame": 1282,
+          "source_time_s": 51.28,
+          "crossing_position_native_px": [
+            470.81251525878906,
+            582.862548828125
+          ],
+          "last_source_zone_time_s": 51.04,
+          "first_target_zone_time_s": 51.28,
+          "transition_bracket_s": [
+            51.04,
+            51.28
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 557,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 55.04,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 54.84,
+      "first_target_zone_time_s": 55.04,
+      "transition_bracket_s": [
+        54.84,
+        55.04
+      ],
+      "prediction_id": "r000030",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000030",
+      "target_frame": 1376,
+      "source_frame": 1377,
+      "source_time_s": 55.04,
+      "crossing_position_native_px": [
+        470.4750213623047,
+        626.737548828125
+      ],
+      "group_id": "g000023",
+      "global_group_id": "MOT20-02:V_25:g000023",
+      "member_prediction_ids": [
+        "r000030"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000030"
+      ],
+      "first_t": 55.04,
+      "last_t": 55.04,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 557,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 55.04,
+          "prediction_id": "r000030",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000030",
+          "source_frame": 1377,
+          "target_frame": 1376,
+          "source_time_s": 55.04,
+          "crossing_position_native_px": [
+            470.4750213623047,
+            626.737548828125
+          ],
+          "last_source_zone_time_s": 54.84,
+          "first_target_zone_time_s": 55.04,
+          "transition_bracket_s": [
+            54.84,
+            55.04
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 557,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 58.4,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 57.92,
+      "first_target_zone_time_s": 58.4,
+      "transition_bracket_s": [
+        57.92,
+        58.4
+      ],
+      "prediction_id": "r000031",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000031",
+      "target_frame": 1460,
+      "source_frame": 1461,
+      "source_time_s": 58.4,
+      "crossing_position_native_px": [
+        490.0500030517578,
+        700.6500244140625
+      ],
+      "group_id": "g000024",
+      "global_group_id": "MOT20-02:V_25:g000024",
+      "member_prediction_ids": [
+        "r000031"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000031"
+      ],
+      "first_t": 58.4,
+      "last_t": 58.4,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 557,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 58.4,
+          "prediction_id": "r000031",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000031",
+          "source_frame": 1461,
+          "target_frame": 1460,
+          "source_time_s": 58.4,
+          "crossing_position_native_px": [
+            490.0500030517578,
+            700.6500244140625
+          ],
+          "last_source_zone_time_s": 57.92,
+          "first_target_zone_time_s": 58.4,
+          "transition_bracket_s": [
+            57.92,
+            58.4
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 568,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 65.96,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 65.36,
+      "first_target_zone_time_s": 65.96,
+      "transition_bracket_s": [
+        65.36,
+        65.96
+      ],
+      "prediction_id": "r000033",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000033",
+      "target_frame": 1649,
+      "source_frame": 1650,
+      "source_time_s": 65.96,
+      "crossing_position_native_px": [
+        470.8125305175781,
+        868.7250366210938
+      ],
+      "group_id": "g000025",
+      "global_group_id": "MOT20-02:V_25:g000025",
+      "member_prediction_ids": [
+        "r000033"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000033"
+      ],
+      "first_t": 65.96,
+      "last_t": 65.96,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 568,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 65.96,
+          "prediction_id": "r000033",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000033",
+          "source_frame": 1650,
+          "target_frame": 1649,
+          "source_time_s": 65.96,
+          "crossing_position_native_px": [
+            470.8125305175781,
+            868.7250366210938
+          ],
+          "last_source_zone_time_s": 65.36,
+          "first_target_zone_time_s": 65.96,
+          "transition_bracket_s": [
+            65.36,
+            65.96
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 992,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 69.84,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 69.48,
+      "first_target_zone_time_s": 69.84,
+      "transition_bracket_s": [
+        69.48,
+        69.84
+      ],
+      "prediction_id": "r000034",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000034",
+      "target_frame": 1746,
+      "source_frame": 1747,
+      "source_time_s": 69.84,
+      "crossing_position_native_px": [
+        492.7500305175781,
+        466.76251220703125
+      ],
+      "group_id": "g000026",
+      "global_group_id": "MOT20-02:V_25:g000026",
+      "member_prediction_ids": [
+        "r000034"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000034"
+      ],
+      "first_t": 69.84,
+      "last_t": 69.84,
+      "dedup_decision": "keep_R2_insufficient",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 992,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 69.84,
+          "prediction_id": "r000034",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000034",
+          "source_frame": 1747,
+          "target_frame": 1746,
+          "source_time_s": 69.84,
+          "crossing_position_native_px": [
+            492.7500305175781,
+            466.76251220703125
+          ],
+          "last_source_zone_time_s": 69.48,
+          "first_target_zone_time_s": 69.84,
+          "transition_bracket_s": [
+            69.48,
+            69.84
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 696,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 70.12,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 69.12,
+      "first_target_zone_time_s": 70.12,
+      "transition_bracket_s": [
+        69.12,
+        70.12
+      ],
+      "prediction_id": "r000035",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000035",
+      "target_frame": 1753,
+      "source_frame": 1754,
+      "source_time_s": 70.12,
+      "crossing_position_native_px": [
+        468.45001220703125,
+        710.7750244140625
+      ],
+      "group_id": "g000027",
+      "global_group_id": "MOT20-02:V_25:g000027",
+      "member_prediction_ids": [
+        "r000035"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000035"
+      ],
+      "first_t": 70.12,
+      "last_t": 70.12,
+      "dedup_decision": "keep_R2_insufficient",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 696,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 70.12,
+          "prediction_id": "r000035",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000035",
+          "source_frame": 1754,
+          "target_frame": 1753,
+          "source_time_s": 70.12,
+          "crossing_position_native_px": [
+            468.45001220703125,
+            710.7750244140625
+          ],
+          "last_source_zone_time_s": 69.12,
+          "first_target_zone_time_s": 70.12,
+          "transition_bracket_s": [
+            69.12,
+            70.12
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 406,
+      "fragment_index": 1,
+      "direction": "OUT",
+      "time_s": 70.88,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 70.32,
+      "first_target_zone_time_s": 70.88,
+      "transition_bracket_s": [
+        70.32,
+        70.88
+      ],
+      "prediction_id": "r000037",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000037",
+      "target_frame": 1772,
+      "source_frame": 1773,
+      "source_time_s": 70.88,
+      "crossing_position_native_px": [
+        470.8125,
+        791.1000366210938
+      ],
+      "group_id": "g000028",
+      "global_group_id": "MOT20-02:V_25:g000028",
+      "member_prediction_ids": [
+        "r000037"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000037"
+      ],
+      "first_t": 70.88,
+      "last_t": 70.88,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 406,
+          "fragment_index": 1,
+          "direction": "OUT",
+          "time_s": 70.88,
+          "prediction_id": "r000037",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000037",
+          "source_frame": 1773,
+          "target_frame": 1772,
+          "source_time_s": 70.88,
+          "crossing_position_native_px": [
+            470.8125,
+            791.1000366210938
+          ],
+          "last_source_zone_time_s": 70.32,
+          "first_target_zone_time_s": 70.88,
+          "transition_bracket_s": [
+            70.32,
+            70.88
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1017,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 71.24,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 70.88,
+      "first_target_zone_time_s": 71.24,
+      "transition_bracket_s": [
+        70.88,
+        71.24
+      ],
+      "prediction_id": "r000039",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000039",
+      "target_frame": 1781,
+      "source_frame": 1782,
+      "source_time_s": 71.24,
+      "crossing_position_native_px": [
+        492.4125061035156,
+        451.9125061035156
+      ],
+      "group_id": "g000029",
+      "global_group_id": "MOT20-02:V_25:g000029",
+      "member_prediction_ids": [
+        "r000039"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000039"
+      ],
+      "first_t": 71.24,
+      "last_t": 71.24,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1017,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 71.24,
+          "prediction_id": "r000039",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000039",
+          "source_frame": 1782,
+          "target_frame": 1781,
+          "source_time_s": 71.24,
+          "crossing_position_native_px": [
+            492.4125061035156,
+            451.9125061035156
+          ],
+          "last_source_zone_time_s": 70.88,
+          "first_target_zone_time_s": 71.24,
+          "transition_bracket_s": [
+            70.88,
+            71.24
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 629,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 72.92,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 72.52,
+      "first_target_zone_time_s": 72.92,
+      "transition_bracket_s": [
+        72.52,
+        72.92
+      ],
+      "prediction_id": "r000040",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000040",
+      "target_frame": 1823,
+      "source_frame": 1824,
+      "source_time_s": 72.92,
+      "crossing_position_native_px": [
+        470.8125,
+        824.8500366210938
+      ],
+      "group_id": "g000030",
+      "global_group_id": "MOT20-02:V_25:g000030",
+      "member_prediction_ids": [
+        "r000040"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000040"
+      ],
+      "first_t": 72.92,
+      "last_t": 72.92,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 629,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 72.92,
+          "prediction_id": "r000040",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000040",
+          "source_frame": 1824,
+          "target_frame": 1823,
+          "source_time_s": 72.92,
+          "crossing_position_native_px": [
+            470.8125,
+            824.8500366210938
+          ],
+          "last_source_zone_time_s": 72.52,
+          "first_target_zone_time_s": 72.92,
+          "transition_bracket_s": [
+            72.52,
+            72.92
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1051,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 72.92,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 72.64,
+      "first_target_zone_time_s": 72.92,
+      "transition_bracket_s": [
+        72.64,
+        72.92
+      ],
+      "prediction_id": "r000041",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000041",
+      "target_frame": 1823,
+      "source_frame": 1824,
+      "source_time_s": 72.92,
+      "crossing_position_native_px": [
+        489.71250915527344,
+        453.26251220703125
+      ],
+      "group_id": "g000031",
+      "global_group_id": "MOT20-02:V_25:g000031",
+      "member_prediction_ids": [
+        "r000041"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000041"
+      ],
+      "first_t": 72.92,
+      "last_t": 72.92,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1051,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 72.92,
+          "prediction_id": "r000041",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000041",
+          "source_frame": 1824,
+          "target_frame": 1823,
+          "source_time_s": 72.92,
+          "crossing_position_native_px": [
+            489.71250915527344,
+            453.26251220703125
+          ],
+          "last_source_zone_time_s": 72.64,
+          "first_target_zone_time_s": 72.92,
+          "transition_bracket_s": [
+            72.64,
+            72.92
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1081,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 74.0,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 73.52,
+      "first_target_zone_time_s": 74.0,
+      "transition_bracket_s": [
+        73.52,
+        74.0
+      ],
+      "prediction_id": "r000042",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000042",
+      "target_frame": 1850,
+      "source_frame": 1851,
+      "source_time_s": 74.0,
+      "crossing_position_native_px": [
+        468.1125183105469,
+        726.300048828125
+      ],
+      "group_id": "g000032",
+      "global_group_id": "MOT20-02:V_25:g000032",
+      "member_prediction_ids": [
+        "r000042"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000042"
+      ],
+      "first_t": 74.0,
+      "last_t": 74.0,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1081,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 74.0,
+          "prediction_id": "r000042",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000042",
+          "source_frame": 1851,
+          "target_frame": 1850,
+          "source_time_s": 74.0,
+          "crossing_position_native_px": [
+            468.1125183105469,
+            726.300048828125
+          ],
+          "last_source_zone_time_s": 73.52,
+          "first_target_zone_time_s": 74.0,
+          "transition_bracket_s": [
+            73.52,
+            74.0
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1107,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 75.0,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 74.6,
+      "first_target_zone_time_s": 75.0,
+      "transition_bracket_s": [
+        74.6,
+        75.0
+      ],
+      "prediction_id": "r000043",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000043",
+      "target_frame": 1875,
+      "source_frame": 1876,
+      "source_time_s": 75.0,
+      "crossing_position_native_px": [
+        489.37501525878906,
+        481.2750244140625
+      ],
+      "group_id": "g000033",
+      "global_group_id": "MOT20-02:V_25:g000033",
+      "member_prediction_ids": [
+        "r000043"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000043"
+      ],
+      "first_t": 75.0,
+      "last_t": 75.0,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1107,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 75.0,
+          "prediction_id": "r000043",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000043",
+          "source_frame": 1876,
+          "target_frame": 1875,
+          "source_time_s": 75.0,
+          "crossing_position_native_px": [
+            489.37501525878906,
+            481.2750244140625
+          ],
+          "last_source_zone_time_s": 74.6,
+          "first_target_zone_time_s": 75.0,
+          "transition_bracket_s": [
+            74.6,
+            75.0
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1132,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 76.88,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 76.12,
+      "first_target_zone_time_s": 76.88,
+      "transition_bracket_s": [
+        76.12,
+        76.88
+      ],
+      "prediction_id": "r000046",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000046",
+      "target_frame": 1922,
+      "source_frame": 1923,
+      "source_time_s": 76.88,
+      "crossing_position_native_px": [
+        489.37501525878906,
+        469.4625244140625
+      ],
+      "group_id": "g000034",
+      "global_group_id": "MOT20-02:V_25:g000034",
+      "member_prediction_ids": [
+        "r000046"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000046"
+      ],
+      "first_t": 76.88,
+      "last_t": 76.88,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1132,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 76.88,
+          "prediction_id": "r000046",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000046",
+          "source_frame": 1923,
+          "target_frame": 1922,
+          "source_time_s": 76.88,
+          "crossing_position_native_px": [
+            489.37501525878906,
+            469.4625244140625
+          ],
+          "last_source_zone_time_s": 76.12,
+          "first_target_zone_time_s": 76.88,
+          "transition_bracket_s": [
+            76.12,
+            76.88
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 812,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 77.88,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 77.08,
+      "first_target_zone_time_s": 77.88,
+      "transition_bracket_s": [
+        77.08,
+        77.88
+      ],
+      "prediction_id": "r000047",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000047",
+      "target_frame": 1947,
+      "source_frame": 1948,
+      "source_time_s": 77.88,
+      "crossing_position_native_px": [
+        470.81251525878906,
+        778.2750244140625
+      ],
+      "group_id": "g000035",
+      "global_group_id": "MOT20-02:V_25:g000035",
+      "member_prediction_ids": [
+        "r000047"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000047"
+      ],
+      "first_t": 77.88,
+      "last_t": 77.88,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 812,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 77.88,
+          "prediction_id": "r000047",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000047",
+          "source_frame": 1948,
+          "target_frame": 1947,
+          "source_time_s": 77.88,
+          "crossing_position_native_px": [
+            470.81251525878906,
+            778.2750244140625
+          ],
+          "last_source_zone_time_s": 77.08,
+          "first_target_zone_time_s": 77.88,
+          "transition_bracket_s": [
+            77.08,
+            77.88
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1192,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 78.12,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 77.84,
+      "first_target_zone_time_s": 78.12,
+      "transition_bracket_s": [
+        77.84,
+        78.12
+      ],
+      "prediction_id": "r000049",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000049",
+      "target_frame": 1953,
+      "source_frame": 1954,
+      "source_time_s": 78.12,
+      "crossing_position_native_px": [
+        491.3999938964844,
+        458.6625061035156
+      ],
+      "group_id": "g000036",
+      "global_group_id": "MOT20-02:V_25:g000036",
+      "member_prediction_ids": [
+        "r000049"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000049"
+      ],
+      "first_t": 78.12,
+      "last_t": 78.12,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1192,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 78.12,
+          "prediction_id": "r000049",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000049",
+          "source_frame": 1954,
+          "target_frame": 1953,
+          "source_time_s": 78.12,
+          "crossing_position_native_px": [
+            491.3999938964844,
+            458.6625061035156
+          ],
+          "last_source_zone_time_s": 77.84,
+          "first_target_zone_time_s": 78.12,
+          "transition_bracket_s": [
+            77.84,
+            78.12
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 837,
+      "fragment_index": 1,
+      "direction": "OUT",
+      "time_s": 78.88,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 78.44,
+      "first_target_zone_time_s": 78.88,
+      "transition_bracket_s": [
+        78.44,
+        78.88
+      ],
+      "prediction_id": "r000051",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000051",
+      "target_frame": 1972,
+      "source_frame": 1973,
+      "source_time_s": 78.88,
+      "crossing_position_native_px": [
+        469.125,
+        876.1500244140625
+      ],
+      "group_id": "g000037",
+      "global_group_id": "MOT20-02:V_25:g000037",
+      "member_prediction_ids": [
+        "r000051"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000051"
+      ],
+      "first_t": 78.88,
+      "last_t": 78.88,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 837,
+          "fragment_index": 1,
+          "direction": "OUT",
+          "time_s": 78.88,
+          "prediction_id": "r000051",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000051",
+          "source_frame": 1973,
+          "target_frame": 1972,
+          "source_time_s": 78.88,
+          "crossing_position_native_px": [
+            469.125,
+            876.1500244140625
+          ],
+          "last_source_zone_time_s": 78.44,
+          "first_target_zone_time_s": 78.88,
+          "transition_bracket_s": [
+            78.44,
+            78.88
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 930,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 78.92,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 78.6,
+      "first_target_zone_time_s": 78.92,
+      "transition_bracket_s": [
+        78.6,
+        78.92
+      ],
+      "prediction_id": "r000052",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000052",
+      "target_frame": 1973,
+      "source_frame": 1974,
+      "source_time_s": 78.92,
+      "crossing_position_native_px": [
+        489.71250915527344,
+        456.9750061035156
+      ],
+      "group_id": "g000038",
+      "global_group_id": "MOT20-02:V_25:g000038",
+      "member_prediction_ids": [
+        "r000052"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000052"
+      ],
+      "first_t": 78.92,
+      "last_t": 78.92,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 930,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 78.92,
+          "prediction_id": "r000052",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000052",
+          "source_frame": 1974,
+          "target_frame": 1973,
+          "source_time_s": 78.92,
+          "crossing_position_native_px": [
+            489.71250915527344,
+            456.9750061035156
+          ],
+          "last_source_zone_time_s": 78.6,
+          "first_target_zone_time_s": 78.92,
+          "transition_bracket_s": [
+            78.6,
+            78.92
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 738,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 79.48,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 79.04,
+      "first_target_zone_time_s": 79.48,
+      "transition_bracket_s": [
+        79.04,
+        79.48
+      ],
+      "prediction_id": "r000054",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000054",
+      "target_frame": 1987,
+      "source_frame": 1988,
+      "source_time_s": 79.48,
+      "crossing_position_native_px": [
+        492.07501220703125,
+        478.9125061035156
+      ],
+      "group_id": "g000039",
+      "global_group_id": "MOT20-02:V_25:g000039",
+      "member_prediction_ids": [
+        "r000054"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000054"
+      ],
+      "first_t": 79.48,
+      "last_t": 79.48,
+      "dedup_decision": "keep_R2_insufficient",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 738,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 79.48,
+          "prediction_id": "r000054",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000054",
+          "source_frame": 1988,
+          "target_frame": 1987,
+          "source_time_s": 79.48,
+          "crossing_position_native_px": [
+            492.07501220703125,
+            478.9125061035156
+          ],
+          "last_source_zone_time_s": 79.04,
+          "first_target_zone_time_s": 79.48,
+          "transition_bracket_s": [
+            79.04,
+            79.48
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 962,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 80.16,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 79.76,
+      "first_target_zone_time_s": 80.16,
+      "transition_bracket_s": [
+        79.76,
+        80.16
+      ],
+      "prediction_id": "r000056",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000056",
+      "target_frame": 2004,
+      "source_frame": 2005,
+      "source_time_s": 80.16,
+      "crossing_position_native_px": [
+        468.45001220703125,
+        966.6000366210938
+      ],
+      "group_id": "g000040",
+      "global_group_id": "MOT20-02:V_25:g000040",
+      "member_prediction_ids": [
+        "r000056"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000056"
+      ],
+      "first_t": 80.16,
+      "last_t": 80.16,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 962,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 80.16,
+          "prediction_id": "r000056",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000056",
+          "source_frame": 2005,
+          "target_frame": 2004,
+          "source_time_s": 80.16,
+          "crossing_position_native_px": [
+            468.45001220703125,
+            966.6000366210938
+          ],
+          "last_source_zone_time_s": 79.76,
+          "first_target_zone_time_s": 80.16,
+          "transition_bracket_s": [
+            79.76,
+            80.16
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1278,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 80.72,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 80.28,
+      "first_target_zone_time_s": 80.72,
+      "transition_bracket_s": [
+        80.28,
+        80.72
+      ],
+      "prediction_id": "r000057",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000057",
+      "target_frame": 2018,
+      "source_frame": 2019,
+      "source_time_s": 80.72,
+      "crossing_position_native_px": [
+        491.40000915527344,
+        471.82501220703125
+      ],
+      "group_id": "g000041",
+      "global_group_id": "MOT20-02:V_25:g000041",
+      "member_prediction_ids": [
+        "r000057"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000057"
+      ],
+      "first_t": 80.72,
+      "last_t": 80.72,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1278,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 80.72,
+          "prediction_id": "r000057",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000057",
+          "source_frame": 2019,
+          "target_frame": 2018,
+          "source_time_s": 80.72,
+          "crossing_position_native_px": [
+            491.40000915527344,
+            471.82501220703125
+          ],
+          "last_source_zone_time_s": 80.28,
+          "first_target_zone_time_s": 80.72,
+          "transition_bracket_s": [
+            80.28,
+            80.72
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 664,
+      "fragment_index": 1,
+      "direction": "OUT",
+      "time_s": 82.08,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 81.72,
+      "first_target_zone_time_s": 82.08,
+      "transition_bracket_s": [
+        81.72,
+        82.08
+      ],
+      "prediction_id": "r000058",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000058",
+      "target_frame": 2052,
+      "source_frame": 2053,
+      "source_time_s": 82.08,
+      "crossing_position_native_px": [
+        470.4750061035156,
+        930.1500244140625
+      ],
+      "group_id": "g000042",
+      "global_group_id": "MOT20-02:V_25:g000042",
+      "member_prediction_ids": [
+        "r000058"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000058"
+      ],
+      "first_t": 82.08,
+      "last_t": 82.08,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 664,
+          "fragment_index": 1,
+          "direction": "OUT",
+          "time_s": 82.08,
+          "prediction_id": "r000058",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000058",
+          "source_frame": 2053,
+          "target_frame": 2052,
+          "source_time_s": 82.08,
+          "crossing_position_native_px": [
+            470.4750061035156,
+            930.1500244140625
+          ],
+          "last_source_zone_time_s": 81.72,
+          "first_target_zone_time_s": 82.08,
+          "transition_bracket_s": [
+            81.72,
+            82.08
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 633,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 82.56,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 82.36,
+      "first_target_zone_time_s": 82.56,
+      "transition_bracket_s": [
+        82.36,
+        82.56
+      ],
+      "prediction_id": "r000059",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000059",
+      "target_frame": 2064,
+      "source_frame": 2065,
+      "source_time_s": 82.56,
+      "crossing_position_native_px": [
+        491.0625,
+        662.5125122070312
+      ],
+      "group_id": "g000043",
+      "global_group_id": "MOT20-02:V_25:g000043",
+      "member_prediction_ids": [
+        "r000059"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000059"
+      ],
+      "first_t": 82.56,
+      "last_t": 82.56,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 633,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 82.56,
+          "prediction_id": "r000059",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000059",
+          "source_frame": 2065,
+          "target_frame": 2064,
+          "source_time_s": 82.56,
+          "crossing_position_native_px": [
+            491.0625,
+            662.5125122070312
+          ],
+          "last_source_zone_time_s": 82.36,
+          "first_target_zone_time_s": 82.56,
+          "transition_bracket_s": [
+            82.36,
+            82.56
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1332,
+      "fragment_index": 1,
+      "direction": "OUT",
+      "time_s": 85.24,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 84.8,
+      "first_target_zone_time_s": 85.24,
+      "transition_bracket_s": [
+        84.8,
+        85.24
+      ],
+      "prediction_id": "r000061",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000061",
+      "target_frame": 2131,
+      "source_frame": 2132,
+      "source_time_s": 85.24,
+      "crossing_position_native_px": [
+        470.4750213623047,
+        622.3500366210938
+      ],
+      "group_id": "g000044",
+      "global_group_id": "MOT20-02:V_25:g000044",
+      "member_prediction_ids": [
+        "r000061"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000061"
+      ],
+      "first_t": 85.24,
+      "last_t": 85.24,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1332,
+          "fragment_index": 1,
+          "direction": "OUT",
+          "time_s": 85.24,
+          "prediction_id": "r000061",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000061",
+          "source_frame": 2132,
+          "target_frame": 2131,
+          "source_time_s": 85.24,
+          "crossing_position_native_px": [
+            470.4750213623047,
+            622.3500366210938
+          ],
+          "last_source_zone_time_s": 84.8,
+          "first_target_zone_time_s": 85.24,
+          "transition_bracket_s": [
+            84.8,
+            85.24
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 784,
+      "fragment_index": 1,
+      "direction": "OUT",
+      "time_s": 87.08,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 86.72,
+      "first_target_zone_time_s": 87.08,
+      "transition_bracket_s": [
+        86.72,
+        87.08
+      ],
+      "prediction_id": "r000062",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000062",
+      "target_frame": 2177,
+      "source_frame": 2178,
+      "source_time_s": 87.08,
+      "crossing_position_native_px": [
+        470.13751220703125,
+        463.38751220703125
+      ],
+      "group_id": "g000045",
+      "global_group_id": "MOT20-02:V_25:g000045",
+      "member_prediction_ids": [
+        "r000062"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000062"
+      ],
+      "first_t": 87.08,
+      "last_t": 87.08,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 784,
+          "fragment_index": 1,
+          "direction": "OUT",
+          "time_s": 87.08,
+          "prediction_id": "r000062",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000062",
+          "source_frame": 2178,
+          "target_frame": 2177,
+          "source_time_s": 87.08,
+          "crossing_position_native_px": [
+            470.13751220703125,
+            463.38751220703125
+          ],
+          "last_source_zone_time_s": 86.72,
+          "first_target_zone_time_s": 87.08,
+          "transition_bracket_s": [
+            86.72,
+            87.08
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 949,
+      "fragment_index": 1,
+      "direction": "OUT",
+      "time_s": 87.28,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 86.96,
+      "first_target_zone_time_s": 87.28,
+      "transition_bracket_s": [
+        86.96,
+        87.28
+      ],
+      "prediction_id": "r000063",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000063",
+      "target_frame": 2182,
+      "source_frame": 2183,
+      "source_time_s": 87.28,
+      "crossing_position_native_px": [
+        470.4750061035156,
+        857.925048828125
+      ],
+      "group_id": "g000046",
+      "global_group_id": "MOT20-02:V_25:g000046",
+      "member_prediction_ids": [
+        "r000063"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000063"
+      ],
+      "first_t": 87.28,
+      "last_t": 87.28,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 949,
+          "fragment_index": 1,
+          "direction": "OUT",
+          "time_s": 87.28,
+          "prediction_id": "r000063",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000063",
+          "source_frame": 2183,
+          "target_frame": 2182,
+          "source_time_s": 87.28,
+          "crossing_position_native_px": [
+            470.4750061035156,
+            857.925048828125
+          ],
+          "last_source_zone_time_s": 86.96,
+          "first_target_zone_time_s": 87.28,
+          "transition_bracket_s": [
+            86.96,
+            87.28
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1502,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 88.0,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 87.6,
+      "first_target_zone_time_s": 88.0,
+      "transition_bracket_s": [
+        87.6,
+        88.0
+      ],
+      "prediction_id": "r000064",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000064",
+      "target_frame": 2200,
+      "source_frame": 2201,
+      "source_time_s": 88.0,
+      "crossing_position_native_px": [
+        490.7250061035156,
+        447.5250244140625
+      ],
+      "group_id": "g000047",
+      "global_group_id": "MOT20-02:V_25:g000047",
+      "member_prediction_ids": [
+        "r000064"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000064"
+      ],
+      "first_t": 88.0,
+      "last_t": 88.0,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1502,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 88.0,
+          "prediction_id": "r000064",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000064",
+          "source_frame": 2201,
+          "target_frame": 2200,
+          "source_time_s": 88.0,
+          "crossing_position_native_px": [
+            490.7250061035156,
+            447.5250244140625
+          ],
+          "last_source_zone_time_s": 87.6,
+          "first_target_zone_time_s": 88.0,
+          "transition_bracket_s": [
+            87.6,
+            88.0
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 991,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 89.44,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 89.2,
+      "first_target_zone_time_s": 89.44,
+      "transition_bracket_s": [
+        89.2,
+        89.44
+      ],
+      "prediction_id": "r000065",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000065",
+      "target_frame": 2236,
+      "source_frame": 2237,
+      "source_time_s": 89.44,
+      "crossing_position_native_px": [
+        466.76251220703125,
+        859.2750244140625
+      ],
+      "group_id": "g000048",
+      "global_group_id": "MOT20-02:V_25:g000048",
+      "member_prediction_ids": [
+        "r000065"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000065"
+      ],
+      "first_t": 89.44,
+      "last_t": 89.44,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 991,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 89.44,
+          "prediction_id": "r000065",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000065",
+          "source_frame": 2237,
+          "target_frame": 2236,
+          "source_time_s": 89.44,
+          "crossing_position_native_px": [
+            466.76251220703125,
+            859.2750244140625
+          ],
+          "last_source_zone_time_s": 89.2,
+          "first_target_zone_time_s": 89.44,
+          "transition_bracket_s": [
+            89.2,
+            89.44
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1145,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 90.68,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 90.28,
+      "first_target_zone_time_s": 90.68,
+      "transition_bracket_s": [
+        90.28,
+        90.68
+      ],
+      "prediction_id": "r000067",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000067",
+      "target_frame": 2267,
+      "source_frame": 2268,
+      "source_time_s": 90.68,
+      "crossing_position_native_px": [
+        470.4750061035156,
+        566.3250122070312
+      ],
+      "group_id": "g000049",
+      "global_group_id": "MOT20-02:V_25:g000049",
+      "member_prediction_ids": [
+        "r000067"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000067"
+      ],
+      "first_t": 90.68,
+      "last_t": 90.68,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1145,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 90.68,
+          "prediction_id": "r000067",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000067",
+          "source_frame": 2268,
+          "target_frame": 2267,
+          "source_time_s": 90.68,
+          "crossing_position_native_px": [
+            470.4750061035156,
+            566.3250122070312
+          ],
+          "last_source_zone_time_s": 90.28,
+          "first_target_zone_time_s": 90.68,
+          "transition_bracket_s": [
+            90.28,
+            90.68
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1329,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 94.28,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 93.8,
+      "first_target_zone_time_s": 94.28,
+      "transition_bracket_s": [
+        93.8,
+        94.28
+      ],
+      "prediction_id": "r000071",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000071",
+      "target_frame": 2357,
+      "source_frame": 2358,
+      "source_time_s": 94.28,
+      "crossing_position_native_px": [
+        469.46250915527344,
+        541.3500366210938
+      ],
+      "group_id": "g000050",
+      "global_group_id": "MOT20-02:V_25:g000050",
+      "member_prediction_ids": [
+        "r000071"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000071"
+      ],
+      "first_t": 94.28,
+      "last_t": 94.28,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1329,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 94.28,
+          "prediction_id": "r000071",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000071",
+          "source_frame": 2358,
+          "target_frame": 2357,
+          "source_time_s": 94.28,
+          "crossing_position_native_px": [
+            469.46250915527344,
+            541.3500366210938
+          ],
+          "last_source_zone_time_s": 93.8,
+          "first_target_zone_time_s": 94.28,
+          "transition_bracket_s": [
+            93.8,
+            94.28
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1606,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 94.92,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 94.68,
+      "first_target_zone_time_s": 94.92,
+      "transition_bracket_s": [
+        94.68,
+        94.92
+      ],
+      "prediction_id": "r000072",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000072",
+      "target_frame": 2373,
+      "source_frame": 2374,
+      "source_time_s": 94.92,
+      "crossing_position_native_px": [
+        466.76251220703125,
+        448.875
+      ],
+      "group_id": "g000051",
+      "global_group_id": "MOT20-02:V_25:g000051",
+      "member_prediction_ids": [
+        "r000072"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000072"
+      ],
+      "first_t": 94.92,
+      "last_t": 94.92,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1606,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 94.92,
+          "prediction_id": "r000072",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000072",
+          "source_frame": 2374,
+          "target_frame": 2373,
+          "source_time_s": 94.92,
+          "crossing_position_native_px": [
+            466.76251220703125,
+            448.875
+          ],
+          "last_source_zone_time_s": 94.68,
+          "first_target_zone_time_s": 94.92,
+          "transition_bracket_s": [
+            94.68,
+            94.92
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1451,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 94.96,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 94.52,
+      "first_target_zone_time_s": 94.96,
+      "transition_bracket_s": [
+        94.52,
+        94.96
+      ],
+      "prediction_id": "r000073",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000073",
+      "target_frame": 2374,
+      "source_frame": 2375,
+      "source_time_s": 94.96,
+      "crossing_position_native_px": [
+        468.1125030517578,
+        537.6375122070312
+      ],
+      "group_id": "g000052",
+      "global_group_id": "MOT20-02:V_25:g000052",
+      "member_prediction_ids": [
+        "r000073"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000073"
+      ],
+      "first_t": 94.96,
+      "last_t": 94.96,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1451,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 94.96,
+          "prediction_id": "r000073",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000073",
+          "source_frame": 2375,
+          "target_frame": 2374,
+          "source_time_s": 94.96,
+          "crossing_position_native_px": [
+            468.1125030517578,
+            537.6375122070312
+          ],
+          "last_source_zone_time_s": 94.52,
+          "first_target_zone_time_s": 94.96,
+          "transition_bracket_s": [
+            94.52,
+            94.96
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1145,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 96.44,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 95.44,
+      "first_target_zone_time_s": 96.44,
+      "transition_bracket_s": [
+        95.44,
+        96.44
+      ],
+      "prediction_id": "r000074",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000074",
+      "target_frame": 2411,
+      "source_frame": 2412,
+      "source_time_s": 96.44,
+      "crossing_position_native_px": [
+        493.4250030517578,
+        729.0
+      ],
+      "group_id": "g000053",
+      "global_group_id": "MOT20-02:V_25:g000053",
+      "member_prediction_ids": [
+        "r000074"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000074"
+      ],
+      "first_t": 96.44,
+      "last_t": 96.44,
+      "dedup_decision": "keep_R2_insufficient",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1145,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 96.44,
+          "prediction_id": "r000074",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000074",
+          "source_frame": 2412,
+          "target_frame": 2411,
+          "source_time_s": 96.44,
+          "crossing_position_native_px": [
+            493.4250030517578,
+            729.0
+          ],
+          "last_source_zone_time_s": 95.44,
+          "first_target_zone_time_s": 96.44,
+          "transition_bracket_s": [
+            95.44,
+            96.44
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 811,
+      "fragment_index": 1,
+      "direction": "OUT",
+      "time_s": 97.76,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 97.48,
+      "first_target_zone_time_s": 97.76,
+      "transition_bracket_s": [
+        97.48,
+        97.76
+      ],
+      "prediction_id": "r000076",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000076",
+      "target_frame": 2444,
+      "source_frame": 2445,
+      "source_time_s": 97.76,
+      "crossing_position_native_px": [
+        464.40000915527344,
+        461.70001220703125
+      ],
+      "group_id": "g000054",
+      "global_group_id": "MOT20-02:V_25:g000054",
+      "member_prediction_ids": [
+        "r000076"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000076"
+      ],
+      "first_t": 97.76,
+      "last_t": 97.76,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 811,
+          "fragment_index": 1,
+          "direction": "OUT",
+          "time_s": 97.76,
+          "prediction_id": "r000076",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000076",
+          "source_frame": 2445,
+          "target_frame": 2444,
+          "source_time_s": 97.76,
+          "crossing_position_native_px": [
+            464.40000915527344,
+            461.70001220703125
+          ],
+          "last_source_zone_time_s": 97.48,
+          "first_target_zone_time_s": 97.76,
+          "transition_bracket_s": [
+            97.48,
+            97.76
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1358,
+      "fragment_index": 1,
+      "direction": "OUT",
+      "time_s": 97.76,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 96.24,
+      "first_target_zone_time_s": 97.76,
+      "transition_bracket_s": [
+        96.24,
+        97.76
+      ],
+      "prediction_id": "r000077",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000077",
+      "target_frame": 2444,
+      "source_frame": 2445,
+      "source_time_s": 97.76,
+      "crossing_position_native_px": [
+        470.4750061035156,
+        532.5750122070312
+      ],
+      "group_id": "g000055",
+      "global_group_id": "MOT20-02:V_25:g000055",
+      "member_prediction_ids": [
+        "r000077"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000077"
+      ],
+      "first_t": 97.76,
+      "last_t": 97.76,
+      "dedup_decision": "keep_R2_insufficient",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1358,
+          "fragment_index": 1,
+          "direction": "OUT",
+          "time_s": 97.76,
+          "prediction_id": "r000077",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000077",
+          "source_frame": 2445,
+          "target_frame": 2444,
+          "source_time_s": 97.76,
+          "crossing_position_native_px": [
+            470.4750061035156,
+            532.5750122070312
+          ],
+          "last_source_zone_time_s": 96.24,
+          "first_target_zone_time_s": 97.76,
+          "transition_bracket_s": [
+            96.24,
+            97.76
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1222,
+      "fragment_index": 1,
+      "direction": "OUT",
+      "time_s": 104.76,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 104.52,
+      "first_target_zone_time_s": 104.76,
+      "transition_bracket_s": [
+        104.52,
+        104.76
+      ],
+      "prediction_id": "r000080",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000080",
+      "target_frame": 2619,
+      "source_frame": 2620,
+      "source_time_s": 104.76,
+      "crossing_position_native_px": [
+        470.1374969482422,
+        571.7250366210938
+      ],
+      "group_id": "g000056",
+      "global_group_id": "MOT20-02:V_25:g000056",
+      "member_prediction_ids": [
+        "r000080"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000080"
+      ],
+      "first_t": 104.76,
+      "last_t": 104.76,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1222,
+          "fragment_index": 1,
+          "direction": "OUT",
+          "time_s": 104.76,
+          "prediction_id": "r000080",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000080",
+          "source_frame": 2620,
+          "target_frame": 2619,
+          "source_time_s": 104.76,
+          "crossing_position_native_px": [
+            470.1374969482422,
+            571.7250366210938
+          ],
+          "last_source_zone_time_s": 104.52,
+          "first_target_zone_time_s": 104.76,
+          "transition_bracket_s": [
+            104.52,
+            104.76
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1059,
+      "fragment_index": 1,
+      "direction": "OUT",
+      "time_s": 106.44,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 106.2,
+      "first_target_zone_time_s": 106.44,
+      "transition_bracket_s": [
+        106.2,
+        106.44
+      ],
+      "prediction_id": "r000082",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000082",
+      "target_frame": 2661,
+      "source_frame": 2662,
+      "source_time_s": 106.44,
+      "crossing_position_native_px": [
+        465.07501220703125,
+        589.9500122070312
+      ],
+      "group_id": "g000057",
+      "global_group_id": "MOT20-02:V_25:g000057",
+      "member_prediction_ids": [
+        "r000082"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000082"
+      ],
+      "first_t": 106.44,
+      "last_t": 106.44,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1059,
+          "fragment_index": 1,
+          "direction": "OUT",
+          "time_s": 106.44,
+          "prediction_id": "r000082",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000082",
+          "source_frame": 2662,
+          "target_frame": 2661,
+          "source_time_s": 106.44,
+          "crossing_position_native_px": [
+            465.07501220703125,
+            589.9500122070312
+          ],
+          "last_source_zone_time_s": 106.2,
+          "first_target_zone_time_s": 106.44,
+          "transition_bracket_s": [
+            106.2,
+            106.44
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1428,
+      "fragment_index": 0,
+      "direction": "OUT",
+      "time_s": 108.2,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "plaza",
+      "target_zone": "tunnel",
+      "last_source_zone_time_s": 107.08,
+      "first_target_zone_time_s": 108.2,
+      "transition_bracket_s": [
+        107.08,
+        108.2
+      ],
+      "prediction_id": "r000083",
+      "sequence": "MOT20-02",
+      "gate_id": "V_25",
+      "event_key": "MOT20-02:V_25:r000083",
+      "target_frame": 2705,
+      "source_frame": 2706,
+      "source_time_s": 108.2,
+      "crossing_position_native_px": [
+        470.4750213623047,
+        906.5250244140625
+      ],
+      "group_id": "g000058",
+      "global_group_id": "MOT20-02:V_25:g000058",
+      "member_prediction_ids": [
+        "r000083"
+      ],
+      "member_event_keys": [
+        "MOT20-02:V_25:r000083"
+      ],
+      "first_t": 108.2,
+      "last_t": 108.2,
+      "dedup_decision": "keep_R2_insufficient",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1428,
+          "fragment_index": 0,
+          "direction": "OUT",
+          "time_s": 108.2,
+          "prediction_id": "r000083",
+          "sequence": "MOT20-02",
+          "gate_id": "V_25",
+          "event_key": "MOT20-02:V_25:r000083",
+          "source_frame": 2706,
+          "target_frame": 2705,
+          "source_time_s": 108.2,
+          "crossing_position_native_px": [
+            470.4750213623047,
+            906.5250244140625
+          ],
+          "last_source_zone_time_s": 107.08,
+          "first_target_zone_time_s": 108.2,
+          "transition_bracket_s": [
+            107.08,
+            108.2
+          ]
+        }
+      ]
+    }
+  ]
+}

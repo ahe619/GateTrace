@@ -1,0 +1,9 @@
+GateTrace is a mixed-license source distribution.
+
+Project-authored code retains the scoped MIT grant in repository/LICENSE_CODE.
+The SORT-derived OC tracking component is distributed under the applicable GPLv3-or-later terms.
+Native v11's Ultralytics integration has the AGPLv3 combined-program scope described in LICENSE_SCOPE.md.
+Other upstream code retains its respective MIT, Apache-2.0 and other notices.
+Derived data and numerical examples retain repository/DATA_LICENSE.
+
+See LICENSE_SCOPE.md, THIRD_PARTY_NOTICES_PUBLIC.md, SOURCE_LICENSE_MAP.json and LICENSES/ for the exact component scope, full texts and provenance.

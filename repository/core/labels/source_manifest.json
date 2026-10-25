@@ -1,0 +1,202 @@
+{
+  "schema": "label_inputs_v0",
+  "inputs": [
+    {
+      "sequence": "MOT20-02",
+      "kind": "seqinfo",
+      "bytes": 103,
+      "sha256": "e94c47840038e71e84613eeda0a9635728de1e488b56c5b05b16f68ff7305a44",
+      "purpose": "native_metadata"
+    },
+    {
+      "sequence": "MOT20-02",
+      "kind": "gt",
+      "bytes": 6875537,
+      "sha256": "10abe457a67d9919a9cbfe821d3619c8e6174c2b0ed7ecf4cb68c1fd6cad58de",
+      "purpose": "derive_labels_from_official_GT"
+    },
+    {
+      "sequence": "MOT20-01",
+      "kind": "seqinfo",
+      "bytes": 102,
+      "sha256": "5850098d845d1a92c4b8649ee7ab4e2b7ef2b0a2104eb855cdef9a8e93da0a5e",
+      "purpose": "native_metadata"
+    },
+    {
+      "sequence": "MOT20-01",
+      "kind": "gt",
+      "bytes": 872229,
+      "sha256": "89fd0196d67a5eb6011a470dc2a49b02255403b49e8848031cdf99add8a36d9c",
+      "purpose": "derive_labels_from_official_GT"
+    }
+  ],
+  "raw_GT_redistributed": false,
+  "no_image_or_video_inputs": true,
+  "scientific_source_files": [
+    {
+      "path": "scripts/r15e24_census.py",
+      "bytes": 32540,
+      "sha256": "4a6751111fde5888bd619f742012f4e9dd478ef381f8be7aa5886a45825ebbad",
+      "functions": [
+        {
+          "name": "require",
+          "original_file": "scripts/r15e24_census.py",
+          "first_line": 54,
+          "last_line": 56,
+          "source_sha256": "c40d3ac8196e4ffcd6b0aab606bca6595c6543ec0f53f3274de08d4dd26b8445",
+          "byte_exact_source_excerpt": true
+        },
+        {
+          "name": "parse_seqinfo",
+          "original_file": "scripts/r15e24_census.py",
+          "first_line": 183,
+          "last_line": 192,
+          "source_sha256": "51c40a01df152ece11925a0da8632ab496d538b3ac31bfe265ca30d29f67bbca",
+          "byte_exact_source_excerpt": true
+        },
+        {
+          "name": "int_value",
+          "original_file": "scripts/r15e24_census.py",
+          "first_line": 195,
+          "last_line": 197,
+          "source_sha256": "77790cdefda3a56e9e7045df00820e8770a6b853bfd8ec2cb439f335bb1bf378",
+          "byte_exact_source_excerpt": true
+        },
+        {
+          "name": "parse_gt",
+          "original_file": "scripts/r15e24_census.py",
+          "first_line": 200,
+          "last_line": 230,
+          "source_sha256": "f3e7163ed606acadf6025fce4de5700dbe4c3884c19d91fb57e462bc72e098dc",
+          "byte_exact_source_excerpt": true
+        },
+        {
+          "name": "foot",
+          "original_file": "scripts/r15e24_census.py",
+          "first_line": 233,
+          "last_line": 236,
+          "source_sha256": "e59e865deb7ee9deff78accf7e64037df69ab1ebda31761e5496836ab9bba9bb",
+          "byte_exact_source_excerpt": true
+        },
+        {
+          "name": "fit_model",
+          "original_file": "scripts/r15e24_census.py",
+          "first_line": 239,
+          "last_line": 252,
+          "source_sha256": "cffdec5d0dee4c002bf9c5876a1813589f6c4261074112b0cd29794253569800",
+          "byte_exact_source_excerpt": true
+        },
+        {
+          "name": "height_at_foot",
+          "original_file": "scripts/r15e24_census.py",
+          "first_line": 255,
+          "last_line": 261,
+          "source_sha256": "42e972be323ba4e04128b478d38180881dbce06674dbc799df73fc1f45c43076",
+          "byte_exact_source_excerpt": true
+        },
+        {
+          "name": "make_lines",
+          "original_file": "scripts/r15e24_census.py",
+          "first_line": 264,
+          "last_line": 284,
+          "source_sha256": "fa50bde058d44af4471eba3b956b7bc7a5041388a010454d78be4bb2736abfb6",
+          "byte_exact_source_excerpt": true
+        },
+        {
+          "name": "windows_for",
+          "original_file": "scripts/r15e24_census.py",
+          "first_line": 287,
+          "last_line": 293,
+          "source_sha256": "9b7c2c941945e633b38b8121a35250e929dec8906aaa7171c01081ac5fc4342f",
+          "byte_exact_source_excerpt": true
+        },
+        {
+          "name": "edge_distance",
+          "original_file": "scripts/r15e24_census.py",
+          "first_line": 296,
+          "last_line": 301,
+          "source_sha256": "46b790384b5ccd1e9e91942c867c946bb36721fc397ebff52250874f79e853e0",
+          "byte_exact_source_excerpt": true
+        },
+        {
+          "name": "observation",
+          "original_file": "scripts/r15e24_census.py",
+          "first_line": 304,
+          "last_line": 310,
+          "source_sha256": "e0c53cd423b4292beb9a1a0f14fce0621b65f23b56bce409ec3c62a78cc6b9b5",
+          "byte_exact_source_excerpt": true
+        },
+        {
+          "name": "truth_confirmation",
+          "original_file": "scripts/r15e24_census.py",
+          "first_line": 313,
+          "last_line": 332,
+          "source_sha256": "dbab07558377bf708b1ed388ce0dc55ea3bc2ac110b089be5940bdd362b58d57",
+          "byte_exact_source_excerpt": true
+        },
+        {
+          "name": "attributes",
+          "original_file": "scripts/r15e24_census.py",
+          "first_line": 335,
+          "last_line": 358,
+          "source_sha256": "ebed0387d59c5ea9a0e4c12de2eaf6724932aef2276f17f2516ef95f35806d26",
+          "byte_exact_source_excerpt": true
+        },
+        {
+          "name": "summarize_population",
+          "original_file": "scripts/r15e24_census.py",
+          "first_line": 361,
+          "last_line": 375,
+          "source_sha256": "2b169aeb5e59c7186d42f0e73f663aec919bbf2bf6b02ea38753ec455ede94ca",
+          "byte_exact_source_excerpt": true
+        }
+      ]
+    },
+    {
+      "path": "scripts/r15e3_e2_core.py",
+      "bytes": 7310,
+      "sha256": "a9d4ef470e8adbd7b6cb0f0a0017c8592873a885b3ea2b5e9423c31484476c89",
+      "functions": [
+        {
+          "name": "zone_from_distances",
+          "original_file": "scripts/r15e3_e2_core.py",
+          "first_line": 7,
+          "last_line": 10,
+          "source_sha256": "275655a7b66ba6fc4a4960cd197dfff1a7bb27235df4e9efd7f9f77e501b4110",
+          "byte_exact_source_excerpt": true
+        },
+        {
+          "name": "extract_region_events",
+          "original_file": "scripts/r15e3_e2_core.py",
+          "first_line": 13,
+          "last_line": 63,
+          "source_sha256": "adf0081a3fdbcf92cd7078e77014bfa448f1b83c67bd4411df38349ed1eac793",
+          "byte_exact_source_excerpt": true
+        }
+      ]
+    },
+    {
+      "path": "scripts/r15e3_regions_common.py",
+      "bytes": 3169,
+      "sha256": "e2dd5687f6b5574d1aa49a3396cba97baee453c20c6870e7515bc2a86f8f25e4",
+      "functions": [
+        {
+          "name": "nearest_boundary",
+          "original_file": "scripts/r15e3_regions_common.py",
+          "first_line": 8,
+          "last_line": 21,
+          "source_sha256": "77da1ac295a9cabe3c718b5d19bf04783921770f28457413ffb9a1c03de98d12",
+          "byte_exact_source_excerpt": true
+        },
+        {
+          "name": "signed_distance",
+          "original_file": "scripts/r15e3_regions_common.py",
+          "first_line": 24,
+          "last_line": 31,
+          "source_sha256": "dee9ca04d8ba9c0acb652d18e7e3ddf089cbf13b0611020b6775606dc2414563",
+          "byte_exact_source_excerpt": true
+        }
+      ]
+    }
+  ]
+}

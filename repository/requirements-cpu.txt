@@ -1,0 +1,4 @@
+# Reference CPU reproduction: CPython 3.10.18.
+# Install explicitly in your own environment; package commands never install.
+numpy==2.2.6
+

@@ -1,0 +1,500 @@
+{
+  "schema": "release85_expected_main_v1",
+  "main": {
+    "name": "E1 v2 whole sequence",
+    "aggregate": {
+      "correct": 603,
+      "GT": 724,
+      "final_events": 665,
+      "identity_precision": {
+        "numerator": 603,
+        "denominator": 665,
+        "exact": "603/665",
+        "value": 0.9067669172932331
+      },
+      "identity_statuses": {
+        "known": 639,
+        "mixed_unknown": 13,
+        "ignore": 5,
+        "ambiguous": 8
+      },
+      "unknown_or_ambiguous": 21,
+      "bins": {
+        "low": {
+          "numerator": 99,
+          "denominator": 180,
+          "exact": "11/20",
+          "value": 0.55
+        },
+        "mid_low": {
+          "numerator": 149,
+          "denominator": 171,
+          "exact": "149/171",
+          "value": 0.8713450292397661
+        },
+        "mid_high": {
+          "numerator": 150,
+          "denominator": 163,
+          "exact": "150/163",
+          "value": 0.9202453987730062
+        },
+        "high": {
+          "numerator": 205,
+          "denominator": 210,
+          "exact": "41/42",
+          "value": 0.9761904761904762
+        }
+      }
+    },
+    "by_sequence": {
+      "MOT20-01": {
+        "correct": 56,
+        "GT": 74,
+        "final_events": 64,
+        "identity_precision": {
+          "numerator": 56,
+          "denominator": 64,
+          "exact": "7/8",
+          "value": 0.875
+        },
+        "identity_statuses": {
+          "known": 59,
+          "mixed_unknown": 3,
+          "ignore": 2
+        },
+        "unknown_or_ambiguous": 3,
+        "bins": {
+          "low": {
+            "numerator": 18,
+            "denominator": 32,
+            "exact": "9/16",
+            "value": 0.5625
+          },
+          "mid_low": {
+            "numerator": 14,
+            "denominator": 16,
+            "exact": "7/8",
+            "value": 0.875
+          },
+          "mid_high": {
+            "numerator": 12,
+            "denominator": 13,
+            "exact": "12/13",
+            "value": 0.9230769230769231
+          },
+          "high": {
+            "numerator": 12,
+            "denominator": 13,
+            "exact": "12/13",
+            "value": 0.9230769230769231
+          }
+        }
+      },
+      "MOT20-02": {
+        "correct": 547,
+        "GT": 650,
+        "final_events": 601,
+        "identity_precision": {
+          "numerator": 547,
+          "denominator": 601,
+          "exact": "547/601",
+          "value": 0.9101497504159733
+        },
+        "identity_statuses": {
+          "known": 580,
+          "ambiguous": 8,
+          "mixed_unknown": 10,
+          "ignore": 3
+        },
+        "unknown_or_ambiguous": 18,
+        "bins": {
+          "low": {
+            "numerator": 81,
+            "denominator": 148,
+            "exact": "81/148",
+            "value": 0.5472972972972973
+          },
+          "mid_low": {
+            "numerator": 135,
+            "denominator": 155,
+            "exact": "27/31",
+            "value": 0.8709677419354839
+          },
+          "mid_high": {
+            "numerator": 138,
+            "denominator": 150,
+            "exact": "23/25",
+            "value": 0.92
+          },
+          "high": {
+            "numerator": 193,
+            "denominator": 197,
+            "exact": "193/197",
+            "value": 0.9796954314720813
+          }
+        }
+      }
+    }
+  },
+  "units": [
+    {
+      "sequence": "MOT20-01",
+      "gate": "H_30",
+      "N_GT": 0,
+      "N_final": 0,
+      "correct": 0,
+      "identity_statuses": {},
+      "bins": {
+        "low": {
+          "correct": 0,
+          "GT": 0
+        },
+        "mid_low": {
+          "correct": 0,
+          "GT": 0
+        },
+        "mid_high": {
+          "correct": 0,
+          "GT": 0
+        },
+        "high": {
+          "correct": 0,
+          "GT": 0
+        }
+      }
+    },
+    {
+      "sequence": "MOT20-01",
+      "gate": "H_50",
+      "N_GT": 1,
+      "N_final": 0,
+      "correct": 0,
+      "identity_statuses": {},
+      "bins": {
+        "low": {
+          "correct": 0,
+          "GT": 1
+        },
+        "mid_low": {
+          "correct": 0,
+          "GT": 0
+        },
+        "mid_high": {
+          "correct": 0,
+          "GT": 0
+        },
+        "high": {
+          "correct": 0,
+          "GT": 0
+        }
+      }
+    },
+    {
+      "sequence": "MOT20-01",
+      "gate": "H_70",
+      "N_GT": 8,
+      "N_final": 12,
+      "correct": 5,
+      "identity_statuses": {
+        "known": 8,
+        "mixed_unknown": 2,
+        "ignore": 2
+      },
+      "bins": {
+        "low": {
+          "correct": 2,
+          "GT": 3
+        },
+        "mid_low": {
+          "correct": 1,
+          "GT": 3
+        },
+        "mid_high": {
+          "correct": 1,
+          "GT": 1
+        },
+        "high": {
+          "correct": 1,
+          "GT": 1
+        }
+      }
+    },
+    {
+      "sequence": "MOT20-01",
+      "gate": "V_25",
+      "N_GT": 8,
+      "N_final": 7,
+      "correct": 7,
+      "identity_statuses": {
+        "known": 7
+      },
+      "bins": {
+        "low": {
+          "correct": 0,
+          "GT": 1
+        },
+        "mid_low": {
+          "correct": 2,
+          "GT": 2
+        },
+        "mid_high": {
+          "correct": 3,
+          "GT": 3
+        },
+        "high": {
+          "correct": 2,
+          "GT": 2
+        }
+      }
+    },
+    {
+      "sequence": "MOT20-01",
+      "gate": "V_50",
+      "N_GT": 25,
+      "N_final": 23,
+      "correct": 23,
+      "identity_statuses": {
+        "known": 23
+      },
+      "bins": {
+        "low": {
+          "correct": 6,
+          "GT": 7
+        },
+        "mid_low": {
+          "correct": 5,
+          "GT": 5
+        },
+        "mid_high": {
+          "correct": 5,
+          "GT": 6
+        },
+        "high": {
+          "correct": 7,
+          "GT": 7
+        }
+      }
+    },
+    {
+      "sequence": "MOT20-01",
+      "gate": "V_75",
+      "N_GT": 32,
+      "N_final": 22,
+      "correct": 21,
+      "identity_statuses": {
+        "known": 21,
+        "mixed_unknown": 1
+      },
+      "bins": {
+        "low": {
+          "correct": 10,
+          "GT": 20
+        },
+        "mid_low": {
+          "correct": 6,
+          "GT": 6
+        },
+        "mid_high": {
+          "correct": 3,
+          "GT": 3
+        },
+        "high": {
+          "correct": 2,
+          "GT": 3
+        }
+      }
+    },
+    {
+      "sequence": "MOT20-02",
+      "gate": "H_30",
+      "N_GT": 46,
+      "N_final": 39,
+      "correct": 28,
+      "identity_statuses": {
+        "known": 38,
+        "ambiguous": 1
+      },
+      "bins": {
+        "low": {
+          "correct": 5,
+          "GT": 16
+        },
+        "mid_low": {
+          "correct": 8,
+          "GT": 12
+        },
+        "mid_high": {
+          "correct": 11,
+          "GT": 14
+        },
+        "high": {
+          "correct": 4,
+          "GT": 4
+        }
+      }
+    },
+    {
+      "sequence": "MOT20-02",
+      "gate": "H_50",
+      "N_GT": 130,
+      "N_final": 123,
+      "correct": 99,
+      "identity_statuses": {
+        "known": 116,
+        "mixed_unknown": 2,
+        "ignore": 1,
+        "ambiguous": 4
+      },
+      "bins": {
+        "low": {
+          "correct": 16,
+          "GT": 33
+        },
+        "mid_low": {
+          "correct": 21,
+          "GT": 29
+        },
+        "mid_high": {
+          "correct": 29,
+          "GT": 34
+        },
+        "high": {
+          "correct": 33,
+          "GT": 34
+        }
+      }
+    },
+    {
+      "sequence": "MOT20-02",
+      "gate": "H_70",
+      "N_GT": 100,
+      "N_final": 99,
+      "correct": 97,
+      "identity_statuses": {
+        "known": 99
+      },
+      "bins": {
+        "low": {
+          "correct": 7,
+          "GT": 9
+        },
+        "mid_low": {
+          "correct": 19,
+          "GT": 20
+        },
+        "mid_high": {
+          "correct": 20,
+          "GT": 20
+        },
+        "high": {
+          "correct": 51,
+          "GT": 51
+        }
+      }
+    },
+    {
+      "sequence": "MOT20-02",
+      "gate": "V_25",
+      "N_GT": 66,
+      "N_final": 58,
+      "correct": 56,
+      "identity_statuses": {
+        "known": 58
+      },
+      "bins": {
+        "low": {
+          "correct": 21,
+          "GT": 28
+        },
+        "mid_low": {
+          "correct": 11,
+          "GT": 13
+        },
+        "mid_high": {
+          "correct": 12,
+          "GT": 13
+        },
+        "high": {
+          "correct": 12,
+          "GT": 12
+        }
+      }
+    },
+    {
+      "sequence": "MOT20-02",
+      "gate": "V_50",
+      "N_GT": 156,
+      "N_final": 137,
+      "correct": 129,
+      "identity_statuses": {
+        "known": 129,
+        "ambiguous": 2,
+        "mixed_unknown": 5,
+        "ignore": 1
+      },
+      "bins": {
+        "low": {
+          "correct": 17,
+          "GT": 37
+        },
+        "mid_low": {
+          "correct": 40,
+          "GT": 44
+        },
+        "mid_high": {
+          "correct": 28,
+          "GT": 30
+        },
+        "high": {
+          "correct": 44,
+          "GT": 45
+        }
+      }
+    },
+    {
+      "sequence": "MOT20-02",
+      "gate": "V_75",
+      "N_GT": 152,
+      "N_final": 145,
+      "correct": 138,
+      "identity_statuses": {
+        "known": 140,
+        "mixed_unknown": 3,
+        "ambiguous": 1,
+        "ignore": 1
+      },
+      "bins": {
+        "low": {
+          "correct": 15,
+          "GT": 25
+        },
+        "mid_low": {
+          "correct": 36,
+          "GT": 37
+        },
+        "mid_high": {
+          "correct": 38,
+          "GT": 39
+        },
+        "high": {
+          "correct": 49,
+          "GT": 51
+        }
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "path": "data/r15/offshelf_detector/g2_82g/scores.json",
+      "bytes": 18781,
+      "sha256": "82401b6fb1090ff09537588f3c2283b223fd1e9cfdce54df3c1e92e610e568de"
+    },
+    {
+      "path": "data/r15/offshelf_detector/g2_82g/units.json",
+      "bytes": 56907,
+      "sha256": "d06cfb0c253701c39aef512ed132c37c842f86ea9e1101eea4c29ffd67efa373"
+    }
+  ],
+  "scope": "Whole-sequence N=724 only; T3 core N=671 not reproduced by v0",
+  "not_human_QC": true
+}

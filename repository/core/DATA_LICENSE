@@ -1,0 +1,10 @@
+The derived event labels, generated geometry and included numerical example system outputs in this package are adaptations of the MOT20 development data. They are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license (CC BY-NC-SA 3.0).
+
+License URI and governing legal text:
+https://creativecommons.org/licenses/by-nc-sa/3.0/
+https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode
+
+Original source: MOTChallenge, MOT20, https://motchallenge.net/data/MOT20/
+Attribution, modification notices and the limited contents of this adaptation are in ATTRIBUTION.md and CHANGES.md. Retain those notices and the license URI when sharing an adaptation. This notice adds no restrictions to the rights granted by the license and does not change the original source license.
+
+Original images, videos and complete source GT files are NOT redistributed. The user's source copies remain governed by their original terms. Package source code is separately identified by LICENSE_CODE; third-party software is not relicensed by this notice.

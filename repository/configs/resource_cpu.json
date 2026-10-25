@@ -1,0 +1,26 @@
+{
+  "schema": "resource_cpu_interface_v1",
+  "core_directory": "core",
+  "supported_sequences": ["MOT20-01", "MOT20-02"],
+  "required_external_inputs": {
+    "gt_root": ["MOT20-01/gt/gt.txt", "MOT20-02/gt/gt.txt"],
+    "seqinfo_root": ["MOT20-01/seqinfo.ini", "MOT20-02/seqinfo.ini"],
+    "tracks": ["MOT20-01.txt", "MOT20-02.txt"]
+  },
+  "entrypoints": {
+    "labels_and_cached_score": "scripts/reproduce.py",
+    "events_and_tracker_score": "scripts/score_tracker.py",
+    "event_inspection": "scripts/inspect_event.py",
+    "synthetic_tests": "scripts/run_resource_synthetic.py"
+  },
+  "reference_python": "3.10.18",
+  "required_numpy": "2.2.6",
+  "rendering": "Optional Pillow, only for an explicit local --images/--render-out request.",
+  "output_policy": "Explicit new output directories outside the entire repository.",
+  "inference": false,
+  "training": false,
+  "network": false,
+  "scientific_constants": "Read only from the byte-frozen core; this file does not override them.",
+  "human_qc": "not_reviewed"
+}
+

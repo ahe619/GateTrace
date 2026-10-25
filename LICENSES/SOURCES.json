@@ -1,0 +1,41 @@
+{
+  "schema": "gatetrace_license_sources_v1",
+  "sources": [
+    {
+      "path": "LICENSES/GPL-3.0.txt",
+      "source_url": "https://raw.githubusercontent.com/abewley/sort/d3761f26e04087e1e040f7818f092de76f769875/LICENSE",
+      "effective_url": "https://raw.githubusercontent.com/abewley/sort/d3761f26e04087e1e040f7818f092de76f769875/LICENSE",
+      "bytes": 35141,
+      "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+      "retrieved_utc": "2026-10-25T20:25:23.222146+00:00",
+      "purpose": "Verbatim public license text; no scientific source or result"
+    },
+    {
+      "path": "LICENSES/AGPL-3.0.txt",
+      "source_url": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.192/LICENSE",
+      "effective_url": "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.3.192/LICENSE",
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "retrieved_utc": "2026-10-25T20:25:24.024297+00:00",
+      "purpose": "Verbatim public license text; no scientific source or result"
+    },
+    {
+      "path": "LICENSES/Apache-2.0.txt",
+      "source_url": "https://raw.githubusercontent.com/Megvii-BaseDetection/YOLOX/0.3.0/LICENSE",
+      "effective_url": "https://raw.githubusercontent.com/Megvii-BaseDetection/YOLOX/0.3.0/LICENSE",
+      "bytes": 11371,
+      "sha256": "0ec3668d3274bcf29e8a29e9576d5a2cd96fc78d3c5bec4387355a796e5d9088",
+      "retrieved_utc": "2026-10-25T20:25:24.859745+00:00",
+      "purpose": "Verbatim public license text; no scientific source or result"
+    },
+    {
+      "path": "LICENSES/FilterPy-MIT.txt",
+      "source_url": "https://raw.githubusercontent.com/rlabbe/filterpy/1.4.5/LICENSE",
+      "effective_url": "https://raw.githubusercontent.com/rlabbe/filterpy/1.4.5/LICENSE",
+      "bytes": 1084,
+      "sha256": "8ffce1097f1b1c0fba42e4449ef49aa05cb7b45566dd0989407839dba07af99c",
+      "retrieved_utc": "2026-10-25T20:25:25.714182+00:00",
+      "purpose": "Verbatim public license text; no scientific source or result"
+    }
+  ]
+}

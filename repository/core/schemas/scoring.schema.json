@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:mot20-crossing-events-v0:scoring",
+  "title": "Development-only E1-v2 scoring interfaces",
+  "description": "Schema documents numerical inputs and outputs. Runtime also checks exact hashes, frame order, dimensions, scientific function bindings and old result parity. It never fetches this schema URL.",
+  "$defs": {
+    "sequence": {"enum": ["MOT20-01", "MOT20-02"]},
+    "gate": {"enum": ["H_30", "H_50", "H_70", "V_25", "V_50", "V_75"]},
+    "binding": {
+      "type": "object", "required": ["path", "bytes", "sha256"],
+      "additionalProperties": false,
+      "properties": {
+        "path": {"type": "string", "description": "Portable relative path within the explicitly supplied root; no absolute paths or traversal."},
+        "bytes": {"type": "integer", "minimum": 0},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    },
+    "outputBox": {
+      "type": "object", "required": ["raw_detection_index", "track_id", "original_track_id", "box"],
+      "additionalProperties": false,
+      "properties": {
+        "raw_detection_index": {"type": "integer", "minimum": 0, "description": "Original detection-row tie key; not a newly enumerated box index."},
+        "track_id": {"type": "integer", "description": "Post-M4 emitted trajectory ID."},
+        "original_track_id": {"type": "integer", "description": "Saved pre-M4 ID; lineage only, never a GT identity answer."},
+        "box": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"type": "number"}, "description": "Zero-based native xyxy from the actual emitted tracker row, not its associated raw detection box."}
+      }
+    },
+    "frame": {
+      "type": "object", "required": ["frame", "source_frame", "time_s", "outputs"],
+      "additionalProperties": false,
+      "properties": {
+        "frame": {"type": "integer", "minimum": 0},
+        "source_frame": {"type": "integer", "minimum": 1},
+        "time_s": {"type": "number", "minimum": 0},
+        "outputs": {"type": "array", "items": {"$ref": "#/$defs/outputBox"}}
+      }
+    },
+    "finalEventRequired": {
+      "type": "object",
+      "required": ["prediction_id", "track_id", "fragment_index", "source_frame", "target_frame", "time_s", "direction", "crossing_position_native_px", "sequence", "gate_id"],
+      "properties": {
+        "prediction_id": {"type": "string", "pattern": "^r[0-9]+$"},
+        "track_id": {"type": "integer"}, "fragment_index": {"type": "integer", "minimum": 0},
+        "source_frame": {"type": "integer", "minimum": 1}, "target_frame": {"type": "integer", "minimum": 0},
+        "time_s": {"type": "number", "minimum": 0}, "direction": {"enum": ["IN", "OUT"]},
+        "crossing_position_native_px": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "number"}},
+        "sequence": {"$ref": "#/$defs/sequence"}, "gate_id": {"$ref": "#/$defs/gate"},
+        "member_prediction_ids": {"type": "array", "items": {"type": "string"}},
+        "member_event_keys": {"type": "array", "items": {"type": "string"}},
+        "member_events": {"type": "array", "items": {"type": "object"}},
+        "_identity": false, "identity_association": false
+      },
+      "description": "The concrete cache whitelist, including stable lineage fields, is recorded in examples/yolox_v11/source_manifest.json. Prior identity answers are prohibited. Target frame is zero-based; source_frame=target_frame+1. Event time means first observed target-region entry, not an exact physical line-crossing timestamp."
+    },
+    "optimalRange": {
+      "type": "object", "required": ["minimum", "maximum", "canonical", "denominator"],
+      "properties": {
+        "minimum": {"type": "integer", "minimum": 0}, "maximum": {"type": "integer", "minimum": 0},
+        "canonical": {"type": "integer", "minimum": 0}, "denominator": {"type": "integer", "minimum": 0}
+      },
+      "description": "Achievable count bounds over all maximum-cardinality/minimum-exact-time optima before visibility stratification. Not confidence intervals, uncertainty bounds, or alternate parameter settings."
+    }
+  },
+  "oneOf": [
+    {"$ref": "#/$defs/frame"},
+    {"$ref": "#/$defs/finalEventRequired"},
+    {
+      "type": "object", "required": ["schema", "main", "parity", "matching_ranges", "population", "human_QC"],
+      "properties": {
+        "schema": {"const": "release85_score_result_v1"},
+        "main": {"type": "object", "required": ["name", "aggregate", "by_sequence"]},
+        "parity": {"type": "object", "required": ["status", "checks"], "properties": {"status": {"enum": ["PASS", "FAIL"]}}},
+        "matching_ranges": {"type": "object", "required": ["aggregate", "by_sequence"]},
+        "population": {"const": "whole_sequence_724_not_core_671"},
+        "human_QC": {"const": "not_reviewed"}
+      }
+    }
+  ]
+}

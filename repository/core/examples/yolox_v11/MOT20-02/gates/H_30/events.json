@@ -1,0 +1,2520 @@
+{
+  "schema": "release85_final_events_v1",
+  "sequence": "MOT20-02",
+  "gate_id": "H_30",
+  "metadata": {
+    "nb_frames": 2782,
+    "fps": 25.0,
+    "width": 1920,
+    "height": 1080
+  },
+  "final_events": [
+    {
+      "track_id": 28,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 0.92,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 0.12,
+      "first_target_zone_time_s": 0.92,
+      "transition_bracket_s": [
+        0.12,
+        0.92
+      ],
+      "prediction_id": "r000000",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000000",
+      "target_frame": 23,
+      "source_frame": 24,
+      "source_time_s": 0.92,
+      "crossing_position_native_px": [
+        617.6250305175781,
+        335.8125
+      ],
+      "group_id": "g000001",
+      "global_group_id": "MOT20-02:H_30:g000001",
+      "member_prediction_ids": [
+        "r000000"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000000"
+      ],
+      "first_t": 0.92,
+      "last_t": 0.92,
+      "dedup_decision": "keep_R2_insufficient",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 28,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 0.92,
+          "prediction_id": "r000000",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000000",
+          "source_frame": 24,
+          "target_frame": 23,
+          "source_time_s": 0.92,
+          "crossing_position_native_px": [
+            617.6250305175781,
+            335.8125
+          ],
+          "last_source_zone_time_s": 0.12,
+          "first_target_zone_time_s": 0.92,
+          "transition_bracket_s": [
+            0.12,
+            0.92
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 46,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 1.28,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 1.2,
+      "first_target_zone_time_s": 1.28,
+      "transition_bracket_s": [
+        1.2,
+        1.28
+      ],
+      "prediction_id": "r000002",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000002",
+      "target_frame": 32,
+      "source_frame": 33,
+      "source_time_s": 1.28,
+      "crossing_position_native_px": [
+        1351.3500366210938,
+        333.1125183105469
+      ],
+      "group_id": "g000002",
+      "global_group_id": "MOT20-02:H_30:g000002",
+      "member_prediction_ids": [
+        "r000002",
+        "r000005"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000002",
+        "MOT20-02:H_30:r000005"
+      ],
+      "first_t": 1.28,
+      "last_t": 1.52,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 46,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 1.28,
+          "prediction_id": "r000002",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000002",
+          "source_frame": 33,
+          "target_frame": 32,
+          "source_time_s": 1.28,
+          "crossing_position_native_px": [
+            1351.3500366210938,
+            333.1125183105469
+          ],
+          "last_source_zone_time_s": 1.2,
+          "first_target_zone_time_s": 1.28,
+          "transition_bracket_s": [
+            1.2,
+            1.28
+          ]
+        },
+        {
+          "track_id": 46,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 1.52,
+          "prediction_id": "r000005",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000005",
+          "source_frame": 39,
+          "target_frame": 38,
+          "source_time_s": 1.52,
+          "crossing_position_native_px": [
+            1357.0875244140625,
+            331.0875244140625
+          ],
+          "last_source_zone_time_s": 1.32,
+          "first_target_zone_time_s": 1.52,
+          "transition_bracket_s": [
+            1.32,
+            1.52
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 20,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 2.4,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 2.24,
+      "first_target_zone_time_s": 2.4,
+      "transition_bracket_s": [
+        2.24,
+        2.4
+      ],
+      "prediction_id": "r000007",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000007",
+      "target_frame": 60,
+      "source_frame": 61,
+      "source_time_s": 2.4,
+      "crossing_position_native_px": [
+        720.2250366210938,
+        334.8000183105469
+      ],
+      "group_id": "g000004",
+      "global_group_id": "MOT20-02:H_30:g000004",
+      "member_prediction_ids": [
+        "r000007"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000007"
+      ],
+      "first_t": 2.4,
+      "last_t": 2.4,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 20,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 2.4,
+          "prediction_id": "r000007",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000007",
+          "source_frame": 61,
+          "target_frame": 60,
+          "source_time_s": 2.4,
+          "crossing_position_native_px": [
+            720.2250366210938,
+            334.8000183105469
+          ],
+          "last_source_zone_time_s": 2.24,
+          "first_target_zone_time_s": 2.4,
+          "transition_bracket_s": [
+            2.24,
+            2.4
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 23,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 2.88,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 2.6,
+      "first_target_zone_time_s": 2.88,
+      "transition_bracket_s": [
+        2.6,
+        2.88
+      ],
+      "prediction_id": "r000010",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000010",
+      "target_frame": 72,
+      "source_frame": 73,
+      "source_time_s": 2.88,
+      "crossing_position_native_px": [
+        994.9500427246094,
+        335.8125
+      ],
+      "group_id": "g000006",
+      "global_group_id": "MOT20-02:H_30:g000006",
+      "member_prediction_ids": [
+        "r000010"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000010"
+      ],
+      "first_t": 2.88,
+      "last_t": 2.88,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 23,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 2.88,
+          "prediction_id": "r000010",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000010",
+          "source_frame": 73,
+          "target_frame": 72,
+          "source_time_s": 2.88,
+          "crossing_position_native_px": [
+            994.9500427246094,
+            335.8125
+          ],
+          "last_source_zone_time_s": 2.6,
+          "first_target_zone_time_s": 2.88,
+          "transition_bracket_s": [
+            2.6,
+            2.88
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 11,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 3.16,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 2.84,
+      "first_target_zone_time_s": 3.16,
+      "transition_bracket_s": [
+        2.84,
+        3.16
+      ],
+      "prediction_id": "r000011",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000011",
+      "target_frame": 79,
+      "source_frame": 80,
+      "source_time_s": 3.16,
+      "crossing_position_native_px": [
+        832.2750244140625,
+        331.4250183105469
+      ],
+      "group_id": "g000007",
+      "global_group_id": "MOT20-02:H_30:g000007",
+      "member_prediction_ids": [
+        "r000011"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000011"
+      ],
+      "first_t": 3.16,
+      "last_t": 3.16,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 11,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 3.16,
+          "prediction_id": "r000011",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000011",
+          "source_frame": 80,
+          "target_frame": 79,
+          "source_time_s": 3.16,
+          "crossing_position_native_px": [
+            832.2750244140625,
+            331.4250183105469
+          ],
+          "last_source_zone_time_s": 2.84,
+          "first_target_zone_time_s": 3.16,
+          "transition_bracket_s": [
+            2.84,
+            3.16
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 25,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 3.64,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 3.28,
+      "first_target_zone_time_s": 3.64,
+      "transition_bracket_s": [
+        3.28,
+        3.64
+      ],
+      "prediction_id": "r000012",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000012",
+      "target_frame": 91,
+      "source_frame": 92,
+      "source_time_s": 3.64,
+      "crossing_position_native_px": [
+        756.6750183105469,
+        331.0875244140625
+      ],
+      "group_id": "g000008",
+      "global_group_id": "MOT20-02:H_30:g000008",
+      "member_prediction_ids": [
+        "r000012"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000012"
+      ],
+      "first_t": 3.64,
+      "last_t": 3.64,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 25,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 3.64,
+          "prediction_id": "r000012",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000012",
+          "source_frame": 92,
+          "target_frame": 91,
+          "source_time_s": 3.64,
+          "crossing_position_native_px": [
+            756.6750183105469,
+            331.0875244140625
+          ],
+          "last_source_zone_time_s": 3.28,
+          "first_target_zone_time_s": 3.64,
+          "transition_bracket_s": [
+            3.28,
+            3.64
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 69,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 4.2,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 3.68,
+      "first_target_zone_time_s": 4.2,
+      "transition_bracket_s": [
+        3.68,
+        4.2
+      ],
+      "prediction_id": "r000015",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000015",
+      "target_frame": 105,
+      "source_frame": 106,
+      "source_time_s": 4.2,
+      "crossing_position_native_px": [
+        536.6250305175781,
+        335.3062744140625
+      ],
+      "group_id": "g000009",
+      "global_group_id": "MOT20-02:H_30:g000009",
+      "member_prediction_ids": [
+        "r000015"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000015"
+      ],
+      "first_t": 4.2,
+      "last_t": 4.2,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 69,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 4.2,
+          "prediction_id": "r000015",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000015",
+          "source_frame": 106,
+          "target_frame": 105,
+          "source_time_s": 4.2,
+          "crossing_position_native_px": [
+            536.6250305175781,
+            335.3062744140625
+          ],
+          "last_source_zone_time_s": 3.68,
+          "first_target_zone_time_s": 4.2,
+          "transition_bracket_s": [
+            3.68,
+            4.2
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 36,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 4.24,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 4.12,
+      "first_target_zone_time_s": 4.24,
+      "transition_bracket_s": [
+        4.12,
+        4.24
+      ],
+      "prediction_id": "r000016",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000016",
+      "target_frame": 106,
+      "source_frame": 107,
+      "source_time_s": 4.24,
+      "crossing_position_native_px": [
+        1148.175048828125,
+        331.4250183105469
+      ],
+      "group_id": "g000010",
+      "global_group_id": "MOT20-02:H_30:g000010",
+      "member_prediction_ids": [
+        "r000016"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000016"
+      ],
+      "first_t": 4.24,
+      "last_t": 4.24,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 36,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 4.24,
+          "prediction_id": "r000016",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000016",
+          "source_frame": 107,
+          "target_frame": 106,
+          "source_time_s": 4.24,
+          "crossing_position_native_px": [
+            1148.175048828125,
+            331.4250183105469
+          ],
+          "last_source_zone_time_s": 4.12,
+          "first_target_zone_time_s": 4.24,
+          "transition_bracket_s": [
+            4.12,
+            4.24
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 27,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 6.12,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 4.96,
+      "first_target_zone_time_s": 6.12,
+      "transition_bracket_s": [
+        4.96,
+        6.12
+      ],
+      "prediction_id": "r000018",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000018",
+      "target_frame": 153,
+      "source_frame": 154,
+      "source_time_s": 6.12,
+      "crossing_position_native_px": [
+        893.7000122070312,
+        331.4250183105469
+      ],
+      "group_id": "g000011",
+      "global_group_id": "MOT20-02:H_30:g000011",
+      "member_prediction_ids": [
+        "r000018"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000018"
+      ],
+      "first_t": 6.12,
+      "last_t": 6.12,
+      "dedup_decision": "keep_R2_insufficient",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 27,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 6.12,
+          "prediction_id": "r000018",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000018",
+          "source_frame": 154,
+          "target_frame": 153,
+          "source_time_s": 6.12,
+          "crossing_position_native_px": [
+            893.7000122070312,
+            331.4250183105469
+          ],
+          "last_source_zone_time_s": 4.96,
+          "first_target_zone_time_s": 6.12,
+          "transition_bracket_s": [
+            4.96,
+            6.12
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 81,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 6.16,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 4.88,
+      "first_target_zone_time_s": 6.16,
+      "transition_bracket_s": [
+        4.88,
+        6.16
+      ],
+      "prediction_id": "r000019",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000019",
+      "target_frame": 154,
+      "source_frame": 155,
+      "source_time_s": 6.16,
+      "crossing_position_native_px": [
+        936.2250366210938,
+        330.75
+      ],
+      "group_id": "g000012",
+      "global_group_id": "MOT20-02:H_30:g000012",
+      "member_prediction_ids": [
+        "r000019"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000019"
+      ],
+      "first_t": 6.16,
+      "last_t": 6.16,
+      "dedup_decision": "keep_R2_insufficient",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 81,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 6.16,
+          "prediction_id": "r000019",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000019",
+          "source_frame": 155,
+          "target_frame": 154,
+          "source_time_s": 6.16,
+          "crossing_position_native_px": [
+            936.2250366210938,
+            330.75
+          ],
+          "last_source_zone_time_s": 4.88,
+          "first_target_zone_time_s": 6.16,
+          "transition_bracket_s": [
+            4.88,
+            6.16
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 84,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 7.88,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 7.44,
+      "first_target_zone_time_s": 7.88,
+      "transition_bracket_s": [
+        7.44,
+        7.88
+      ],
+      "prediction_id": "r000020",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000020",
+      "target_frame": 197,
+      "source_frame": 198,
+      "source_time_s": 7.88,
+      "crossing_position_native_px": [
+        796.5000305175781,
+        332.4375
+      ],
+      "group_id": "g000013",
+      "global_group_id": "MOT20-02:H_30:g000013",
+      "member_prediction_ids": [
+        "r000020"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000020"
+      ],
+      "first_t": 7.88,
+      "last_t": 7.88,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 84,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 7.88,
+          "prediction_id": "r000020",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000020",
+          "source_frame": 198,
+          "target_frame": 197,
+          "source_time_s": 7.88,
+          "crossing_position_native_px": [
+            796.5000305175781,
+            332.4375
+          ],
+          "last_source_zone_time_s": 7.44,
+          "first_target_zone_time_s": 7.88,
+          "transition_bracket_s": [
+            7.44,
+            7.88
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 62,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 8.08,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 7.72,
+      "first_target_zone_time_s": 8.08,
+      "transition_bracket_s": [
+        7.72,
+        8.08
+      ],
+      "prediction_id": "r000021",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000021",
+      "target_frame": 202,
+      "source_frame": 203,
+      "source_time_s": 8.08,
+      "crossing_position_native_px": [
+        988.2000427246094,
+        332.7750244140625
+      ],
+      "group_id": "g000014",
+      "global_group_id": "MOT20-02:H_30:g000014",
+      "member_prediction_ids": [
+        "r000021"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000021"
+      ],
+      "first_t": 8.08,
+      "last_t": 8.08,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 62,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 8.08,
+          "prediction_id": "r000021",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000021",
+          "source_frame": 203,
+          "target_frame": 202,
+          "source_time_s": 8.08,
+          "crossing_position_native_px": [
+            988.2000427246094,
+            332.7750244140625
+          ],
+          "last_source_zone_time_s": 7.72,
+          "first_target_zone_time_s": 8.08,
+          "transition_bracket_s": [
+            7.72,
+            8.08
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 91,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 8.92,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 8.68,
+      "first_target_zone_time_s": 8.92,
+      "transition_bracket_s": [
+        8.68,
+        8.92
+      ],
+      "prediction_id": "r000023",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000023",
+      "target_frame": 223,
+      "source_frame": 224,
+      "source_time_s": 8.92,
+      "crossing_position_native_px": [
+        720.2250366210938,
+        332.1000061035156
+      ],
+      "group_id": "g000015",
+      "global_group_id": "MOT20-02:H_30:g000015",
+      "member_prediction_ids": [
+        "r000023"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000023"
+      ],
+      "first_t": 8.92,
+      "last_t": 8.92,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 91,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 8.92,
+          "prediction_id": "r000023",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000023",
+          "source_frame": 224,
+          "target_frame": 223,
+          "source_time_s": 8.92,
+          "crossing_position_native_px": [
+            720.2250366210938,
+            332.1000061035156
+          ],
+          "last_source_zone_time_s": 8.68,
+          "first_target_zone_time_s": 8.92,
+          "transition_bracket_s": [
+            8.68,
+            8.92
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 55,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 9.12,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 8.88,
+      "first_target_zone_time_s": 9.12,
+      "transition_bracket_s": [
+        8.88,
+        9.12
+      ],
+      "prediction_id": "r000024",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000024",
+      "target_frame": 228,
+      "source_frame": 229,
+      "source_time_s": 9.12,
+      "crossing_position_native_px": [
+        818.7750244140625,
+        331.76251220703125
+      ],
+      "group_id": "g000016",
+      "global_group_id": "MOT20-02:H_30:g000016",
+      "member_prediction_ids": [
+        "r000024"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000024"
+      ],
+      "first_t": 9.12,
+      "last_t": 9.12,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 55,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 9.12,
+          "prediction_id": "r000024",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000024",
+          "source_frame": 229,
+          "target_frame": 228,
+          "source_time_s": 9.12,
+          "crossing_position_native_px": [
+            818.7750244140625,
+            331.76251220703125
+          ],
+          "last_source_zone_time_s": 8.88,
+          "first_target_zone_time_s": 9.12,
+          "transition_bracket_s": [
+            8.88,
+            9.12
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 60,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 9.2,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 8.92,
+      "first_target_zone_time_s": 9.2,
+      "transition_bracket_s": [
+        8.92,
+        9.2
+      ],
+      "prediction_id": "r000025",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000025",
+      "target_frame": 230,
+      "source_frame": 231,
+      "source_time_s": 9.2,
+      "crossing_position_native_px": [
+        766.8000183105469,
+        331.4250183105469
+      ],
+      "group_id": "g000017",
+      "global_group_id": "MOT20-02:H_30:g000017",
+      "member_prediction_ids": [
+        "r000025"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000025"
+      ],
+      "first_t": 9.2,
+      "last_t": 9.2,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 60,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 9.2,
+          "prediction_id": "r000025",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000025",
+          "source_frame": 231,
+          "target_frame": 230,
+          "source_time_s": 9.2,
+          "crossing_position_native_px": [
+            766.8000183105469,
+            331.4250183105469
+          ],
+          "last_source_zone_time_s": 8.92,
+          "first_target_zone_time_s": 9.2,
+          "transition_bracket_s": [
+            8.92,
+            9.2
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 45,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 9.24,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 9.0,
+      "first_target_zone_time_s": 9.24,
+      "transition_bracket_s": [
+        9.0,
+        9.24
+      ],
+      "prediction_id": "r000026",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000026",
+      "target_frame": 231,
+      "source_frame": 232,
+      "source_time_s": 9.24,
+      "crossing_position_native_px": [
+        951.7500305175781,
+        332.1000061035156
+      ],
+      "group_id": "g000018",
+      "global_group_id": "MOT20-02:H_30:g000018",
+      "member_prediction_ids": [
+        "r000026"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000026"
+      ],
+      "first_t": 9.24,
+      "last_t": 9.24,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 45,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 9.24,
+          "prediction_id": "r000026",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000026",
+          "source_frame": 232,
+          "target_frame": 231,
+          "source_time_s": 9.24,
+          "crossing_position_native_px": [
+            951.7500305175781,
+            332.1000061035156
+          ],
+          "last_source_zone_time_s": 9.0,
+          "first_target_zone_time_s": 9.24,
+          "transition_bracket_s": [
+            9.0,
+            9.24
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 151,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 9.72,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 9.32,
+      "first_target_zone_time_s": 9.72,
+      "transition_bracket_s": [
+        9.32,
+        9.72
+      ],
+      "prediction_id": "r000027",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000027",
+      "target_frame": 243,
+      "source_frame": 244,
+      "source_time_s": 9.72,
+      "crossing_position_native_px": [
+        527.8500061035156,
+        333.7875061035156
+      ],
+      "group_id": "g000019",
+      "global_group_id": "MOT20-02:H_30:g000019",
+      "member_prediction_ids": [
+        "r000027"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000027"
+      ],
+      "first_t": 9.72,
+      "last_t": 9.72,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 151,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 9.72,
+          "prediction_id": "r000027",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000027",
+          "source_frame": 244,
+          "target_frame": 243,
+          "source_time_s": 9.72,
+          "crossing_position_native_px": [
+            527.8500061035156,
+            333.7875061035156
+          ],
+          "last_source_zone_time_s": 9.32,
+          "first_target_zone_time_s": 9.72,
+          "transition_bracket_s": [
+            9.32,
+            9.72
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 133,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 16.4,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 15.92,
+      "first_target_zone_time_s": 16.4,
+      "transition_bracket_s": [
+        15.92,
+        16.4
+      ],
+      "prediction_id": "r000038",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000038",
+      "target_frame": 410,
+      "source_frame": 411,
+      "source_time_s": 16.4,
+      "crossing_position_native_px": [
+        818.1000061035156,
+        334.125
+      ],
+      "group_id": "g000020",
+      "global_group_id": "MOT20-02:H_30:g000020",
+      "member_prediction_ids": [
+        "r000038"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000038"
+      ],
+      "first_t": 16.4,
+      "last_t": 16.4,
+      "dedup_decision": "keep_R2_insufficient",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 133,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 16.4,
+          "prediction_id": "r000038",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000038",
+          "source_frame": 411,
+          "target_frame": 410,
+          "source_time_s": 16.4,
+          "crossing_position_native_px": [
+            818.1000061035156,
+            334.125
+          ],
+          "last_source_zone_time_s": 15.92,
+          "first_target_zone_time_s": 16.4,
+          "transition_bracket_s": [
+            15.92,
+            16.4
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 212,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 16.88,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 16.32,
+      "first_target_zone_time_s": 16.88,
+      "transition_bracket_s": [
+        16.32,
+        16.88
+      ],
+      "prediction_id": "r000039",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000039",
+      "target_frame": 422,
+      "source_frame": 423,
+      "source_time_s": 16.88,
+      "crossing_position_native_px": [
+        791.1000366210938,
+        331.4250183105469
+      ],
+      "group_id": "g000021",
+      "global_group_id": "MOT20-02:H_30:g000021",
+      "member_prediction_ids": [
+        "r000039"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000039"
+      ],
+      "first_t": 16.88,
+      "last_t": 16.88,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 212,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 16.88,
+          "prediction_id": "r000039",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000039",
+          "source_frame": 423,
+          "target_frame": 422,
+          "source_time_s": 16.88,
+          "crossing_position_native_px": [
+            791.1000366210938,
+            331.4250183105469
+          ],
+          "last_source_zone_time_s": 16.32,
+          "first_target_zone_time_s": 16.88,
+          "transition_bracket_s": [
+            16.32,
+            16.88
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 156,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 18.16,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 17.56,
+      "first_target_zone_time_s": 18.16,
+      "transition_bracket_s": [
+        17.56,
+        18.16
+      ],
+      "prediction_id": "r000041",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000041",
+      "target_frame": 454,
+      "source_frame": 455,
+      "source_time_s": 18.16,
+      "crossing_position_native_px": [
+        897.0750427246094,
+        332.4375
+      ],
+      "group_id": "g000023",
+      "global_group_id": "MOT20-02:H_30:g000023",
+      "member_prediction_ids": [
+        "r000041"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000041"
+      ],
+      "first_t": 18.16,
+      "last_t": 18.16,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 156,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 18.16,
+          "prediction_id": "r000041",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000041",
+          "source_frame": 455,
+          "target_frame": 454,
+          "source_time_s": 18.16,
+          "crossing_position_native_px": [
+            897.0750427246094,
+            332.4375
+          ],
+          "last_source_zone_time_s": 17.56,
+          "first_target_zone_time_s": 18.16,
+          "transition_bracket_s": [
+            17.56,
+            18.16
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 215,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 18.28,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 17.56,
+      "first_target_zone_time_s": 18.28,
+      "transition_bracket_s": [
+        17.56,
+        18.28
+      ],
+      "prediction_id": "r000042",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000042",
+      "target_frame": 457,
+      "source_frame": 458,
+      "source_time_s": 18.28,
+      "crossing_position_native_px": [
+        932.1750183105469,
+        330.75
+      ],
+      "group_id": "g000024",
+      "global_group_id": "MOT20-02:H_30:g000024",
+      "member_prediction_ids": [
+        "r000042"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000042"
+      ],
+      "first_t": 18.28,
+      "last_t": 18.28,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 215,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 18.28,
+          "prediction_id": "r000042",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000042",
+          "source_frame": 458,
+          "target_frame": 457,
+          "source_time_s": 18.28,
+          "crossing_position_native_px": [
+            932.1750183105469,
+            330.75
+          ],
+          "last_source_zone_time_s": 17.56,
+          "first_target_zone_time_s": 18.28,
+          "transition_bracket_s": [
+            17.56,
+            18.28
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 221,
+      "fragment_index": 1,
+      "direction": "IN",
+      "time_s": 20.24,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 19.72,
+      "first_target_zone_time_s": 20.24,
+      "transition_bracket_s": [
+        19.72,
+        20.24
+      ],
+      "prediction_id": "r000044",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000044",
+      "target_frame": 506,
+      "source_frame": 507,
+      "source_time_s": 20.24,
+      "crossing_position_native_px": [
+        817.4250183105469,
+        332.1000061035156
+      ],
+      "group_id": "g000025",
+      "global_group_id": "MOT20-02:H_30:g000025",
+      "member_prediction_ids": [
+        "r000044"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000044"
+      ],
+      "first_t": 20.24,
+      "last_t": 20.24,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 221,
+          "fragment_index": 1,
+          "direction": "IN",
+          "time_s": 20.24,
+          "prediction_id": "r000044",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000044",
+          "source_frame": 507,
+          "target_frame": 506,
+          "source_time_s": 20.24,
+          "crossing_position_native_px": [
+            817.4250183105469,
+            332.1000061035156
+          ],
+          "last_source_zone_time_s": 19.72,
+          "first_target_zone_time_s": 20.24,
+          "transition_bracket_s": [
+            19.72,
+            20.24
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 205,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 20.68,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 20.16,
+      "first_target_zone_time_s": 20.68,
+      "transition_bracket_s": [
+        20.16,
+        20.68
+      ],
+      "prediction_id": "r000045",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000045",
+      "target_frame": 517,
+      "source_frame": 518,
+      "source_time_s": 20.68,
+      "crossing_position_native_px": [
+        1058.4000244140625,
+        331.9312744140625
+      ],
+      "group_id": "g000026",
+      "global_group_id": "MOT20-02:H_30:g000026",
+      "member_prediction_ids": [
+        "r000045"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000045"
+      ],
+      "first_t": 20.68,
+      "last_t": 20.68,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 205,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 20.68,
+          "prediction_id": "r000045",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000045",
+          "source_frame": 518,
+          "target_frame": 517,
+          "source_time_s": 20.68,
+          "crossing_position_native_px": [
+            1058.4000244140625,
+            331.9312744140625
+          ],
+          "last_source_zone_time_s": 20.16,
+          "first_target_zone_time_s": 20.68,
+          "transition_bracket_s": [
+            20.16,
+            20.68
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 180,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 20.8,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 20.08,
+      "first_target_zone_time_s": 20.8,
+      "transition_bracket_s": [
+        20.08,
+        20.8
+      ],
+      "prediction_id": "r000046",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000046",
+      "target_frame": 520,
+      "source_frame": 521,
+      "source_time_s": 20.8,
+      "crossing_position_native_px": [
+        960.5250549316406,
+        332.1000061035156
+      ],
+      "group_id": "g000027",
+      "global_group_id": "MOT20-02:H_30:g000027",
+      "member_prediction_ids": [
+        "r000046"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000046"
+      ],
+      "first_t": 20.8,
+      "last_t": 20.8,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 180,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 20.8,
+          "prediction_id": "r000046",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000046",
+          "source_frame": 521,
+          "target_frame": 520,
+          "source_time_s": 20.8,
+          "crossing_position_native_px": [
+            960.5250549316406,
+            332.1000061035156
+          ],
+          "last_source_zone_time_s": 20.08,
+          "first_target_zone_time_s": 20.8,
+          "transition_bracket_s": [
+            20.08,
+            20.8
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 223,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 20.96,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 20.2,
+      "first_target_zone_time_s": 20.96,
+      "transition_bracket_s": [
+        20.2,
+        20.96
+      ],
+      "prediction_id": "r000048",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000048",
+      "target_frame": 524,
+      "source_frame": 525,
+      "source_time_s": 20.96,
+      "crossing_position_native_px": [
+        724.2750244140625,
+        332.2687683105469
+      ],
+      "group_id": "g000028",
+      "global_group_id": "MOT20-02:H_30:g000028",
+      "member_prediction_ids": [
+        "r000048"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000048"
+      ],
+      "first_t": 20.96,
+      "last_t": 20.96,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 223,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 20.96,
+          "prediction_id": "r000048",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000048",
+          "source_frame": 525,
+          "target_frame": 524,
+          "source_time_s": 20.96,
+          "crossing_position_native_px": [
+            724.2750244140625,
+            332.2687683105469
+          ],
+          "last_source_zone_time_s": 20.2,
+          "first_target_zone_time_s": 20.96,
+          "transition_bracket_s": [
+            20.2,
+            20.96
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 190,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 21.08,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 20.48,
+      "first_target_zone_time_s": 21.08,
+      "transition_bracket_s": [
+        20.48,
+        21.08
+      ],
+      "prediction_id": "r000049",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000049",
+      "target_frame": 527,
+      "source_frame": 528,
+      "source_time_s": 21.08,
+      "crossing_position_native_px": [
+        907.2000122070312,
+        333.6187744140625
+      ],
+      "group_id": "g000029",
+      "global_group_id": "MOT20-02:H_30:g000029",
+      "member_prediction_ids": [
+        "r000049"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000049"
+      ],
+      "first_t": 21.08,
+      "last_t": 21.08,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 190,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 21.08,
+          "prediction_id": "r000049",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000049",
+          "source_frame": 528,
+          "target_frame": 527,
+          "source_time_s": 21.08,
+          "crossing_position_native_px": [
+            907.2000122070312,
+            333.6187744140625
+          ],
+          "last_source_zone_time_s": 20.48,
+          "first_target_zone_time_s": 21.08,
+          "transition_bracket_s": [
+            20.48,
+            21.08
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 258,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 21.32,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 20.84,
+      "first_target_zone_time_s": 21.32,
+      "transition_bracket_s": [
+        20.84,
+        21.32
+      ],
+      "prediction_id": "r000051",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000051",
+      "target_frame": 533,
+      "source_frame": 534,
+      "source_time_s": 21.32,
+      "crossing_position_native_px": [
+        641.5875244140625,
+        333.6187744140625
+      ],
+      "group_id": "g000030",
+      "global_group_id": "MOT20-02:H_30:g000030",
+      "member_prediction_ids": [
+        "r000051"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000051"
+      ],
+      "first_t": 21.32,
+      "last_t": 21.32,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 258,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 21.32,
+          "prediction_id": "r000051",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000051",
+          "source_frame": 534,
+          "target_frame": 533,
+          "source_time_s": 21.32,
+          "crossing_position_native_px": [
+            641.5875244140625,
+            333.6187744140625
+          ],
+          "last_source_zone_time_s": 20.84,
+          "first_target_zone_time_s": 21.32,
+          "transition_bracket_s": [
+            20.84,
+            21.32
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 213,
+      "fragment_index": 1,
+      "direction": "IN",
+      "time_s": 21.52,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 21.08,
+      "first_target_zone_time_s": 21.52,
+      "transition_bracket_s": [
+        21.08,
+        21.52
+      ],
+      "prediction_id": "r000052",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000052",
+      "target_frame": 538,
+      "source_frame": 539,
+      "source_time_s": 21.52,
+      "crossing_position_native_px": [
+        861.3000183105469,
+        331.4250183105469
+      ],
+      "group_id": "g000031",
+      "global_group_id": "MOT20-02:H_30:g000031",
+      "member_prediction_ids": [
+        "r000052"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000052"
+      ],
+      "first_t": 21.52,
+      "last_t": 21.52,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 213,
+          "fragment_index": 1,
+          "direction": "IN",
+          "time_s": 21.52,
+          "prediction_id": "r000052",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000052",
+          "source_frame": 539,
+          "target_frame": 538,
+          "source_time_s": 21.52,
+          "crossing_position_native_px": [
+            861.3000183105469,
+            331.4250183105469
+          ],
+          "last_source_zone_time_s": 21.08,
+          "first_target_zone_time_s": 21.52,
+          "transition_bracket_s": [
+            21.08,
+            21.52
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 233,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 22.16,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 21.92,
+      "first_target_zone_time_s": 22.16,
+      "transition_bracket_s": [
+        21.92,
+        22.16
+      ],
+      "prediction_id": "r000053",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000053",
+      "target_frame": 554,
+      "source_frame": 555,
+      "source_time_s": 22.16,
+      "crossing_position_native_px": [
+        909.9000549316406,
+        331.0875244140625
+      ],
+      "group_id": "g000032",
+      "global_group_id": "MOT20-02:H_30:g000032",
+      "member_prediction_ids": [
+        "r000053"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000053"
+      ],
+      "first_t": 22.16,
+      "last_t": 22.16,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 233,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 22.16,
+          "prediction_id": "r000053",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000053",
+          "source_frame": 555,
+          "target_frame": 554,
+          "source_time_s": 22.16,
+          "crossing_position_native_px": [
+            909.9000549316406,
+            331.0875244140625
+          ],
+          "last_source_zone_time_s": 21.92,
+          "first_target_zone_time_s": 22.16,
+          "transition_bracket_s": [
+            21.92,
+            22.16
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 377,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 33.44,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 32.96,
+      "first_target_zone_time_s": 33.44,
+      "transition_bracket_s": [
+        32.96,
+        33.44
+      ],
+      "prediction_id": "r000061",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000061",
+      "target_frame": 836,
+      "source_frame": 837,
+      "source_time_s": 33.44,
+      "crossing_position_native_px": [
+        927.4500427246094,
+        330.75
+      ],
+      "group_id": "g000033",
+      "global_group_id": "MOT20-02:H_30:g000033",
+      "member_prediction_ids": [
+        "r000061"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000061"
+      ],
+      "first_t": 33.44,
+      "last_t": 33.44,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 377,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 33.44,
+          "prediction_id": "r000061",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000061",
+          "source_frame": 837,
+          "target_frame": 836,
+          "source_time_s": 33.44,
+          "crossing_position_native_px": [
+            927.4500427246094,
+            330.75
+          ],
+          "last_source_zone_time_s": 32.96,
+          "first_target_zone_time_s": 33.44,
+          "transition_bracket_s": [
+            32.96,
+            33.44
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 384,
+      "fragment_index": 1,
+      "direction": "IN",
+      "time_s": 33.68,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 32.84,
+      "first_target_zone_time_s": 33.68,
+      "transition_bracket_s": [
+        32.84,
+        33.68
+      ],
+      "prediction_id": "r000063",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000063",
+      "target_frame": 842,
+      "source_frame": 843,
+      "source_time_s": 33.68,
+      "crossing_position_native_px": [
+        731.0250244140625,
+        331.4250183105469
+      ],
+      "group_id": "g000034",
+      "global_group_id": "MOT20-02:H_30:g000034",
+      "member_prediction_ids": [
+        "r000063"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000063"
+      ],
+      "first_t": 33.68,
+      "last_t": 33.68,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 384,
+          "fragment_index": 1,
+          "direction": "IN",
+          "time_s": 33.68,
+          "prediction_id": "r000063",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000063",
+          "source_frame": 843,
+          "target_frame": 842,
+          "source_time_s": 33.68,
+          "crossing_position_native_px": [
+            731.0250244140625,
+            331.4250183105469
+          ],
+          "last_source_zone_time_s": 32.84,
+          "first_target_zone_time_s": 33.68,
+          "transition_bracket_s": [
+            32.84,
+            33.68
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 423,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 34.08,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 32.96,
+      "first_target_zone_time_s": 34.08,
+      "transition_bracket_s": [
+        32.96,
+        34.08
+      ],
+      "prediction_id": "r000064",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000064",
+      "target_frame": 852,
+      "source_frame": 853,
+      "source_time_s": 34.08,
+      "crossing_position_native_px": [
+        915.3000183105469,
+        330.75
+      ],
+      "group_id": "g000035",
+      "global_group_id": "MOT20-02:H_30:g000035",
+      "member_prediction_ids": [
+        "r000064"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000064"
+      ],
+      "first_t": 34.08,
+      "last_t": 34.08,
+      "dedup_decision": "keep_R2_insufficient",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 423,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 34.08,
+          "prediction_id": "r000064",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000064",
+          "source_frame": 853,
+          "target_frame": 852,
+          "source_time_s": 34.08,
+          "crossing_position_native_px": [
+            915.3000183105469,
+            330.75
+          ],
+          "last_source_zone_time_s": 32.96,
+          "first_target_zone_time_s": 34.08,
+          "transition_bracket_s": [
+            32.96,
+            34.08
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 419,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 34.8,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 33.64,
+      "first_target_zone_time_s": 34.8,
+      "transition_bracket_s": [
+        33.64,
+        34.8
+      ],
+      "prediction_id": "r000065",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000065",
+      "target_frame": 870,
+      "source_frame": 871,
+      "source_time_s": 34.8,
+      "crossing_position_native_px": [
+        795.8250427246094,
+        331.76251220703125
+      ],
+      "group_id": "g000036",
+      "global_group_id": "MOT20-02:H_30:g000036",
+      "member_prediction_ids": [
+        "r000065"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000065"
+      ],
+      "first_t": 34.8,
+      "last_t": 34.8,
+      "dedup_decision": "keep_R2_insufficient",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 419,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 34.8,
+          "prediction_id": "r000065",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000065",
+          "source_frame": 871,
+          "target_frame": 870,
+          "source_time_s": 34.8,
+          "crossing_position_native_px": [
+            795.8250427246094,
+            331.76251220703125
+          ],
+          "last_source_zone_time_s": 33.64,
+          "first_target_zone_time_s": 34.8,
+          "transition_bracket_s": [
+            33.64,
+            34.8
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 432,
+      "fragment_index": 1,
+      "direction": "IN",
+      "time_s": 35.32,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 35.12,
+      "first_target_zone_time_s": 35.32,
+      "transition_bracket_s": [
+        35.12,
+        35.32
+      ],
+      "prediction_id": "r000066",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000066",
+      "target_frame": 883,
+      "source_frame": 884,
+      "source_time_s": 35.32,
+      "crossing_position_native_px": [
+        1192.050048828125,
+        333.45001220703125
+      ],
+      "group_id": "g000037",
+      "global_group_id": "MOT20-02:H_30:g000037",
+      "member_prediction_ids": [
+        "r000066"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000066"
+      ],
+      "first_t": 35.32,
+      "last_t": 35.32,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 432,
+          "fragment_index": 1,
+          "direction": "IN",
+          "time_s": 35.32,
+          "prediction_id": "r000066",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000066",
+          "source_frame": 884,
+          "target_frame": 883,
+          "source_time_s": 35.32,
+          "crossing_position_native_px": [
+            1192.050048828125,
+            333.45001220703125
+          ],
+          "last_source_zone_time_s": 35.12,
+          "first_target_zone_time_s": 35.32,
+          "transition_bracket_s": [
+            35.12,
+            35.32
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 775,
+      "fragment_index": 1,
+      "direction": "IN",
+      "time_s": 63.0,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 62.88,
+      "first_target_zone_time_s": 63.0,
+      "transition_bracket_s": [
+        62.88,
+        63.0
+      ],
+      "prediction_id": "r000069",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000069",
+      "target_frame": 1575,
+      "source_frame": 1576,
+      "source_time_s": 63.0,
+      "crossing_position_native_px": [
+        812.7000122070312,
+        331.9312744140625
+      ],
+      "group_id": "g000038",
+      "global_group_id": "MOT20-02:H_30:g000038",
+      "member_prediction_ids": [
+        "r000069"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000069"
+      ],
+      "first_t": 63.0,
+      "last_t": 63.0,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 775,
+          "fragment_index": 1,
+          "direction": "IN",
+          "time_s": 63.0,
+          "prediction_id": "r000069",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000069",
+          "source_frame": 1576,
+          "target_frame": 1575,
+          "source_time_s": 63.0,
+          "crossing_position_native_px": [
+            812.7000122070312,
+            331.9312744140625
+          ],
+          "last_source_zone_time_s": 62.88,
+          "first_target_zone_time_s": 63.0,
+          "transition_bracket_s": [
+            62.88,
+            63.0
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 844,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 66.24,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 66.08,
+      "first_target_zone_time_s": 66.24,
+      "transition_bracket_s": [
+        66.08,
+        66.24
+      ],
+      "prediction_id": "r000083",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000083",
+      "target_frame": 1656,
+      "source_frame": 1657,
+      "source_time_s": 66.24,
+      "crossing_position_native_px": [
+        836.3250427246094,
+        335.13751220703125
+      ],
+      "group_id": "g000039",
+      "global_group_id": "MOT20-02:H_30:g000039",
+      "member_prediction_ids": [
+        "r000083"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000083"
+      ],
+      "first_t": 66.24,
+      "last_t": 66.24,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 844,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 66.24,
+          "prediction_id": "r000083",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000083",
+          "source_frame": 1657,
+          "target_frame": 1656,
+          "source_time_s": 66.24,
+          "crossing_position_native_px": [
+            836.3250427246094,
+            335.13751220703125
+          ],
+          "last_source_zone_time_s": 66.08,
+          "first_target_zone_time_s": 66.24,
+          "transition_bracket_s": [
+            66.08,
+            66.24
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1023,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 71.08,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 70.8,
+      "first_target_zone_time_s": 71.08,
+      "transition_bracket_s": [
+        70.8,
+        71.08
+      ],
+      "prediction_id": "r000084",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000084",
+      "target_frame": 1777,
+      "source_frame": 1778,
+      "source_time_s": 71.08,
+      "crossing_position_native_px": [
+        709.4250183105469,
+        330.75
+      ],
+      "group_id": "g000040",
+      "global_group_id": "MOT20-02:H_30:g000040",
+      "member_prediction_ids": [
+        "r000084",
+        "r000087"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000084",
+        "MOT20-02:H_30:r000087"
+      ],
+      "first_t": 71.08,
+      "last_t": 72.44,
+      "dedup_decision": "keep_R2_insufficient",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1023,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 71.08,
+          "prediction_id": "r000084",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000084",
+          "source_frame": 1778,
+          "target_frame": 1777,
+          "source_time_s": 71.08,
+          "crossing_position_native_px": [
+            709.4250183105469,
+            330.75
+          ],
+          "last_source_zone_time_s": 70.8,
+          "first_target_zone_time_s": 71.08,
+          "transition_bracket_s": [
+            70.8,
+            71.08
+          ]
+        },
+        {
+          "track_id": 1023,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 72.44,
+          "prediction_id": "r000087",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000087",
+          "source_frame": 1812,
+          "target_frame": 1811,
+          "source_time_s": 72.44,
+          "crossing_position_native_px": [
+            809.3250427246094,
+            364.1625061035156
+          ],
+          "last_source_zone_time_s": 72.32,
+          "first_target_zone_time_s": 72.44,
+          "transition_bracket_s": [
+            72.32,
+            72.44
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1036,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 72.48,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 72.2,
+      "first_target_zone_time_s": 72.48,
+      "transition_bracket_s": [
+        72.2,
+        72.48
+      ],
+      "prediction_id": "r000088",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000088",
+      "target_frame": 1812,
+      "source_frame": 1813,
+      "source_time_s": 72.48,
+      "crossing_position_native_px": [
+        737.7750244140625,
+        332.1000061035156
+      ],
+      "group_id": "g000041",
+      "global_group_id": "MOT20-02:H_30:g000041",
+      "member_prediction_ids": [
+        "r000088"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000088"
+      ],
+      "first_t": 72.48,
+      "last_t": 72.48,
+      "dedup_decision": "keep",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1036,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 72.48,
+          "prediction_id": "r000088",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000088",
+          "source_frame": 1813,
+          "target_frame": 1812,
+          "source_time_s": 72.48,
+          "crossing_position_native_px": [
+            737.7750244140625,
+            332.1000061035156
+          ],
+          "last_source_zone_time_s": 72.2,
+          "first_target_zone_time_s": 72.48,
+          "transition_bracket_s": [
+            72.2,
+            72.48
+          ]
+        }
+      ]
+    },
+    {
+      "track_id": 1071,
+      "fragment_index": 0,
+      "direction": "IN",
+      "time_s": 77.16,
+      "time_semantics": "first_observed_target_region_entry_not_exact_crossing",
+      "source_zone": "tunnel",
+      "target_zone": "plaza",
+      "last_source_zone_time_s": 76.12,
+      "first_target_zone_time_s": 77.16,
+      "transition_bracket_s": [
+        76.12,
+        77.16
+      ],
+      "prediction_id": "r000094",
+      "sequence": "MOT20-02",
+      "gate_id": "H_30",
+      "event_key": "MOT20-02:H_30:r000094",
+      "target_frame": 1929,
+      "source_frame": 1930,
+      "source_time_s": 77.16,
+      "crossing_position_native_px": [
+        899.7750244140625,
+        330.75
+      ],
+      "group_id": "g000042",
+      "global_group_id": "MOT20-02:H_30:g000042",
+      "member_prediction_ids": [
+        "r000094"
+      ],
+      "member_event_keys": [
+        "MOT20-02:H_30:r000094"
+      ],
+      "first_t": 77.16,
+      "last_t": 77.16,
+      "dedup_decision": "keep_R2_insufficient",
+      "dedup_variant": "R1+R2",
+      "member_events": [
+        {
+          "track_id": 1071,
+          "fragment_index": 0,
+          "direction": "IN",
+          "time_s": 77.16,
+          "prediction_id": "r000094",
+          "sequence": "MOT20-02",
+          "gate_id": "H_30",
+          "event_key": "MOT20-02:H_30:r000094",
+          "source_frame": 1930,
+          "target_frame": 1929,
+          "source_time_s": 77.16,
+          "crossing_position_native_px": [
+            899.7750244140625,
+            330.75
+          ],
+          "last_source_zone_time_s": 76.12,
+          "first_target_zone_time_s": 77.16,
+          "transition_bracket_s": [
+            76.12,
+            77.16
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "schema": "frozen_score_source_v1",
+  "modules": [
+    {
+      "source": {
+        "path": "scripts/r15e28_e1_core78a_v2.py",
+        "sha256": "d6342df4fa8befca129d02124030e05205e6fb80a9e2f6c753a6782615aee11b"
+      },
+      "output": {
+        "path": "src/frozen_score/e1.py",
+        "bytes": 10122,
+        "sha256": "8edc931b0a02aee872e7a20f2ab67e1921322b180a80de321488ae1d9c95fc02"
+      },
+      "functions": [
+        {
+          "name": "valid_box",
+          "start_line": 13,
+          "end_line": 16,
+          "source_segment_sha256": "f29865bce67994ee4fcc615d3d5c1923f0610bc01bee9020442ea6a6ff962c68",
+          "ast_sha256": "df80423b1e605d4161af4b9fd898ae4f5b22d8107a0019c756b8e018aa61c6cd"
+        },
+        {
+          "name": "assign",
+          "start_line": 25,
+          "end_line": 78,
+          "source_segment_sha256": "e6d677a41ca8ad10d5a2cd7b08d1dcf90912ed2853e57d6b82177fe61790488f",
+          "ast_sha256": "2ccb3e79f2403aa4047b7a06280120aa7e317431b40b1c12ec9434be99db25ca"
+        },
+        {
+          "name": "pools",
+          "start_line": 81,
+          "end_line": 108,
+          "source_segment_sha256": "d1975fb283ddca1fdf55dc825e4fc1503ccbc60acd7427a01aa9ad5317c3d272",
+          "ast_sha256": "31d7dadce88d32382982c5713757abade8c82daf4ecc1be87bfa626a6c5baed0"
+        },
+        {
+          "name": "legal",
+          "start_line": 154,
+          "end_line": 155,
+          "source_segment_sha256": "5518a570204f218bcaa3c3a3070c1a0400d50e55c90ed61f58290e521e18f7f8",
+          "ast_sha256": "93782209f9640f99065320b7c6612dec00efac789755a8ea7e132bcfa926fd89"
+        },
+        {
+          "name": "event_matching",
+          "start_line": 158,
+          "end_line": 207,
+          "source_segment_sha256": "55999639673fb16736f6fc393dce6acaa5f7fa685b384eac6d3ae570a250c640",
+          "ast_sha256": "66387aa1f69ec162c75959022fb034629f64a8ab72f6f8cf163783716f9b69fb"
+        }
+      ],
+      "changes": "Explicit dependency imports/header only; function source segments and AST unchanged"
+    },
+    {
+      "source": {
+        "path": "scripts/r15_c1star_t3_identity75.py",
+        "sha256": "da178ec822aef5d4a025197a4d33b1b95e68b8c555b1344ea9b39ce01208deee"
+      },
+      "output": {
+        "path": "src/frozen_score/identity.py",
+        "bytes": 3219,
+        "sha256": "ab33874ce2cd7ecf55b3d335331309fd69b6a9dc058e59bb00378186c607192a"
+      },
+      "functions": [
+        {
+          "name": "integer",
+          "start_line": 12,
+          "end_line": 15,
+          "source_segment_sha256": "f2e878699102d44fbe799ca1e7bb97d354bfb809d3cd559a3ac417601afefc5f",
+          "ast_sha256": "3bb8d3444fe0d5491c2109f4ba867c490efd68d66dd3d209fe422d2409374a1c"
+        },
+        {
+          "name": "valid_box",
+          "start_line": 17,
+          "end_line": 20,
+          "source_segment_sha256": "6ad02023238d9f4423e753b50c32f4e723e943e0706f7c3f163a829ececae6cc",
+          "ast_sha256": "829e8322f4d8a728b4e136dcb408246af53ceeef6e1ec800351c99f6706bd78f"
+        },
+        {
+          "name": "parse_gt",
+          "start_line": 30,
+          "end_line": 46,
+          "source_segment_sha256": "45554a37659d9144250a8b0d4d88c04fe1915598758baef2d7cab86d30857a22",
+          "ast_sha256": "01a753738d139a3891c1839359a3114b575687de3f11ad6062861db2523c199d"
+        },
+        {
+          "name": "modal",
+          "start_line": 96,
+          "end_line": 108,
+          "source_segment_sha256": "ccb447aaddbf6f9d110fc76d4755325e92d963faa16d0bb70018bf7d3876b605",
+          "ast_sha256": "8d3ade8e2b8cb99be5f48ef643a8ac80f8058f1d9a3b7173736f7843104cd4a6"
+        },
+        {
+          "name": "event_identity",
+          "start_line": 110,
+          "end_line": 118,
+          "source_segment_sha256": "3d4d5f8b3efc923aadf2adfd6760a3d6855f44a0174227d99d81d68766c7d85b",
+          "ast_sha256": "08984b96c5ca32d4c58527a70e30e30ab2fbd3449e5d465d75b775e16323d590"
+        }
+      ],
+      "changes": "Explicit dependency imports/header only; function source segments and AST unchanged"
+    },
+    {
+      "source": {
+        "path": "scripts/r15_c1star_t3_matching75.py",
+        "sha256": "18477ee6f47bf4d3198e6ee090c0fe34890c41cc765440fc80a5a0e3042b7ab5"
+      },
+      "output": {
+        "path": "src/frozen_score/matching.py",
+        "bytes": 11031,
+        "sha256": "bf40affe41d742c07b826303f92062ef391be54123517ac260060eaddcf5b0ae"
+      },
+      "functions": [
+        {
+          "name": "_exact",
+          "start_line": 28,
+          "end_line": 31,
+          "source_segment_sha256": "87dc3577f0ffc81e9050a6388b0b02d5ffc8b5be7139f7f1d9a7a6bc847a0a47",
+          "ast_sha256": "9ca71ee41b2808fc469a0081e4a4f179448317f4926ff11e3c1e7ea8cfd2c3aa"
+        },
+        {
+          "name": "_key",
+          "start_line": 34,
+          "end_line": 40,
+          "source_segment_sha256": "1911e56a004c5600dadb274c0bc5d083c50f737703e6b28538db84c0eca75928",
+          "ast_sha256": "f1d65223255dfcf89163feab08bf03e3d039cdb5a2632ff4559c8fd388c28546"
+        },
+        {
+          "name": "_keys",
+          "start_line": 43,
+          "end_line": 50,
+          "source_segment_sha256": "9ab4ddf59120e203b4e7001c349c5e6fdecbb2bd6441a3945745bd00fdce2ec8",
+          "ast_sha256": "5d03c89ffe4d0ebd2224e27284a561681bfc81639e32c8d6cd1bf95e4d4f159a"
+        },
+        {
+          "name": "_prepare",
+          "start_line": 53,
+          "end_line": 76,
+          "source_segment_sha256": "8f1c64d8a1f4bc226158ee39a10128fd02f89e3330d5726ba8cfe6dd63909f10",
+          "ast_sha256": "68cd44195ba7b0a640e991546c4d9db093f16340c4ce8d790e929d40e695cb25"
+        },
+        {
+          "name": "_components",
+          "start_line": 79,
+          "end_line": 103,
+          "source_segment_sha256": "83c590828e63eed4687f55abf61e44a2a166ffb778ab00d12da3531470debaeb",
+          "ast_sha256": "a7fe0d9c20199780fad2ce12f70b65463dba3ef617565ef6b30586b9af35abf7"
+        },
+        {
+          "name": "_integer_scale",
+          "start_line": 106,
+          "end_line": 110,
+          "source_segment_sha256": "fcdfbf01e550188ec053f216e7280124c35c06e1f1e360cb05989c44e269774b",
+          "ast_sha256": "8344500f732d434f7a11221983d8bf2fa66b8824b0e046984b51b128eb562355"
+        },
+        {
+          "name": "_solve_component",
+          "start_line": 113,
+          "end_line": 194,
+          "source_segment_sha256": "71467c9b34768f89847df1e7de9064e3b790691f425412055bea6b155767975e",
+          "ast_sha256": "cd94ad0396982c357665bb35343154b2d686ad8cc3c0022f75d853f28545882b"
+        },
+        {
+          "name": "solve",
+          "start_line": 197,
+          "end_line": 227,
+          "source_segment_sha256": "302b21c77507401657eb7010c7ee4c3f20caf2cc4acc69f95baa7d2518c5f744",
+          "ast_sha256": "6a7c3830e6686fa018891e3fda8f7c3af8151d0c52a0ea481106c17dfee0b7a1"
+        },
+        {
+          "name": "optimal_secondary_range",
+          "start_line": 230,
+          "end_line": 248,
+          "source_segment_sha256": "5110e1163480ad77454fdd35d90ad3aece7954a027bca3b63cd0ff43dd5ebde9",
+          "ast_sha256": "aba1eb359c2a83ff1a045b48a02bdf5e6eeb5828231d4b6df6af412380a9e68d"
+        },
+        {
+          "name": "can_match_right_optimally",
+          "start_line": 251,
+          "end_line": 269,
+          "source_segment_sha256": "17ffaca8ddd84f291223a0fa72ecaa369950b91f655f74353ecf3391e6f5b8d6",
+          "ast_sha256": "6c93bcd38b153ecd4bad39802c2f8d71a353f27379eab72c6803c0e61939527a"
+        }
+      ],
+      "changes": "Explicit dependency imports/header only; function source segments and AST unchanged"
+    },
+    {
+      "source": {
+        "path": "scripts/r15_c1star_t3_eval75.py",
+        "sha256": "5e42070be8b3ea744de940bfe766c93a254533364d5265fe6b2e4797930d0b9f"
+      },
+      "output": {
+        "path": "src/frozen_score/labels_view.py",
+        "bytes": 2267,
+        "sha256": "1df49add65704dcfed0e0c698d92802d4f284d6041833a465e2ef160d2acae6e"
+      },
+      "functions": [
+        {
+          "name": "number_suffix",
+          "start_line": 39,
+          "end_line": 42,
+          "source_segment_sha256": "dbcdf5fa63997d50c37f96c896ae3105e48931ab3fd0323ba0fb18d5b52bacaa",
+          "ast_sha256": "0c1773a53ada08a28326810f49695979a17a34c3df9d3e728d621b209fcbbd57"
+        },
+        {
+          "name": "stable",
+          "start_line": 44,
+          "end_line": 46,
+          "source_segment_sha256": "9ceea671f33db84a8b925333e29ee2d377413a0aa1d30194a07f3df95c22bf5b",
+          "ast_sha256": "3e07b178b7572740856fcda7e6642fedbb05851f7ba485d2bfa1ac3f43f2bf73"
+        },
+        {
+          "name": "exact_time",
+          "start_line": 51,
+          "end_line": 55,
+          "source_segment_sha256": "ec040c6a76ea9b9e2e394ec9987db2cdd1c5df02e7a569420da0f2b9be3ce00e",
+          "ast_sha256": "5b8e18146c835693eecfe627260b8316765f99dea378b2d19e7b0e52c2076dfd"
+        },
+        {
+          "name": "position",
+          "start_line": 57,
+          "end_line": 59,
+          "source_segment_sha256": "30f8e6e55956a8181481ab5a05f0cc17b65a64e245692c8bb000c75f486044c9",
+          "ast_sha256": "236c32810d01c1372cc2aa4e92089f4e09e50dd783e7b569bac4330107b545dc"
+        },
+        {
+          "name": "gt_row",
+          "start_line": 61,
+          "end_line": 74,
+          "source_segment_sha256": "74dc6214653187a9627ca99978a8c921215e9dca540ad5ab8e70c269445a694b",
+          "ast_sha256": "9a5851982f5826f194215879eb8684be807fa479bab4ea7d234e292952c1a3d9"
+        }
+      ],
+      "changes": "Explicit dependency imports/header only; function source segments and AST unchanged"
+    },
+    {
+      "source": {
+        "path": "scripts/r15_offshelf82e_score.py",
+        "sha256": "281774d268424be02d5f1248262e38da6ba2dc352ca0ee3b042cd926ae9590b8"
+      },
+      "output": {
+        "path": "src/frozen_score/aggregate.py",
+        "bytes": 1763,
+        "sha256": "17b83db898956ecbd15cd2f4c4b3e7e58da6776fa43f8195528eafd496bdcf8a"
+      },
+      "functions": [
+        {
+          "name": "aggregate",
+          "start_line": 138,
+          "end_line": 162,
+          "source_segment_sha256": "ec476e2f81e13c8b4169af87c2bd28bb14c4f5942c5b5cd3396c6ad95bbb94e5",
+          "ast_sha256": "672ed00adb27a57b5a4379df88b859262f3d62dc42d7077190d4f8c07f4e3d97"
+        }
+      ],
+      "changes": "Explicit dependency imports/header only; function source segments and AST unchanged"
+    }
+  ],
+  "no_old_main_imported": true,
+  "scientific_functions_changed": false
+}

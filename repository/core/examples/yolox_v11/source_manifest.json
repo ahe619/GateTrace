@@ -1,0 +1,159 @@
+{
+  "schema": "release85_example_provenance_v1",
+  "sources": [
+    {
+      "path": "data/r15/offshelf_detector/g1_82g_downstream/MOT20-01/complete.json",
+      "bytes": 8297,
+      "sha256": "15b52ac67d2e4ca37691d297dd54f56c397c25711f61083c8845a669d9cc155d"
+    },
+    {
+      "path": "data/r15/offshelf_detector/g1_82g_downstream/MOT20-01/frames.jsonl.gz",
+      "bytes": 2538997,
+      "sha256": "9b5bf29320d5305f89d4c1db436551a594fc4304e743f531452950f5e817b876"
+    },
+    {
+      "path": "data/r15/offshelf_detector/g1_82g_downstream/MOT20-01/gates/H_30/events.json",
+      "bytes": 34396,
+      "sha256": "a48cfc8264706244137da6d340ef031dad0c8a76a5b6dcb5f9a8d0d524f2ca8e"
+    },
+    {
+      "path": "data/r15/offshelf_detector/g1_82g_downstream/MOT20-01/gates/H_50/events.json",
+      "bytes": 34427,
+      "sha256": "50a9b438d5eabdd5a6f673bbed8090a93bf4d11f525ccf2a9ecd708abffe5991"
+    },
+    {
+      "path": "data/r15/offshelf_detector/g1_82g_downstream/MOT20-01/gates/H_70/events.json",
+      "bytes": 3134826,
+      "sha256": "e81b65a78cd60527722c2fe15c7e3fea825ccf2af72058f98dcd240b262056f9"
+    },
+    {
+      "path": "data/r15/offshelf_detector/g1_82g_downstream/MOT20-01/gates/V_25/events.json",
+      "bytes": 818142,
+      "sha256": "eef319db696ca705b4546caf40a88d60a4b6d2f685405e6a406ad49a590a4103"
+    },
+    {
+      "path": "data/r15/offshelf_detector/g1_82g_downstream/MOT20-01/gates/V_50/events.json",
+      "bytes": 2644703,
+      "sha256": "4fc78e8a7dbcdfb4856bab39d3f5f9e1e7efe50e2688d0168b7b7e1a958be3cc"
+    },
+    {
+      "path": "data/r15/offshelf_detector/g1_82g_downstream/MOT20-01/gates/V_75/events.json",
+      "bytes": 2493558,
+      "sha256": "cbea2835b4872887afdd18d2d13df81d3a3323f06ffcf3bac806c4e467bafcb5"
+    },
+    {
+      "path": "data/r15/offshelf_detector/g1_82g_downstream/MOT20-02/complete.json",
+      "bytes": 8341,
+      "sha256": "b844ed339e5b0857770a865039e45686dd9755455934a51446225b079d5a3f0f"
+    },
+    {
+      "path": "data/r15/offshelf_detector/g1_82g_downstream/MOT20-02/frames.jsonl.gz",
+      "bytes": 19550564,
+      "sha256": "293b1ca0f518cb4d8fbf79750e94e77bdaf82f19b0e9f8cfda0555d06a883dff"
+    },
+    {
+      "path": "data/r15/offshelf_detector/g1_82g_downstream/MOT20-02/gates/H_30/events.json",
+      "bytes": 8974677,
+      "sha256": "3aa4bdcb26503f24903c4729fb6e047add7125d97c574e82b96a713bcd7200c7"
+    },
+    {
+      "path": "data/r15/offshelf_detector/g1_82g_downstream/MOT20-02/gates/H_50/events.json",
+      "bytes": 21704572,
+      "sha256": "8acb61c6484e1d1fb8e8ad0db315fef4310b1f08f40bf2bf7b8e3cdba2be2ef9"
+    },
+    {
+      "path": "data/r15/offshelf_detector/g1_82g_downstream/MOT20-02/gates/H_70/events.json",
+      "bytes": 11716219,
+      "sha256": "186e1feff099cbb3f1b89e4d9879db5d9f271a5ce86a60a5233d46324ec2c5ec"
+    },
+    {
+      "path": "data/r15/offshelf_detector/g1_82g_downstream/MOT20-02/gates/V_25/events.json",
+      "bytes": 7883329,
+      "sha256": "23c4817e42b6850fb27e2b0c0b1e76f96bf3ff2485903a9d0b70c296942dfae6"
+    },
+    {
+      "path": "data/r15/offshelf_detector/g1_82g_downstream/MOT20-02/gates/V_50/events.json",
+      "bytes": 16135949,
+      "sha256": "b14ee6d4ca52286c40f904f2e09803b1ce42c4d3ac4022e881ac052593950be3"
+    },
+    {
+      "path": "data/r15/offshelf_detector/g1_82g_downstream/MOT20-02/gates/V_75/events.json",
+      "bytes": 15155727,
+      "sha256": "e059c172d2a25c8d8fb2357b74d8b20216bd186882c12286f50e92332a82716d"
+    }
+  ],
+  "packaging_command": [
+    "python",
+    "scripts/release85/prepare_score.py"
+  ],
+  "purification": {
+    "frame_fields": [
+      "frame",
+      "source_frame",
+      "time_s",
+      "outputs"
+    ],
+    "output_fields": [
+      "raw_detection_index",
+      "track_id",
+      "box",
+      "original_track_id"
+    ],
+    "output_box_source": "Post-M4 tracker_rows[:4], never admitted raw detection boxes",
+    "event_fields": [
+      "track_id",
+      "fragment_index",
+      "direction",
+      "time_s",
+      "time_semantics",
+      "source_zone",
+      "target_zone",
+      "last_source_zone_time_s",
+      "first_target_zone_time_s",
+      "transition_bracket_s",
+      "prediction_id",
+      "sequence",
+      "gate_id",
+      "event_key",
+      "target_frame",
+      "source_frame",
+      "source_time_s",
+      "crossing_position_native_px",
+      "group_id",
+      "global_group_id",
+      "member_prediction_ids",
+      "member_event_keys",
+      "first_t",
+      "last_t",
+      "dedup_decision",
+      "dedup_variant"
+    ],
+    "member_fields": [
+      "track_id",
+      "fragment_index",
+      "direction",
+      "time_s",
+      "prediction_id",
+      "sequence",
+      "gate_id",
+      "event_key",
+      "source_frame",
+      "target_frame",
+      "source_time_s",
+      "crossing_position_native_px",
+      "last_source_zone_time_s",
+      "first_target_zone_time_s",
+      "transition_bracket_s"
+    ],
+    "removed": [
+      "old identity/association answers",
+      "raw detections not emitted",
+      "confidence/keypoints",
+      "private absolute paths",
+      "C1/R1/R2 internal evidence",
+      "per-frame event-region points"
+    ],
+    "limits": "v0 reconstructs GT labels and actual-output-box identity/matching only. It does not rerun detection, tracking, M4, C1, R1 or R2."
+  },
+  "no_original_GT_or_video": true
+}

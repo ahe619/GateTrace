@@ -1,0 +1,4 @@
+{"sequence": "MOT20-02", "kind": "seqinfo", "bytes": 103, "sha256": "e94c47840038e71e84613eeda0a9635728de1e488b56c5b05b16f68ff7305a44", "purpose": "native_metadata"}
+{"sequence": "MOT20-02", "kind": "gt", "bytes": 6875537, "sha256": "10abe457a67d9919a9cbfe821d3619c8e6174c2b0ed7ecf4cb68c1fd6cad58de", "purpose": "derive_labels_from_official_GT"}
+{"sequence": "MOT20-01", "kind": "seqinfo", "bytes": 102, "sha256": "5850098d845d1a92c4b8649ee7ab4e2b7ef2b0a2104eb855cdef9a8e93da0a5e", "purpose": "native_metadata"}
+{"sequence": "MOT20-01", "kind": "gt", "bytes": 872229, "sha256": "89fd0196d67a5eb6011a470dc2a49b02255403b49e8848031cdf99add8a36d9c", "purpose": "derive_labels_from_official_GT"}

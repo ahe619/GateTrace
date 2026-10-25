@@ -1,0 +1,58 @@
+{
+  "changes": [
+    {
+      "path": "INTEGRATION_CANDIDATE.md",
+      "old_sha256": "0e3842efccbd4eef0c8f3ce1f77ee2194af21d8427dd5b6730e99941e81aca37",
+      "new_sha256": "8b2ce051ee047de9b24858eed4da64b3aa31bdc48dfa680e685f52805891697f"
+    },
+    {
+      "path": "PIPELINE.md",
+      "old_sha256": "eab14a1fc3a1145f8aa66d917500e0520ecf3927025128ed6917aac7205a0bbf",
+      "new_sha256": "22ca7bccf6d7a592b069629dd9dca56d7461144454482a8dade09d6cccda7b57"
+    },
+    {
+      "path": "README.md",
+      "old_sha256": "8bd6f6715159125cb9bd34327dcb11e029815a3e03aaf9c78a4f75239c149372",
+      "new_sha256": "c1234e6e5df814426dc247cde9c27bc66ebb34e07623315ff63941f7be81b7d6"
+    },
+    {
+      "path": "VERIFY.md",
+      "old_sha256": "fc02b6e2383911b8a1e5ced64543c4672a5100e4b0b68a81502ad58e84fc1b9b",
+      "new_sha256": "a3fcfccdd5919066092e19c1c4f0a2f017c074b7a0930c77de42e83d392c7794"
+    },
+    {
+      "path": "core/README.md",
+      "old_sha256": "d872f4edbd69a50c0b2d4478a5eff9afb41f80715b04e2098965a7ca530af43f",
+      "new_sha256": "4d327eb0d58293292c2a5b532cf7ba97b102f790ac5fe13853f1247b92bd2f12"
+    },
+    {
+      "path": "docs/PIPELINE_PATCHDIFF.md",
+      "old_sha256": "0df47089ba7575026ca6d85dbb7e39f59b79a682cfe66e7c07223d97aa9fbca9",
+      "new_sha256": "303fe60f978f99ae3d7ac80a7a10dba5fcf4ca022f3a620c66a7b849edee293b"
+    },
+    {
+      "path": "docs/PIPELINE_PORTABILITY.md",
+      "old_sha256": "f6b6b36b501d80f7bdf737e485585a57b1ffe985d8e2996fad570bd6348484e0",
+      "new_sha256": "39d701c50635d01763f4ab0831f7fbe41566e53fc31752a2ca4c0ee2c88ea547"
+    },
+    {
+      "path": "docs/claims_and_limits.md",
+      "old_sha256": "163c00b96336b2762ba241e3182c2a8b877bc8416722ad2ba0440cbd41504292",
+      "new_sha256": "85c03e9d0b0381de309e8587faae1b66672136f740de10bcccda3d9b5bd5a308"
+    },
+    {
+      "path": "metadata/docs_sources.json",
+      "old_sha256": "ad16a12df434e265b1f18f535327e4c3ba0cba15e78cb7b52c4efdc3564c800a",
+      "new_sha256": "dcaeca87ed7afe1ed8b214a8f78568b25551b30feca5479dd7b1058fcbb3d3bb"
+    },
+    {
+      "path": "metadata/native_v11_scoring_status.json",
+      "old_sha256": "7a4db1073de864d7a3cccb3fc2cd3e199da6d089b77465f66f4ccd59c3ed1c10",
+      "new_sha256": "84f566dabf2777511a959e99f9f7e0f1329b1867488d8242847b629ddc96c767"
+    }
+  ],
+  "source_patch_sha256": "487cef3646038ee3dbb0b451bb47ecc3f00e7a398d263c7c221d135646a9ca94",
+  "no_code_or_result_changes": true,
+  "original_status_preserved": true,
+  "readme_status_banner": "Latest local/pending status added at document entry; no new scientific claim"
+}

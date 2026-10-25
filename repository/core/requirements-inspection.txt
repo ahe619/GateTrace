@@ -1,0 +1,4 @@
+# Reference environment for the optional renderer and full synthetic test suite.
+# This file never installs anything automatically.
+-r requirements.txt
+Pillow==11.3.0

@@ -1,0 +1,28 @@
+{
+  "schema": "reference_environment_metadata_only_v1",
+  "source": "Read installed distribution metadata in the existing CPU reference environment; no GPU import/probe and no installation.",
+  "python": "3.10.18",
+  "packages": {
+    "numpy": "2.2.6",
+    "torch": "2.10.0+cu128",
+    "torchvision": "0.25.0+cu128",
+    "scipy": "1.15.3",
+    "lap": "0.5.13",
+    "filterpy": "1.4.5",
+    "ultralytics": "8.3.192",
+    "opencv-python": "4.12.0.88"
+  },
+  "core_required": [
+    "numpy"
+  ],
+  "platform_reference": "Windows",
+  "same_machine_cpu_regression": true,
+  "clean_machine_installation_tested": false,
+  "gpu_pipeline_executed_for_packaging": false,
+  "notes": [
+    "A distribution version record is not a binary wheel checksum or an exact full-environment lock.",
+    "GPU inference is not bitwise deterministic; published results are conditioned on the sealed historical detection cache.",
+    "See PIPELINE and scoped requirements for separate CPU, detector, and tracker dependencies."
+  ]
+}
+

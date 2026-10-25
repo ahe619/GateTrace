@@ -1,0 +1,115 @@
+{
+  "schema": "panel_example_source_v0_1",
+  "sequences": [
+    "MOT20-01",
+    "MOT20-02"
+  ],
+  "methods": {
+    "byte": {
+      "MOT20-01": {
+        "source": {
+          "path": "data/r15/sota_panel83d/run_v1/byte/MOT20-01/observations.jsonl.gz",
+          "bytes": 2292968,
+          "sha256": "aa6926a265450109ed4c950717a94d6574d76b2dd4ee51a66d95fdb42abc68d1"
+        },
+        "output": {
+          "path": "examples/panel/byte/MOT20-01.txt",
+          "bytes": 1972580,
+          "sha256": "3fe9642f87b315acafe1b75ebd4b8a511cc4c8c727c0bba639be1590f985ac4a"
+        },
+        "frames": 429,
+        "rows": 18321,
+        "unique_track_ids": 82
+      },
+      "MOT20-02": {
+        "source": {
+          "path": "data/r15/sota_panel83d/run_v1/byte/MOT20-02/observations.jsonl.gz",
+          "bytes": 17370231,
+          "sha256": "1a35d42085c15a81c73a915f7b5af632b60b669fbe743ec118b08ba02617ce3f"
+        },
+        "output": {
+          "path": "examples/panel/byte/MOT20-02.txt",
+          "bytes": 14822585,
+          "sha256": "70825f995d3da644fe85c5d9fea562781a7cd637084f32759b909ccfbd75889c"
+        },
+        "frames": 2782,
+        "rows": 135208,
+        "unique_track_ids": 386
+      }
+    },
+    "oc": {
+      "MOT20-01": {
+        "source": {
+          "path": "data/r15/sota_panel83d/run_v1/oc/MOT20-01/observations.jsonl.gz",
+          "bytes": 1145808,
+          "sha256": "5de31cf295003e114f38e18d8a84b9e438b5d8ce6423292fe185498a048c020d"
+        },
+        "output": {
+          "path": "examples/panel/oc/MOT20-01.txt",
+          "bytes": 1393303,
+          "sha256": "278445fb7e8f057eed59e218fc168c8cb32cd13488fce063b1e26fd105c25d3c"
+        },
+        "frames": 429,
+        "rows": 16770,
+        "unique_track_ids": 82
+      },
+      "MOT20-02": {
+        "source": {
+          "path": "data/r15/sota_panel83d/run_v1/oc/MOT20-02/observations.jsonl.gz",
+          "bytes": 9174638,
+          "sha256": "2fdb4d488ca547849cada3b549763888e06a3a1ea99f4b9e57005a86355ba1cc"
+        },
+        "output": {
+          "path": "examples/panel/oc/MOT20-02.txt",
+          "bytes": 10641145,
+          "sha256": "6736ef5a6e659fbcaeca032ec55ab4e4fcda6aa3cafba65dcbaceb4f687aace8"
+        },
+        "frames": 2782,
+        "rows": 123514,
+        "unique_track_ids": 426
+      }
+    },
+    "bot": {
+      "MOT20-01": {
+        "source": {
+          "path": "data/r15/sota_panel83d/run_v1/bot/MOT20-01/observations.jsonl.gz",
+          "bytes": 2320921,
+          "sha256": "2579ba76d08ac78c8eb92a69b4a5fbcd6c36f55bef394f4998e741c6db99948a"
+        },
+        "output": {
+          "path": "examples/panel/bot/MOT20-01.txt",
+          "bytes": 1978135,
+          "sha256": "e8eda5544e24847ef911303e6719f645c050e8bc882db4edc4028a8816e18692"
+        },
+        "frames": 429,
+        "rows": 18370,
+        "unique_track_ids": 96
+      },
+      "MOT20-02": {
+        "source": {
+          "path": "data/r15/sota_panel83d/run_v1/bot/MOT20-02/observations.jsonl.gz",
+          "bytes": 17543239,
+          "sha256": "ddae60e9bdee222479c8141d5f6bf18ebf8ef2354a71635a68704c39e1a15c01"
+        },
+        "output": {
+          "path": "examples/panel/bot/MOT20-02.txt",
+          "bytes": 14869370,
+          "sha256": "954c994cdab1e8761dc23c98e4d0ef6be965559a8b86572d34a6364f80449abb"
+        },
+        "frames": 2782,
+        "rows": 135629,
+        "unique_track_ids": 497
+      }
+    }
+  },
+  "conversion": {
+    "source_field": "outputs[] of each frame row of the saved panel observations",
+    "row": "frame=source_frame, id=track_id, x=repr(x1+1), y=repr(y1+1), w=repr(x2-x1), h=repr(y2-y1), conf=repr(score) or -1 when the tracker emitted no score, then -1,-1,-1",
+    "order": "frames ascending; rows within a frame in emitted_output_index order (the identity tie key)",
+    "box_origin_source": "native zero-based continuous xyxy as emitted by the tracker adapter",
+    "no_filtering": true,
+    "no_interpolation": true,
+    "no_M4": true
+  },
+  "provenance_note": "Source names are project-relative references only; score_tracker never opens them."
+}

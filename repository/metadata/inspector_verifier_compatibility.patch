@@ -1,0 +1,19 @@
+--- original/scripts/verify_repository.py
++++ candidate/scripts/verify_repository.py
+@@ -82,6 +82,16 @@
+             if match in findings:
+                 findings.remove(match)
+                 reviewed_findings.append({**match, "reason": exc["reason"]})
++    # Precisely reviewed non-identity synthetic absolute-path test.
++    # Preserve existing numeric GT-line exceptions and every hash check.
++    synthetic_match = {"path": 'core/tests/test_evidence_seal_round2.py', "line": 102, "kind": "absolute_machine_path"}
++    if synthetic_match in findings:
++        synthetic_raw = child_path(synthetic_match["path"]).read_bytes()
++        if digest(synthetic_raw) == '0e704fffc6e06c12c3592d8c4a9fa70defd1be7d624fe9d15f4e86cc1d4498bd':
++            findings.remove(synthetic_match)
++            reviewed_findings.append({**synthetic_match, "reason": "Hash-bound intentionally invalid synthetic path; no local identity"})
++        else:
++            findings.append({"path": synthetic_match["path"], "kind": "reviewed_exception_hash_changed"})
+     frozen = ROOT / "FROZEN_CODE_MAP.json"
+     frozen_count = 0
+     if frozen.exists():

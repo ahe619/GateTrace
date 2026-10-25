@@ -1,0 +1,28 @@
+{
+  "schema": "reviewed_privacy_findings_v1",
+  "reviewed": [
+    {
+      "path": "core/labels/transitions.jsonl.gz",
+      "line": 745,
+      "kind": "local_identity_token",
+      "sha256": "62fe5e800278b5bb98194bd66de64c5b9d68f7924085e66199f5aa624f2467c7",
+      "json_field_path": [
+        "audit",
+        "visibility_observations",
+        38,
+        "gt_file_physical_line"
+      ],
+      "required_type": "int",
+      "reason": "The exact match is an integer source-GT physical line number, not a user name. Numerical scientific data was preserved."
+    }
+  ],
+  "third_party_attribution": [
+    {
+      "path": "src/track/frozen/sota83d/vendor/oc/ocsort.py",
+      "line": 2,
+      "sha256": "122cc1c27d3321eac0debdf3ba782b76d189e1ac878256b8291ffeb4314fa979",
+      "reason": "Original SORT author credit/contact retained verbatim; not project contributor private information."
+    }
+  ]
+}
+

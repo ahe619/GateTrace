@@ -1,0 +1,730 @@
+{
+  "schema": "core_frozen_map_v1",
+  "copy_policy": "Entire anonymous candidate copied byte-for-byte. Core MANIFEST is unchanged.",
+  "source_package": "release/anon/mot20_crossing_events_v0_2_candidate",
+  "original_candidate": "release/mot20_crossing_events_v0_2_candidate",
+  "source_manifest_sha256": "b022a6debd0dced5ace6c8b4a00e4bdd2e7663d20128ddc5bf8e560149c530e9",
+  "source_code_all_equal_to_original_candidate": true,
+  "core_code_files": [
+    {
+      "repo_path": "core/inspect_event.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/inspect_event.py",
+      "bytes": 3897,
+      "sha256": "cda4c10491a803f942b5624fd27b15bd0b4dbe86326256c24f1ffc8e87dd78e2",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/inspect_event.py",
+      "original_candidate_sha256": "cda4c10491a803f942b5624fd27b15bd0b4dbe86326256c24f1ffc8e87dd78e2",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/reproduce.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/reproduce.py",
+      "bytes": 9062,
+      "sha256": "66ba70732dc072a2336286122eec5b1da06aeb113f1e993589d49fc2b500af40",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/reproduce.py",
+      "original_candidate_sha256": "66ba70732dc072a2336286122eec5b1da06aeb113f1e993589d49fc2b500af40",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/score_tracker.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/score_tracker.py",
+      "bytes": 8707,
+      "sha256": "65a344605e01d4fb6d6c1ec3ad1feaa3e822e8813a9b41cb1a3719110f3ab259",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/score_tracker.py",
+      "original_candidate_sha256": "65a344605e01d4fb6d6c1ec3ad1feaa3e822e8813a9b41cb1a3719110f3ab259",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/__init__.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/__init__.py",
+      "bytes": 80,
+      "sha256": "0f5f1b2edd3795fef8a344716973e3513b6f8177f63bade5ce940588834093a3",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/__init__.py",
+      "original_candidate_sha256": "0f5f1b2edd3795fef8a344716973e3513b6f8177f63bade5ce940588834093a3",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/events.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/events.py",
+      "bytes": 6709,
+      "sha256": "4f8830e0ea5cc86aca42b965c40146ccd018228b7804ee53aada1009bd773e93",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/events.py",
+      "original_candidate_sha256": "4f8830e0ea5cc86aca42b965c40146ccd018228b7804ee53aada1009bd773e93",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/frozen_events/__init__.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_events/__init__.py",
+      "bytes": 65,
+      "sha256": "584d4674fb941352ac8841b8d323ce6de65531dc1b01663234b29e5ad5afa9fe",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_events/__init__.py",
+      "original_candidate_sha256": "584d4674fb941352ac8841b8d323ce6de65531dc1b01663234b29e5ad5afa9fe",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/frozen_events/adapter.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_events/adapter.py",
+      "bytes": 8631,
+      "sha256": "1290edbd86a16ff88a8e8d7d5481dee816ef261809be84debae758db4ab637bc",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_events/adapter.py",
+      "original_candidate_sha256": "1290edbd86a16ff88a8e8d7d5481dee816ef261809be84debae758db4ab637bc",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/frozen_events/chain.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_events/chain.py",
+      "bytes": 21407,
+      "sha256": "0e0bfb5f3fe68b49dd6ceea8af2923aef8b143cf65bb34f316d78af04173b7e8",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_events/chain.py",
+      "original_candidate_sha256": "0e0bfb5f3fe68b49dd6ceea8af2923aef8b143cf65bb34f316d78af04173b7e8",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/frozen_events/event_view.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_events/event_view.py",
+      "bytes": 412,
+      "sha256": "05a4e9a7e77d65f0d7e1f1c436cda091db77f685e9edfc42f50781cc1d024947",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_events/event_view.py",
+      "original_candidate_sha256": "05a4e9a7e77d65f0d7e1f1c436cda091db77f685e9edfc42f50781cc1d024947",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/frozen_events/point.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_events/point.py",
+      "bytes": 509,
+      "sha256": "21f4a33f76ac0975c6d6b65efa2552b362befb6ec0e259a592f9417ac3d64813",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_events/point.py",
+      "original_candidate_sha256": "21f4a33f76ac0975c6d6b65efa2552b362befb6ec0e259a592f9417ac3d64813",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/frozen_labels_census.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_labels_census.py",
+      "bytes": 15340,
+      "sha256": "318d4761a1d5ca24dddce5977763cba4fbe3dca3a4567f62d46ee1736082d379",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_labels_census.py",
+      "original_candidate_sha256": "318d4761a1d5ca24dddce5977763cba4fbe3dca3a4567f62d46ee1736082d379",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/frozen_labels_regions.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_labels_regions.py",
+      "bytes": 6054,
+      "sha256": "637d18ea00ded921ba7be8ff8264aebbc445888d7c346460c8712df3b9f262a1",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_labels_regions.py",
+      "original_candidate_sha256": "637d18ea00ded921ba7be8ff8264aebbc445888d7c346460c8712df3b9f262a1",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/frozen_score/__init__.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/__init__.py",
+      "bytes": 64,
+      "sha256": "9d9394e5f1615ae7d22a9a274e6ce15c8239ee22438f440707b2fa2d151949f7",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_score/__init__.py",
+      "original_candidate_sha256": "9d9394e5f1615ae7d22a9a274e6ce15c8239ee22438f440707b2fa2d151949f7",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/frozen_score/aggregate.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/aggregate.py",
+      "bytes": 1763,
+      "sha256": "17b83db898956ecbd15cd2f4c4b3e7e58da6776fa43f8195528eafd496bdcf8a",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_score/aggregate.py",
+      "original_candidate_sha256": "17b83db898956ecbd15cd2f4c4b3e7e58da6776fa43f8195528eafd496bdcf8a",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/frozen_score/e1.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/e1.py",
+      "bytes": 10122,
+      "sha256": "8edc931b0a02aee872e7a20f2ab67e1921322b180a80de321488ae1d9c95fc02",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_score/e1.py",
+      "original_candidate_sha256": "8edc931b0a02aee872e7a20f2ab67e1921322b180a80de321488ae1d9c95fc02",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/frozen_score/identity.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/identity.py",
+      "bytes": 3219,
+      "sha256": "ab33874ce2cd7ecf55b3d335331309fd69b6a9dc058e59bb00378186c607192a",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_score/identity.py",
+      "original_candidate_sha256": "ab33874ce2cd7ecf55b3d335331309fd69b6a9dc058e59bb00378186c607192a",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/frozen_score/labels_view.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/labels_view.py",
+      "bytes": 2267,
+      "sha256": "1df49add65704dcfed0e0c698d92802d4f284d6041833a465e2ef160d2acae6e",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_score/labels_view.py",
+      "original_candidate_sha256": "1df49add65704dcfed0e0c698d92802d4f284d6041833a465e2ef160d2acae6e",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/frozen_score/matching.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/matching.py",
+      "bytes": 11031,
+      "sha256": "bf40affe41d742c07b826303f92062ef391be54123517ac260060eaddcf5b0ae",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/frozen_score/matching.py",
+      "original_candidate_sha256": "bf40affe41d742c07b826303f92062ef391be54123517ac260060eaddcf5b0ae",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/inspection.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/inspection.py",
+      "bytes": 18434,
+      "sha256": "d07f447d613bc628139cbd59834b07ca527e40d7f3d4d5ef153b80bb87ee08b3",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/inspection.py",
+      "original_candidate_sha256": "d07f447d613bc628139cbd59834b07ca527e40d7f3d4d5ef153b80bb87ee08b3",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/labels.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/labels.py",
+      "bytes": 10467,
+      "sha256": "252d539cef3bf0963af3e560e25f6ed44975eb58745ffd5593eb30a17d333018",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/labels.py",
+      "original_candidate_sha256": "252d539cef3bf0963af3e560e25f6ed44975eb58745ffd5593eb30a17d333018",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/lineage.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/lineage.py",
+      "bytes": 5121,
+      "sha256": "91589e80d57b2135243616e279627010610ee6267dc96bddc3b0aedeb48977e3",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/lineage.py",
+      "original_candidate_sha256": "91589e80d57b2135243616e279627010610ee6267dc96bddc3b0aedeb48977e3",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/motchallenge.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/motchallenge.py",
+      "bytes": 2868,
+      "sha256": "63b752284f7daf9d167c202373dc130b71521f747da548ecc42abca44710dbcc",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/motchallenge.py",
+      "original_candidate_sha256": "63b752284f7daf9d167c202373dc130b71521f747da548ecc42abca44710dbcc",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/regression.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/regression.py",
+      "bytes": 3530,
+      "sha256": "dcb84522be6064fd6dcb8de230f7519e944a281b5e6c7bb3e467b56d841d7155",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/regression.py",
+      "original_candidate_sha256": "dcb84522be6064fd6dcb8de230f7519e944a281b5e6c7bb3e467b56d841d7155",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/score.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/score.py",
+      "bytes": 15026,
+      "sha256": "dc6e8602791858f04e2efba3ec91f2073e72c3c0932d22a95b8a78ac139c1fbd",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/score.py",
+      "original_candidate_sha256": "dc6e8602791858f04e2efba3ec91f2073e72c3c0932d22a95b8a78ac139c1fbd",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/src/tracker_score.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/tracker_score.py",
+      "bytes": 13641,
+      "sha256": "9916a2b8e232e1c78ba8a48875331cab8b1c2829c41f2cdbc7284a1132c7520f",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/src/tracker_score.py",
+      "original_candidate_sha256": "9916a2b8e232e1c78ba8a48875331cab8b1c2829c41f2cdbc7284a1132c7520f",
+      "original_candidate_equal": true
+    },
+    {
+      "repo_path": "core/tests/test_inspection_synthetic.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/tests/test_inspection_synthetic.py",
+      "bytes": 5824,
+      "sha256": "78427c01996dea8f2f156ae06a0195743874de54c6a9609335066cfc3623af59",
+      "original_candidate_path": "release/mot20_crossing_events_v0_2_candidate/tests/test_inspection_synthetic.py",
+      "original_candidate_sha256": "78427c01996dea8f2f156ae06a0195743874de54c6a9609335066cfc3623af59",
+      "original_candidate_equal": true
+    }
+  ],
+  "all_core_files": [
+    {
+      "repo_path": "core/ANONYMITY.md",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/ANONYMITY.md",
+      "bytes": 964,
+      "sha256": "ef1400974393a798a67ee7106c41cfce137a2650aa9b11dd70e3926d716d3498"
+    },
+    {
+      "repo_path": "core/ATTRIBUTION.md",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/ATTRIBUTION.md",
+      "bytes": 2261,
+      "sha256": "02304b8b5ec8a98c7ec480de323fccb63e1d57420249ea4bd7e26ccc8d115e1c"
+    },
+    {
+      "repo_path": "core/CHANGES.md",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/CHANGES.md",
+      "bytes": 3915,
+      "sha256": "998a59fe3dae1f58d0d4ec5db8886497f184026fbc0248ab049edc1d3049f0d5"
+    },
+    {
+      "repo_path": "core/DATA_LICENSE",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/DATA_LICENSE",
+      "bytes": 1066,
+      "sha256": "1e41fc636502b14a6c426aa0602ddeb497893a6085af36da6186f76de6fa67c9"
+    },
+    {
+      "repo_path": "core/examples/panel/bot/MOT20-01.txt",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/panel/bot/MOT20-01.txt",
+      "bytes": 1978135,
+      "sha256": "e8eda5544e24847ef911303e6719f645c050e8bc882db4edc4028a8816e18692"
+    },
+    {
+      "repo_path": "core/examples/panel/bot/MOT20-02.txt",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/panel/bot/MOT20-02.txt",
+      "bytes": 14869370,
+      "sha256": "954c994cdab1e8761dc23c98e4d0ef6be965559a8b86572d34a6364f80449abb"
+    },
+    {
+      "repo_path": "core/examples/panel/byte/MOT20-01.txt",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/panel/byte/MOT20-01.txt",
+      "bytes": 1972580,
+      "sha256": "3fe9642f87b315acafe1b75ebd4b8a511cc4c8c727c0bba639be1590f985ac4a"
+    },
+    {
+      "repo_path": "core/examples/panel/byte/MOT20-02.txt",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/panel/byte/MOT20-02.txt",
+      "bytes": 14822585,
+      "sha256": "70825f995d3da644fe85c5d9fea562781a7cd637084f32759b909ccfbd75889c"
+    },
+    {
+      "repo_path": "core/examples/panel/oc/MOT20-01.txt",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/panel/oc/MOT20-01.txt",
+      "bytes": 1393303,
+      "sha256": "278445fb7e8f057eed59e218fc168c8cb32cd13488fce063b1e26fd105c25d3c"
+    },
+    {
+      "repo_path": "core/examples/panel/oc/MOT20-02.txt",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/panel/oc/MOT20-02.txt",
+      "bytes": 10641145,
+      "sha256": "6736ef5a6e659fbcaeca032ec55ab4e4fcda6aa3cafba65dcbaceb4f687aace8"
+    },
+    {
+      "repo_path": "core/examples/panel/source_manifest.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/panel/source_manifest.json",
+      "bytes": 4076,
+      "sha256": "031863474b3cc1a387a1a9ce1110c7d59548f6c46290974680e8410250b51e06"
+    },
+    {
+      "repo_path": "core/examples/yolox_v11/cache_manifest.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/yolox_v11/cache_manifest.json",
+      "bytes": 3907,
+      "sha256": "5a9a8f3bec7af9d9ad94fb08e8e48eb927e7b1c7c2ce97020c5cd67e20f7134b"
+    },
+    {
+      "repo_path": "core/examples/yolox_v11/MOT20-01/gates/H_30/events.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/yolox_v11/MOT20-01/gates/H_30/events.json",
+      "bytes": 211,
+      "sha256": "c7c780cf79a8a581e2ce58c1aeec10eb9a2d08d1b9d06a35ccf292f686303dae"
+    },
+    {
+      "repo_path": "core/examples/yolox_v11/MOT20-01/gates/H_50/events.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/yolox_v11/MOT20-01/gates/H_50/events.json",
+      "bytes": 211,
+      "sha256": "bae5f3da696b1a0f74d55264367e3cb1f40de458972ae2b36a093e54ef4b17bb"
+    },
+    {
+      "repo_path": "core/examples/yolox_v11/MOT20-01/gates/H_70/events.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/yolox_v11/MOT20-01/gates/H_70/events.json",
+      "bytes": 21717,
+      "sha256": "12beebfff44d19e3a85bb921f879d94ad394bf6ba86d930b3946dd29148fe73c"
+    },
+    {
+      "repo_path": "core/examples/yolox_v11/MOT20-01/gates/V_25/events.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/yolox_v11/MOT20-01/gates/V_25/events.json",
+      "bytes": 12342,
+      "sha256": "2c59a6d14c76d6ccf196a33eb3b274a4f77a55c87ae042fae26fff5b7284931e"
+    },
+    {
+      "repo_path": "core/examples/yolox_v11/MOT20-01/gates/V_50/events.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/yolox_v11/MOT20-01/gates/V_50/events.json",
+      "bytes": 39980,
+      "sha256": "6fed866ddf3e7b88ce9f57c08061852fd995ab51c5d9c7e9791c39540ee9083d"
+    },
+    {
+      "repo_path": "core/examples/yolox_v11/MOT20-01/gates/V_75/events.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/yolox_v11/MOT20-01/gates/V_75/events.json",
+      "bytes": 38231,
+      "sha256": "a2bd1b362215807928693f0c63478a1151699565a0d7749bb4c30b6daa01f6e6"
+    },
+    {
+      "repo_path": "core/examples/yolox_v11/MOT20-01/output_boxes.jsonl.gz",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/yolox_v11/MOT20-01/output_boxes.jsonl.gz",
+      "bytes": 602715,
+      "sha256": "02ff17065f07f2facce5381dcd74d293756fe5238460c511ddd08334e9318362"
+    },
+    {
+      "repo_path": "core/examples/yolox_v11/MOT20-02/gates/H_30/events.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/yolox_v11/MOT20-02/gates/H_30/events.json",
+      "bytes": 69264,
+      "sha256": "2a4198b9f5e0bd8e03430027301e6c0a96bdbeeea05b78d19e3e5521b52a8fa8"
+    },
+    {
+      "repo_path": "core/examples/yolox_v11/MOT20-02/gates/H_50/events.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/yolox_v11/MOT20-02/gates/H_50/events.json",
+      "bytes": 216439,
+      "sha256": "8d27284a0c2f0c13442ab846175768f77ef6d3759fbde4729c99574791020fb6"
+    },
+    {
+      "repo_path": "core/examples/yolox_v11/MOT20-02/gates/H_70/events.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/yolox_v11/MOT20-02/gates/H_70/events.json",
+      "bytes": 173223,
+      "sha256": "521cb3d123149d21d52fa30ccd2608b041dd1e7dad03cc588792854ed1b33626"
+    },
+    {
+      "repo_path": "core/examples/yolox_v11/MOT20-02/gates/V_25/events.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/yolox_v11/MOT20-02/gates/V_25/events.json",
+      "bytes": 101400,
+      "sha256": "ae41a91c36a924888b9370c9444fe83d367e62b9cdd316f75a81e0739cbc0d4b"
+    },
+    {
+      "repo_path": "core/examples/yolox_v11/MOT20-02/gates/V_50/events.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/yolox_v11/MOT20-02/gates/V_50/events.json",
+      "bytes": 239197,
+      "sha256": "732dd046d4c279aaca55a7e11800d7b160d89c5bd44dacb9b538e698ca188e21"
+    },
+    {
+      "repo_path": "core/examples/yolox_v11/MOT20-02/gates/V_75/events.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/yolox_v11/MOT20-02/gates/V_75/events.json",
+      "bytes": 252973,
+      "sha256": "d103fc141a61bf5fcca45161520461466da2de402cfa85f2ec8e346dd07a1e86"
+    },
+    {
+      "repo_path": "core/examples/yolox_v11/MOT20-02/output_boxes.jsonl.gz",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/yolox_v11/MOT20-02/output_boxes.jsonl.gz",
+      "bytes": 4698372,
+      "sha256": "5d5b85bcea1aa18c2bc46c29a487ff327a41f600062743748b3386fcde7cb6e4"
+    },
+    {
+      "repo_path": "core/examples/yolox_v11/SCORING_INTERFACE.md",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/yolox_v11/SCORING_INTERFACE.md",
+      "bytes": 3616,
+      "sha256": "4f6e9a617d1d157e8178156e13341424467d96f8c09067aa403777c272ff9ac6"
+    },
+    {
+      "repo_path": "core/examples/yolox_v11/source_manifest.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/examples/yolox_v11/source_manifest.json",
+      "bytes": 5300,
+      "sha256": "7fdef248e9202b9c7c79500cb97bf3fb8cffe39d7b1c0c8ed4cc509e9e4be5f9"
+    },
+    {
+      "repo_path": "core/expected/panel_bot.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/expected/panel_bot.json",
+      "bytes": 241723,
+      "sha256": "2fb92ddfaaa8e0c168452881b4004b6bcd01c4d403e22e0e62903c4fa6571bf3"
+    },
+    {
+      "repo_path": "core/expected/panel_byte.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/expected/panel_byte.json",
+      "bytes": 245510,
+      "sha256": "1e55b3316671c0967bae9334e69c4d79b647c36470475d1fd131b17a21f8178f"
+    },
+    {
+      "repo_path": "core/expected/panel_oc.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/expected/panel_oc.json",
+      "bytes": 225273,
+      "sha256": "317c0c1cef99c37dd4a17c2d16b50ef291d4e11a06302dbe2219ef471acd7ee5"
+    },
+    {
+      "repo_path": "core/expected/yolox_v11_main.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/expected/yolox_v11_main.json",
+      "bytes": 10122,
+      "sha256": "850a1a12e0fa8caafc1bcf8dcb9c77703aaafd4ea644ee4e53620f536e2cdd11"
+    },
+    {
+      "repo_path": "core/inspect_event.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/inspect_event.py",
+      "bytes": 3897,
+      "sha256": "cda4c10491a803f942b5624fd27b15bd0b4dbe86326256c24f1ffc8e87dd78e2"
+    },
+    {
+      "repo_path": "core/labels/build_run.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/labels/build_run.json",
+      "bytes": 159,
+      "sha256": "a91110769cb3a9f5ad8882c2a81f49b572d669d1dac9b669be1d95bc25bdbb7f"
+    },
+    {
+      "repo_path": "core/labels/geometry.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/labels/geometry.json",
+      "bytes": 16430,
+      "sha256": "91e7c0fed4e061af4804556fc07b07db7cf24403daca144867fd7ec1b1254270"
+    },
+    {
+      "repo_path": "core/labels/height_models.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/labels/height_models.json",
+      "bytes": 1675,
+      "sha256": "c98f3d9899c84c9e48c8159b7f0ca08d9ce2ffe9c6f72ebf5012ab86ef72002f"
+    },
+    {
+      "repo_path": "core/labels/lineage_enrichment.jsonl.gz",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/labels/lineage_enrichment.jsonl.gz",
+      "bytes": 53295,
+      "sha256": "2a7674d9a6e445e56ba2563d259b75fdefc8b775e279a22b5d1eb77657036ab1"
+    },
+    {
+      "repo_path": "core/labels/read_ledger.jsonl",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/labels/read_ledger.jsonl",
+      "bytes": 695,
+      "sha256": "78b496bea6af6c1b3b4143e8ef27a1a04cbd6888c2f7967c4de20ac8358b4f0c"
+    },
+    {
+      "repo_path": "core/labels/reference_line_map.jsonl",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/labels/reference_line_map.jsonl",
+      "bytes": 92677,
+      "sha256": "606d13add20e8813ae945981a7401d8418770173e60462af7e807391670f4eea"
+    },
+    {
+      "repo_path": "core/labels/source_manifest.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/labels/source_manifest.json",
+      "bytes": 7105,
+      "sha256": "164479909c9c0dc600d09868f50554918030273bf0e5cc5928cf891f2f2ef8d1"
+    },
+    {
+      "repo_path": "core/labels/summary.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/labels/summary.json",
+      "bytes": 20295,
+      "sha256": "fbe3c73302d7bbf6e08f70ed4a4504d3d4ca71c5a242aed561a9b98417073695"
+    },
+    {
+      "repo_path": "core/labels/transitions.jsonl.gz",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/labels/transitions.jsonl.gz",
+      "bytes": 610414,
+      "sha256": "62fe5e800278b5bb98194bd66de64c5b9d68f7924085e66199f5aa624f2467c7"
+    },
+    {
+      "repo_path": "core/LICENSE_CODE",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/LICENSE_CODE",
+      "bytes": 1401,
+      "sha256": "555b127532b4bb7d1a4717b87001d68bc5584750a395d6a0a949d94ace512615"
+    },
+    {
+      "repo_path": "core/MANIFEST.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/MANIFEST.json",
+      "bytes": 14871,
+      "sha256": "b022a6debd0dced5ace6c8b4a00e4bdd2e7663d20128ddc5bf8e560149c530e9"
+    },
+    {
+      "repo_path": "core/PROTOCOL.md",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/PROTOCOL.md",
+      "bytes": 8338,
+      "sha256": "e46ebc5dc9a1df92a2ee0485aab596c7f8052bb981dd38ee6dca0e26e7277036"
+    },
+    {
+      "repo_path": "core/PROTOCOL.md.sha256",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/PROTOCOL.md.sha256",
+      "bytes": 78,
+      "sha256": "7079bd7f096ef621967ba2a125af8282e68854a70833b627edf2fcc7b955b74d"
+    },
+    {
+      "repo_path": "core/README.md",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/README.md",
+      "bytes": 16347,
+      "sha256": "d872f4edbd69a50c0b2d4478a5eff9afb41f80715b04e2098965a7ca530af43f"
+    },
+    {
+      "repo_path": "core/REPORT_v0_1.md",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/REPORT_v0_1.md",
+      "bytes": 9096,
+      "sha256": "0ce2e86deb45d88c70d1d0d087fa249ee0946b6c052693d5cf2b40a167dc2230"
+    },
+    {
+      "repo_path": "core/reproduce.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/reproduce.py",
+      "bytes": 9062,
+      "sha256": "66ba70732dc072a2336286122eec5b1da06aeb113f1e993589d49fc2b500af40"
+    },
+    {
+      "repo_path": "core/requirements.txt",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/requirements.txt",
+      "bytes": 153,
+      "sha256": "583b58fe9c8bfa70ace81d92aa3af6e952f49fee42bad1cf884e4a27f2f1f93c"
+    },
+    {
+      "repo_path": "core/schemas/labels_lineage_fields.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/schemas/labels_lineage_fields.json",
+      "bytes": 1132,
+      "sha256": "5962e41746c98a0808376b65aa8c389ffbe3dba64eebd8120ecae6dcb5f8f43a"
+    },
+    {
+      "repo_path": "core/schemas/labels_schema.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/schemas/labels_schema.json",
+      "bytes": 1331,
+      "sha256": "6580093639ce8c66ccd232172db1461bbdf8ac9b2a4e4404d71aac624f9f034a"
+    },
+    {
+      "repo_path": "core/schemas/scoring.schema.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/schemas/scoring.schema.json",
+      "bytes": 4871,
+      "sha256": "3563f5791a5f0e44e1dd43835020a1a4df426b45d163856f3c4c8da399364cf3"
+    },
+    {
+      "repo_path": "core/score_tracker.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/score_tracker.py",
+      "bytes": 8707,
+      "sha256": "65a344605e01d4fb6d6c1ec3ad1feaa3e822e8813a9b41cb1a3719110f3ab259"
+    },
+    {
+      "repo_path": "core/src/__init__.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/__init__.py",
+      "bytes": 80,
+      "sha256": "0f5f1b2edd3795fef8a344716973e3513b6f8177f63bade5ce940588834093a3"
+    },
+    {
+      "repo_path": "core/src/events.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/events.py",
+      "bytes": 6709,
+      "sha256": "4f8830e0ea5cc86aca42b965c40146ccd018228b7804ee53aada1009bd773e93"
+    },
+    {
+      "repo_path": "core/src/frozen_events/__init__.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_events/__init__.py",
+      "bytes": 65,
+      "sha256": "584d4674fb941352ac8841b8d323ce6de65531dc1b01663234b29e5ad5afa9fe"
+    },
+    {
+      "repo_path": "core/src/frozen_events/adapter.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_events/adapter.py",
+      "bytes": 8631,
+      "sha256": "1290edbd86a16ff88a8e8d7d5481dee816ef261809be84debae758db4ab637bc"
+    },
+    {
+      "repo_path": "core/src/frozen_events/chain.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_events/chain.py",
+      "bytes": 21407,
+      "sha256": "0e0bfb5f3fe68b49dd6ceea8af2923aef8b143cf65bb34f316d78af04173b7e8"
+    },
+    {
+      "repo_path": "core/src/frozen_events/event_view.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_events/event_view.py",
+      "bytes": 412,
+      "sha256": "05a4e9a7e77d65f0d7e1f1c436cda091db77f685e9edfc42f50781cc1d024947"
+    },
+    {
+      "repo_path": "core/src/frozen_events/point.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_events/point.py",
+      "bytes": 509,
+      "sha256": "21f4a33f76ac0975c6d6b65efa2552b362befb6ec0e259a592f9417ac3d64813"
+    },
+    {
+      "repo_path": "core/src/frozen_events/provenance.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_events/provenance.json",
+      "bytes": 13408,
+      "sha256": "457d7854ee6f151b1cc073396de38db6261d69581d363a9ad17757dbd355bb51"
+    },
+    {
+      "repo_path": "core/src/frozen_labels_census.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_labels_census.py",
+      "bytes": 15340,
+      "sha256": "318d4761a1d5ca24dddce5977763cba4fbe3dca3a4567f62d46ee1736082d379"
+    },
+    {
+      "repo_path": "core/src/frozen_labels_regions.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_labels_regions.py",
+      "bytes": 6054,
+      "sha256": "637d18ea00ded921ba7be8ff8264aebbc445888d7c346460c8712df3b9f262a1"
+    },
+    {
+      "repo_path": "core/src/frozen_score/__init__.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/__init__.py",
+      "bytes": 64,
+      "sha256": "9d9394e5f1615ae7d22a9a274e6ce15c8239ee22438f440707b2fa2d151949f7"
+    },
+    {
+      "repo_path": "core/src/frozen_score/aggregate.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/aggregate.py",
+      "bytes": 1763,
+      "sha256": "17b83db898956ecbd15cd2f4c4b3e7e58da6776fa43f8195528eafd496bdcf8a"
+    },
+    {
+      "repo_path": "core/src/frozen_score/e1.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/e1.py",
+      "bytes": 10122,
+      "sha256": "8edc931b0a02aee872e7a20f2ab67e1921322b180a80de321488ae1d9c95fc02"
+    },
+    {
+      "repo_path": "core/src/frozen_score/identity.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/identity.py",
+      "bytes": 3219,
+      "sha256": "ab33874ce2cd7ecf55b3d335331309fd69b6a9dc058e59bb00378186c607192a"
+    },
+    {
+      "repo_path": "core/src/frozen_score/labels_view.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/labels_view.py",
+      "bytes": 2267,
+      "sha256": "1df49add65704dcfed0e0c698d92802d4f284d6041833a465e2ef160d2acae6e"
+    },
+    {
+      "repo_path": "core/src/frozen_score/matching.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/matching.py",
+      "bytes": 11031,
+      "sha256": "bf40affe41d742c07b826303f92062ef391be54123517ac260060eaddcf5b0ae"
+    },
+    {
+      "repo_path": "core/src/frozen_score/provenance.json",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/frozen_score/provenance.json",
+      "bytes": 10435,
+      "sha256": "227d72b7e340d7fba1da38d8dd7976dc2d9f7283e14d9f5a122dd8f9ba58b461"
+    },
+    {
+      "repo_path": "core/src/inspection.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/inspection.py",
+      "bytes": 18434,
+      "sha256": "d07f447d613bc628139cbd59834b07ca527e40d7f3d4d5ef153b80bb87ee08b3"
+    },
+    {
+      "repo_path": "core/src/labels.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/labels.py",
+      "bytes": 10467,
+      "sha256": "252d539cef3bf0963af3e560e25f6ed44975eb58745ffd5593eb30a17d333018"
+    },
+    {
+      "repo_path": "core/src/lineage.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/lineage.py",
+      "bytes": 5121,
+      "sha256": "91589e80d57b2135243616e279627010610ee6267dc96bddc3b0aedeb48977e3"
+    },
+    {
+      "repo_path": "core/src/motchallenge.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/motchallenge.py",
+      "bytes": 2868,
+      "sha256": "63b752284f7daf9d167c202373dc130b71521f747da548ecc42abca44710dbcc"
+    },
+    {
+      "repo_path": "core/src/regression.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/regression.py",
+      "bytes": 3530,
+      "sha256": "dcb84522be6064fd6dcb8de230f7519e944a281b5e6c7bb3e467b56d841d7155"
+    },
+    {
+      "repo_path": "core/src/score.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/score.py",
+      "bytes": 15026,
+      "sha256": "dc6e8602791858f04e2efba3ec91f2073e72c3c0932d22a95b8a78ac139c1fbd"
+    },
+    {
+      "repo_path": "core/src/tracker_score.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/src/tracker_score.py",
+      "bytes": 13641,
+      "sha256": "9916a2b8e232e1c78ba8a48875331cab8b1c2829c41f2cdbc7284a1132c7520f"
+    },
+    {
+      "repo_path": "core/STATUS.md",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/STATUS.md",
+      "bytes": 1730,
+      "sha256": "2f0c8b45026bc1066ed4849ad2ef0779a19b7d694b2c37cd81f43410909a274c"
+    },
+    {
+      "repo_path": "core/tests/test_inspection_synthetic.py",
+      "source_project_path": "release/anon/mot20_crossing_events_v0_2_candidate/tests/test_inspection_synthetic.py",
+      "bytes": 5824,
+      "sha256": "78427c01996dea8f2f156ae06a0195743874de54c6a9609335066cfc3623af59"
+    }
+  ],
+  "privacy_scan": "UTF-8 text and decompressed bundled gzip payloads: no local drive, Users, or home paths.",
+  "no_source_images_gt_or_weights_copied": true,
+  "human_qc": "not_reviewed",
+  "scientific_rules_changed": false
+}
